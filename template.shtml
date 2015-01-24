@@ -10,8 +10,6 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style">     
 <meta content="telephone=no" name="format-detection">
 
-<link href="css/video-js.css" rel="stylesheet">  
-<script src="js/video.js"></script>  
 <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
 <link href="css/base.css" rel="stylesheet"> 
 <link href="css/style.css" rel="stylesheet"> 
@@ -34,6 +32,6 @@
 	<!-- footer -->
 	<div class="footer">footer</div>
 </div>
-<script src="js/jquery.min.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
 </body>
 </html>
