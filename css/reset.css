@@ -20,22 +20,15 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
+
 body {
     line-height: 1;
+    color: #333;
 }
 ol, ul {
     list-style: none;
 }
-blockquote, q {
-    quotes: none;
-}
-blockquote:before,
-blockquote:after,
+
 q:before, q:after {
     content: '';
     content: none;
@@ -44,10 +37,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-a { background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent; color: #0088cc; }
-a:active { outline: 0; }
-a:active { color: #006699; }
-a:hover {text-decoration: none;}
+a { background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent; color: #29b4bd; }
+a:active,
+a:focus,
+a:hover {text-decoration: none; outline: 0; color: #666;}
 .clearfix:after {
     clear: both;
     content: ".";

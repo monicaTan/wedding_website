@@ -1,0 +1,643 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>首页</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="main-content-inner">
+		<div class="banner-box clearfix">
+			<div class="left-banner">
+				<div class="banner" id="b03">
+				    <ul>
+				        <li><img class="lazy" src="images/1.jpg" alt="" ></li>
+				        <li><img class="lazy" src="images/03.jpg" alt="" ></li>
+				        <li><img class="lazy" src="images/04.jpg" alt="" ></li>
+				        <li><img class="lazy" src="images/05.jpg" alt="" ></li>
+				    </ul>
+				</div>
+			</div>
+			<div class="right-info">
+				<div class="counselor clearfix">
+                    <div class="counselor-img">
+                    	<img class="lazy" src="images/user.jpg">
+                    	<img class="avatar_cover" src="images/circle50.png">
+                    </div>
+                    <span class="counselor-name">婚礼顾问1:扭彬</span>
+                    <a class="counselor-change" href="javascript:void(0)">换一个 ></a>
+                </div>
+                <p class="counselor-introduction">曾就职于多家婚礼机构，上百场婚礼执行经验，让我帮您开始着手筹备婚礼吧！</p>
+                <div class="consult">
+                	<h3>免费接听婚礼咨询热线</h3>
+                	<div class="input-box clearfix">
+                		<input type="text" placeholder="您的电话" maxlength="11" class="your-tel" id="j-ser-tel">
+                		<input type="submit" id="j-btn-consult" class="consult-btn" value="免费咨询">
+                	</div>
+                	<h4>我们的婚礼顾问会在稍后回拨您</h4>
+                </div>
+                <h3 class="consult-online">线上咨询</h3>
+                <div class="kefu clearfix">
+                	<span>
+                		<a class="qq-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">客服一</a>
+                	</span>
+                	<span>
+                		<a class="qq-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">客服一</a>
+                	</span>
+                	<span>
+                		<a class="qq-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">客服一</a>
+                	</span>
+                	<span>
+                		<a class="weixin-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">微信</a>
+                	</span>
+                </div>
+                <h3 class="consult-online">热线电话</h3>
+                <div class="consult-tel">
+                	<img src="images/tel.png" alt="400-800-6868">
+                </div>
+			</div>
+		</div>
+
+		<div class="step clearfix">
+			<div class="step-left">
+				<div class="clearfix">
+					<div class="step-text1">
+						<div class="clearfix">
+							<img src="images/list_09.jpg" alt="选购商品">
+							<p>在婚礼顾问的指导下，在线上选购适合的商品（婚礼人、婚礼套系、婚纱摄影或酒店婚宴）</p>
+						</div>
+					</div>
+					<div class="step-text2">
+						<div class="clearfix">
+							<img src="images/list_12.jpg" alt="线下消费">
+							<p>线下约见或到店消费所选购的婚礼人、婚礼套系、婚纱摄影及酒店婚宴</p>
+						</div>
+					</div>
+					<div class="step-text3">
+						<div class="clearfix">
+							<img src="images/list_06.jpg" alt="满意好评">
+							<p>新人对在线上所选购商品进行满意度评价</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="step-right">
+				<h2>
+					<a href="javascript:void(0)">这些人正在使用我们平台...</a>
+				</h2>
+				<ul>
+					<li>
+						<a href="javascript:void(0)">景先生预约了2月16号巴黎春天摄影的婚纱照...</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">柳小姐预约了3月18号与策划师扭彬商讨婚...</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">图先生预约了3月16号青春岁月摄影的婚纱...</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">皮小姐预约了3月18号婚礼的主持人老大</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">景先生预约了2月16号巴黎春天摄影的婚纱照...</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="wedding-case">
+			<div class="flowers-title">
+				<div class="title-line">line</div>
+				<h2><img src="images/title_03.jpg" alt="婚礼案例"></h2>
+			</div>
+			<ul class="uniform2 clearfix">
+				<li>
+					<a class="main-img" href="javascript:void(0)">
+						<img class="lazy" src="images/img.jpg" alt="600x358">
+					</a>
+					<div class="label-module">
+						<div class="counselor-img">
+                        	<a href="javascript:void(0)">
+                        		<img class="lazy" src="images/user.jpg">
+                        		<img src="images/circle50.png" class="avatar_cover">
+                        	</a>
+                        </div>
+                        <h2>
+                        	<a href="javascript:void(0)">铂尔婚礼顾问</a>
+                        </h2>
+                        <p class="caozuo">
+                        	<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i>60</a>
+                        	<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+                        	</a>
+                        </p>
+                        <h3>《为爱加冕》</h3>
+                        <div class="team-members">
+                        	<p>主持人：老大老</p>
+                        	<p>摄影师：老二二</p>
+                        	<p>摄像师：老三三</p>
+                        	<p>化妆师：老四四</p>
+                        </div>
+                        <p class="platform-price">
+                        	<span>平台价：￥48000</span>
+                        </p>
+                        <p class="address">
+                        	<i class="fa fa-map-marker"></i>运城大盐池
+                        </p>
+					</div>
+				</li>
+
+				<li>
+					<a class="main-img" href="javascript:void(0)">
+						<img class="lazy" src="images/img.jpg" alt="600x358">
+					</a>
+					<div class="label-module">
+						<div class="counselor-img">
+                        	<a href="javascript:void(0)">
+                        		<img class="lazy" src="images/user.jpg">
+                        		<img src="images/circle50.png" class="avatar_cover">
+                        	</a>
+                        </div>
+                        <h2>
+                        	<a href="javascript:void(0)">铂尔婚礼顾问</a>
+                        </h2>
+                        <p class="caozuo">
+                        	<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i>60</a>
+                        	<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+                        	</a>
+                        </p>
+                        <h3>《为爱加冕》</h3>
+                        <div class="team-members">
+                        	<p>主持人：老大老</p>
+                        	<p>摄影师：老二二</p>
+                        	<p>摄像师：老三三</p>
+                        	<p>化妆师：老四四</p>
+                        </div>
+                        <p class="platform-price">
+                        	<span>平台价：￥48000</span>
+                        </p>
+                        <p class="address">
+                        	<i class="fa fa-map-marker"></i>运城大盐池
+                        </p>
+					</div>
+				</li>
+
+				<li>
+					<a class="main-img" href="javascript:void(0)">
+						<img class="lazy" src="images/img.jpg" alt="600x358">
+					</a>
+					<div class="label-module">
+						<div class="counselor-img">
+                        	<a href="javascript:void(0)">
+                        		<img class="lazy" src="images/user.jpg">
+                        		<img src="images/circle50.png" class="avatar_cover">
+                        	</a>
+                        </div>
+                        <h2>
+                        	<a href="javascript:void(0)">铂尔婚礼顾问</a>
+                        </h2>
+                        <p class="caozuo">
+                        	<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i>60</a>
+                        	<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+                        	</a>
+                        </p>
+                        <h3>《为爱加冕》</h3>
+                        <div class="team-members">
+                        	<p>主持人：老大老</p>
+                        	<p>摄影师：老二二</p>
+                        	<p>摄像师：老三三</p>
+                        	<p>化妆师：老四四</p>
+                        </div>
+                        <p class="platform-price">
+                        	<span>平台价：￥48000</span>
+                        </p>
+                        <p class="address">
+                        	<i class="fa fa-map-marker"></i>运城大盐池
+                        </p>
+					</div>
+				</li>
+
+				<li>
+					<a class="main-img" href="javascript:void(0)">
+						<img class="lazy" src="images/img.jpg" alt="600x358">
+					</a>
+					<div class="label-module">
+						<div class="counselor-img">
+                        	<a href="javascript:void(0)">
+                        		<img class="lazy" src="images/user.jpg">
+                        		<img src="images/circle50.png" class="avatar_cover">
+                        	</a>
+                        </div>
+                        <h2>
+                        	<a href="javascript:void(0)">铂尔婚礼顾问</a>
+                        </h2>
+                        <p class="caozuo">
+                        	<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i>60</a>
+                        	<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+                        	</a>
+                        </p>
+                        <h3>《为爱加冕》</h3>
+                        <div class="team-members">
+                        	<p>主持人：老大老</p>
+                        	<p>摄影师：老二二</p>
+                        	<p>摄像师：老三三</p>
+                        	<p>化妆师：老四四</p>
+                        </div>
+                        <p class="platform-price">
+                        	<span>平台价：￥48000</span>
+                        </p>
+                        <p class="address">
+                        	<i class="fa fa-map-marker"></i>运城大盐池
+                        </p>
+					</div>
+				</li>
+			</ul>
+			<p class="more-link">
+				<a href="javascript:void(0)">查看更多<i class="fa fa-angle-double-right"></i></a>
+			</p>
+		</div>
+
+		<div class="wedding-planer">
+			<div class="flowers-title">
+				<div class="title-line">line</div>
+				<h2><img src="images/title_04.jpg" alt="婚礼人"></h2>
+			</div>
+			<div class="theme-nav clearfix">
+				<dl class="theme1">
+					<dt>
+						<a href="javascript:void(0)">策划与场布</a>
+					</dt>
+					<dd>
+						<a href="javascript:void(0)">策划与场布</a>
+					</dd>
+				</dl>
+				<dl class="theme2">
+					<dt>
+						<a href="javascript:void(0)">主持人</a>
+					</dt>
+					<dd>
+						<a href="javascript:void(0)">主持人</a>
+					</dd>
+				</dl>
+				<dl class="theme3">
+					<dt>
+						<a href="javascript:void(0)">婚礼跟拍摄像</a>
+					</dt>
+					<dd>
+						<a href="javascript:void(0)">婚礼跟拍摄像</a>
+					</dd>
+				</dl>
+				<dl class="theme4">
+					<dt>
+						<a href="javascript:void(0)">跟拍摄像</a>
+					</dt>
+					<dd>
+						<a href="javascript:void(0)">跟拍摄像</a>
+					</dd>
+				</dl>
+				<dl class="theme5">
+					<dt>
+						<a href="javascript:void(0)">化妆</a>
+					</dt>
+					<dd>
+						<a href="javascript:void(0)">化妆</a>
+					</dd>
+				</dl>
+			</div>
+
+			<div class="uniform4 clearfix">
+				<div class="col-4 col-4-1">
+					<div class="theme-members">
+						<div class="theme-members-head clearfix">
+							<div class="counselor-img">
+	                        	<a href="javascript:void(0)">
+	                        		<img class="lazy" src="images/user.jpg">
+	                        		<img src="images/circle.png" class="avatar_cover">
+	                        	</a>
+	                        </div>
+	                        <div class="counselor-right">
+	                        	<p>
+	                        		<a href="javascript:void(0)">王岐山</a>
+	                        		<a href="javascript:void(0)" class="heart"><i class="fa fa-heart-o"></i>60</a>
+	                        		<a href="javascript:void(0)" class="shop">
+										<img alt="购物车" src="images/gouwu.png">
+		                        	</a>
+	                        	</p>
+	                        	<p><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+	                        </div>
+						</div>
+                        <p class="counselor-info">
+                        	本人从事策划与场布10余年，熟悉各种系列婚礼，反正就是很牛逼，我也不知道说啥，就是选我没错，让你的婚礼今生没有遗憾，擦浪嘿～
+                        </p>
+                        <div class="counselor-case-img clearfix">
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        </div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="theme-members">
+						<div class="theme-members-head clearfix">
+							<div class="counselor-img">
+	                        	<a href="javascript:void(0)">
+	                        		<img class="lazy" src="images/user.jpg">
+	                        		<img src="images/circle.png" class="avatar_cover">
+	                        	</a>
+	                        </div>
+	                        <div class="counselor-right">
+	                        	<p>
+	                        		<a href="javascript:void(0)">王岐山</a>
+	                        		<a href="javascript:void(0)" class="heart"><i class="fa fa-heart-o"></i>60</a>
+	                        		<a href="javascript:void(0)" class="shop">
+										<img alt="购物车" src="images/gouwu.png">
+		                        	</a>
+	                        	</p>
+	                        	<p><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+	                        </div>
+						</div>
+                        <p class="counselor-info">
+                        	本人从事策划与场布10余年，熟悉各种系列婚礼，反正就是很牛逼，我也不知道说啥，就是选我没错，让你的婚礼今生没有遗憾，擦浪嘿～
+                        </p>
+                        <div class="counselor-case-img clearfix">
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        </div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="theme-members">
+						<div class="theme-members-head clearfix">
+							<div class="counselor-img">
+	                        	<a href="javascript:void(0)">
+	                        		<img class="lazy" src="images/user.jpg">
+	                        		<img src="images/circle.png" class="avatar_cover">
+	                        	</a>
+	                        </div>
+	                        <div class="counselor-right">
+	                        	<p>
+	                        		<a href="javascript:void(0)">王岐山</a>
+	                        		<a href="javascript:void(0)" class="heart"><i class="fa fa-heart-o"></i>60</a>
+	                        		<a href="javascript:void(0)" class="shop">
+										<img alt="购物车" src="images/gouwu.png">
+		                        	</a>
+	                        	</p>
+	                        	<p><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+	                        </div>
+						</div>
+                        <p class="counselor-info">
+                        	本人从事策划与场布10余年，熟悉各种系列婚礼，反正就是很牛逼，我也不知道说啥，就是选我没错，让你的婚礼今生没有遗憾，擦浪嘿～
+                        </p>
+                        <div class="counselor-case-img clearfix">
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        </div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="theme-members">
+						<div class="theme-members-head clearfix">
+							<div class="counselor-img">
+	                        	<a href="javascript:void(0)">
+	                        		<img class="lazy" src="images/user.jpg">
+	                        		<img src="images/circle.png" class="avatar_cover">
+	                        	</a>
+	                        </div>
+	                        <div class="counselor-right">
+	                        	<p>
+	                        		<a href="javascript:void(0)">王岐山</a>
+	                        		<a href="javascript:void(0)" class="heart"><i class="fa fa-heart-o"></i>60</a>
+	                        		<a href="javascript:void(0)" class="shop">
+										<img alt="购物车" src="images/gouwu.png">
+		                        	</a>
+	                        	</p>
+	                        	<p><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+	                        </div>
+						</div>
+                        <p class="counselor-info">
+                        	本人从事策划与场布10余年，熟悉各种系列婚礼，反正就是很牛逼，我也不知道说啥，就是选我没错，让你的婚礼今生没有遗憾，擦浪嘿～
+                        </p>
+                        <div class="counselor-case-img clearfix">
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        	<a href="javascript:void(0)">
+                        		<img src="images/img.jpg" alt="137x64">
+                        	</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<p class="more-link">
+				<a href="javascript:void(0)">查看更多<i class="fa fa-angle-double-right"></i></a>
+			</p>
+		</div>
+
+		<div class="wedding-photography">
+			<div class="flowers-title">
+				<div class="title-line">line</div>
+				<h2><img src="images/title_05.jpg" alt="婚纱摄影"></h2>
+			</div>
+			<div class="uniform4 clearfix">
+				<div class="col-4 col-4-1">
+					<a href="javascript:void(0)">
+						<img src="images/sheying.jpg" alt="285x300">
+					</a>
+					<div class="photography-title clearfix">
+						<h2>
+							<a href="javascript:void(0)">巴黎春天婚纱影楼</a>
+						</h2>
+                		<span class="photography-caozuo">
+                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+	                		<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+	                    	</a>
+                		</span>
+                	</div>
+                	<p class="photography-price"><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+				</div>
+				<div class="col-4">
+					<a href="javascript:void(0)">
+						<img src="images/sheying.jpg" alt="285x300">
+					</a>
+					<div class="photography-title clearfix">
+						<h2>
+							<a href="javascript:void(0)">巴黎春天婚纱影楼</a>
+						</h2>
+                		<span class="photography-caozuo">
+                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+	                		<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+	                    	</a>
+                		</span>
+                	</div>
+                	<p class="photography-price"><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+				</div>
+
+				<div class="col-4">
+					<a href="javascript:void(0)">
+						<img src="images/sheying.jpg" alt="285x300">
+					</a>
+					<div class="photography-title clearfix">
+						<h2>
+							<a href="javascript:void(0)">巴黎春天婚纱影楼</a>
+						</h2>
+                		<span class="photography-caozuo">
+                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+	                		<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+	                    	</a>
+                		</span>
+                	</div>
+                	<p class="photography-price"><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+				</div>
+
+				<div class="col-4">
+					<a href="javascript:void(0)">
+						<img src="images/sheying.jpg" alt="285x300">
+					</a>
+					<div class="photography-title clearfix">
+						<h2>
+							<a href="javascript:void(0)">巴黎春天婚纱影楼</a>
+						</h2>
+                		<span class="photography-caozuo">
+                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+	                		<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu.png" alt="购物车">
+	                    	</a>
+                		</span>
+                	</div>
+                	<p class="photography-price"><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+				</div>
+			</div>
+			<p class="more-link">
+				<a href="javascript:void(0)">查看更多<i class="fa fa-angle-double-right"></i></a>
+			</p>
+		</div>
+
+		<div class="wedding-banquet">
+			<div class="flowers-title">
+				<div class="title-line">line</div>
+				<h2><img src="images/title_06.jpg" alt="酒店婚宴"></h2>
+			</div>
+			<div class="uniform3 clearfix">
+				<div class="col-3 col-3-1">
+					<a href="javascript:void(0)">
+						<img src="images/dian.jpg" alt="285x300">
+					</a>
+					<div class="photography-title clearfix">
+						<h2>
+							<a href="javascript:void(0)">开喜廊桥国际大酒店</a>
+						</h2>
+                		<span class="photography-caozuo">
+                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+	                		<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu17.png" alt="购物车">
+	                    	</a>
+                		</span>
+                	</div>
+                	<p class="photography-price"><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+				</div>
+				<div class="col-3">
+					<a href="javascript:void(0)">
+						<img src="images/dian.jpg" alt="285x300">
+					</a>
+					<div class="photography-title clearfix">
+						<h2>
+							<a href="javascript:void(0)">开喜廊桥国际大酒店</a>
+						</h2>
+                		<span class="photography-caozuo">
+                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+	                		<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu17.png" alt="购物车">
+	                    	</a>
+                		</span>
+                	</div>
+                	<p class="photography-price"><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+				</div>
+
+				<div class="col-3">
+					<a href="javascript:void(0)">
+						<img src="images/dian.jpg" alt="285x300">
+					</a>
+					<div class="photography-title clearfix">
+						<h2>
+							<a href="javascript:void(0)">开喜廊桥国际大酒店</a>
+						</h2>
+                		<span class="photography-caozuo">
+                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+	                		<a class="shop" href="javascript:void(0)">
+								<img src="images/gouwu17.png" alt="购物车">
+	                    	</a>
+                		</span>
+                	</div>
+                	<p class="photography-price"><span>平台价 ¥800</span><em>原价 ¥1000</em></p>
+				</div>
+			</div>
+			<p class="more-link">
+				<a href="javascript:void(0)">查看更多<i class="fa fa-angle-double-right"></i></a>
+			</p>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+<script>
+	$(document).ready(function(e) {
+	    $('#b03').unslider({
+			dots: true
+		});
+	});
+</script>
+</body>
+</html>

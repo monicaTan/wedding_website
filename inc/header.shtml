@@ -1,3 +1,73 @@
 	<div class="header">
-		header
+		<div class="header-inner clearfix">
+			<div class="logo-box">
+				<a class="logo" href="javascript:void">
+					<img src="images/logo.png">
+				</a>
+			</div>
+
+			<div class="yc-head-search">
+	            <form id="search_from" class="search-from-box clearfix">
+	                <input id="search_text" class="search-txt" type="text" value="" placeholder="婚礼人姓名/团队名/套系主题/婚礼地点" name="keywords">
+	                <input type="submit" value="搜索" class="icon-search" id="search_btn">
+	            </form>
+	        </div>
+	        <span class="history-head">
+	        	<a class="history-default" href="javascript:void">搜索历史<i class="fa fa-angle-down"></i></a>
+	        	<ul>
+	        		<li>
+	        			<a href="javascript:void">历史记录1</a>
+	        		</li>
+	        		<li>
+	        			<a href="javascript:void">历史记录3</a>
+	        		</li>
+	        		<li>
+	        			<a href="javascript:void">历史记录3</a>
+	        		</li>
+	        	</ul>
+	        </span>
+	        <div class="qr-code">
+	        	<img src="images/qr76.jpg">
+	        	<p>手机关注更方便</p>
+	        </div>
+		</div>
+		
+		<!-- 导航 -->
+		<div class="nav-box">
+			<div class="navigation clearfix">
+				<div class="nav-list">
+					<ul class="clearfix">
+						<li>
+							<a href="javascript:void(0)">首页</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><span>找婚礼人</span><span class="icon-down"></span></a>
+							<div class="down-file">
+								<a href="javascript:void(0)">策划与场布</a>
+								<a href="javascript:void(0)">主持人</a>
+								<a href="javascript:void(0)">婚礼跟拍摄影</a>
+								<a href="javascript:void(0)">化妆</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><span>婚礼套系</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><span>婚纱摄影</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><span>酒店婚宴</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-right">
+					<div class="user-entrance">
+						<a href="javascript:void(0)">登录</a>
+						<span class="line">|</span>
+						<a href="javascript:void(0)">注册</a>
+						<a class="merchants" href="javascript:void(0)">商家入驻</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>

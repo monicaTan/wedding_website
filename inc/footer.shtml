@@ -1,8 +1,35 @@
+<div class="footer">
+	<div class="footer-inner">
+		&nbsp;
+	</div>
+</div>
+
 <script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/unslider.min.js"></script>
 <script src="js/jquery.lazyload.min.js"></script>
 
 <script type="text/javascript" charset="utf-8">
   $(function() {
-      $("img").lazyload({effect: "fadeIn"});
+      $("img.lazy").lazyload({
+      	placeholder : "images/240.gif",
+      	effect: "fadeIn"
+      });
   });
+</script>
+
+<!-- 导航 -->
+<script type="text/javascript">
+	$(function () {
+		$(".down-file > a:last-child").css({"border":"none"});
+		$(".navigation ul li").hover(function(){
+			$(this).find("a:eq(0)").css({"background-color":"#fff","color":"#29b4bd"})
+				   .find(".icon-down").removeClass('icon-down').addClass('icon-down-hover');
+			$(this).find(".down-file").slideDown('fast');
+		},
+			function(){
+				$(this).find("a:eq(0)").css({"background-color":"#29b4bd","color":"#fff"})
+					   .find(".icon-down-hover").removeClass('icon-down-hover').addClass('icon-down');
+				$(this).find(".down-file").hide();
+			})
+	})
 </script>
