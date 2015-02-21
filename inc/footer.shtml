@@ -6,15 +6,18 @@
 
 <script src="js/jquery-1.11.2.min.js"></script>
 <!-- <script src="js/lightbox.min.js"></script> -->
+<script type="text/javascript" src="js/backtop.js"></script>
 <script src="js/unslider.min.js"></script>
 <script src="js/jquery.lazyload.min.js"></script>
 
 <script type="text/javascript" charset="utf-8">
   $(function() {
-      $("img.lazy").lazyload({
-      	placeholder : "images/240.gif",
-      	effect: "fadeIn"
-      });
+  	
+	//延迟加载
+	$("img.lazy").lazyload({
+		placeholder : "images/240.gif",
+		effect: "fadeIn"
+	});
 
     //列表
     $('.uniform4 > .col-4').addClass('col-4-mar');
