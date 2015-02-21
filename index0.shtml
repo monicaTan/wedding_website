@@ -321,7 +321,7 @@
 			</div>
 
 			<div class="uniform4 clearfix">
-				<div class="col-4 col-4-1">
+				<div class="col-4">
 					<div class="theme-members">
 						<div class="theme-members-head clearfix">
 							<div class="counselor-img">
@@ -489,7 +489,7 @@
 				<h2><img src="images/title_05.jpg" alt="婚纱摄影"></h2>
 			</div>
 			<div class="uniform4 clearfix">
-				<div class="col-4 col-4-1">
+				<div class="col-4">
 					<a href="javascript:void(0)">
 						<img src="images/sheying.jpg" alt="285x300">
 					</a>
@@ -571,7 +571,7 @@
 				<h2><img src="images/title_06.jpg" alt="酒店婚宴"></h2>
 			</div>
 			<div class="uniform3 clearfix">
-				<div class="col-3 col-3-1">
+				<div class="col-3">
 					<a href="javascript:void(0)">
 						<img src="images/dian.jpg" alt="285x300">
 					</a>

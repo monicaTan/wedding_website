@@ -30,22 +30,25 @@ body{ font-family: "Microsoft YaHei";}
 .nav-box{ height: 40px; background-color: #29b4bd; margin-bottom: 14px; position: relative; z-index: 2;}
 .nav-list{ width: 850px; float: left;}
 .nav-right{ width: 336px; float: right;}
-.navigation ul li{ float: left; margin-right: 32px; position: relative;}
+.navigation ul li{ float: left; margin-right: 20px; position: relative;}
 .navigation .user-entrance{ float: right; font-size: 0;}
 .navigation .user-entrance a,
 .navigation .user-entrance .line{font-size: 14px; color: white; line-height: 40px;}
 .navigation .user-entrance .line{ padding: 0 6px;}
 .navigation .user-entrance .merchants{ margin: 0 6px 0 40px;}
-.navigation ul li a{display: inline-block; color: white; line-height: 35px; height: 35px; margin-top: 5px; font-size: 14px; padding: 0 14px; }
-.navigation ul li a span{display: inline-block;}
+.navigation ul li a{display: inline-block; color: white; line-height: 35px; height: 35px; margin-top: 5px; font-size: 14px; padding: 0 20px; }
+.navigation ul li a:hover{ color: #fff;}
+.navigation ul .nav-active a{ color: #29b4bd; background-color: white;}
+.navigation ul .nav-active a:hover{color: #29b4bd;}
+.navigation ul li a span{display: inline-block; cursor: pointer;}
 
-.navigation .icon-down{ display: inline-block; width: 8px; height: 7px; background: url("../images/down_white.png") left 0 no-repeat; _background-position: left 8px; vertical-align: middle; margin-left: 4px;}
+/* .navigation .icon-down{ display: inline-block; width: 8px; height: 7px; background: url("../images/down_white.png") left 0 no-repeat; _background-position: left 8px; vertical-align: middle; margin-left: 4px;}
 
 .navigation .icon-down-hover{ display: inline-block; width: 8px; height: 7px; background: url("../images/down_blue.png") left 0 no-repeat; _background-position: left 8px; vertical-align: middle; margin-left: 4px;}
 
 .navigation .down-file{ background-color: white; position: absolute; top: 40px; left: 0; width: 130px; padding:7px; display: none; z-index: 10;}
 .navigation .down-file a { display: block; float: none; color: #29b4bd; height: 32px; line-height: 32px; font-size: 12px; padding:0 8px; border-bottom: 1px solid #29b4bd;}
-.navigation .down-file a:hover{ background-color: #29b4bd; color: white;}
+.navigation .down-file a:hover{ background-color: #29b4bd; color: white;} */
 /* banner
 -------------------------------------------------------------------------------- */
 .banner-box{ width: 1200px; margin: 0 auto 10px;}
@@ -180,8 +183,8 @@ body{ font-family: "Microsoft YaHei";}
 .theme5 dt a:hover{ background-position: -780px -119px;}
 
 
-.col-4{ margin-left: 20px; _margin-left: 16px; float: left; width: 285px;}
-.col-4-1{ margin-left: 0;}
+.col-4{ float: left; width: 285px;}
+.col-4-mar{ margin-right: 20px; _margin-right: 16px; float: left; width: 285px;}
 .theme-members{border: 1px solid #ebebeb; position: relative; padding-top: 72px;}
 .theme-members .counselor-img{ float: left;}
 .theme-members .counselor-img,
@@ -203,10 +206,10 @@ body{ font-family: "Microsoft YaHei";}
 /* wedding-photography
 -------------------------------------------------------------------------------- */
 .wedding-photography .flowers-title{ margin-bottom: 40px;}
-.photography-title{ margin: 10px 0 14px; *margin: 6px 0 7px;}
+.photography-title{ margin: 10px 0 10px;_margin: 6px 0 0; *margin: 6px 0 5px; }
 .photography-title h2{ font-size: 16px; font-weight: normal; float: left; width: 210px; padding-left: 5px;}
-.photography-title h2 a{ display: block; width: 210px; height: 16px; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
-.photography-caozuo{ float: right; width: 55px; display: block;}
+.photography-title h2 a{display: block; width: 210px; height: 16px; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
+.photography-caozuo{ float: right;width: 55px; display: block;}
 .photography-caozuo .heart{ color: #666; font-size: 14px;}
 .photography-caozuo .heart:active,
 .photography-caozuo .heart:hover{ color: #d20404;}
@@ -217,9 +220,10 @@ body{ font-family: "Microsoft YaHei";}
 .wedding-photography .more-link{ margin-bottom: 60px;}
 
 
-/* wedding-photography
+/* wedding-banquet
 -------------------------------------------------------------------------------- */
-.col-3{ margin-left: 21px; _margin-left: 16px; float: left; width: 386px;}
+.col-3{float: left; width: 386px;}
+.col-3-mar{ margin-right: 21px; _margin-right: 16px; margin-bottom: 20px;}
 .col-3-1{ margin-left: 0;}
 .photography-price .heart{ font-size: 16px;}
 .wedding-banquet .uniform3{ margin-bottom: 40px;}
@@ -228,3 +232,81 @@ body{ font-family: "Microsoft YaHei";}
 .wedding-banquet .photography-title h2{ width: 300px;}
 .wedding-banquet .photography-title h2 a{ width: 300px;}
 .wedding-banquet .photography-caozuo{ width: 60px;}
+.uniform3 .photography-caozuo .heart i{ font-size: 16px;}
+
+
+/* wedding-banquet
+-------------------------------------------------------------------------------- */
+.uniform3-border{ border: 1px solid #dfdfdf; padding-bottom: 10px;}
+.uniform3 img{width: 100%;}
+.uniform3 .shop img{width: auto;}
+.photography-title h2 em{ font-style: normal; font-size: 12px; color: #666;}
+.banquet-price{font-size: 12px; color: #666;}
+.banquet-price em{ font-style: normal; margin: 0 4px; text-decoration: none;}
+.photography-price .address{ text-decoration: none; background: url("../images/address.png") left center no-repeat; padding-left: 16px; margin-left: 40px; line-height: 14px;}
+.uniform3-border .photography-title h2 { padding-left: 10px;}
+.uniform3-border .photography-title h2 a{display: inline; width: auto; height:auto; overflow: auto; text-overflow:normal; white-space: normal;}
+.uniform3-border .photography-price { padding-left: 10px;}
+.uniform3-border .photography-caozuo{ width: 60px;}
+
+.conditions-module{ padding: 20px 0 16px;}
+.conditions-module dl {margin-bottom: 12px;}
+.conditions-module dl dt,
+.conditions-module dl dd{ float: left; display: inline-block;}
+
+.conditions-module dl dt{ width: 66px; text-align: right; font-size: 16px; height: 22px; line-height: 22px; margin-right: 10px;}
+.conditions-module dl dd { width: 1124px; float: right;}
+.conditions-module dl dd a{ display: inline-block; font-size: 14px; color: #999; padding: 0 16px; margin: 0 7px;height: 22px; line-height: 22px; margin-bottom: 10px;}
+.conditions-module dl dd a:hover{ color: #fff; background-color: #29b4bd;}
+.conditions-module dl dd .select-current{ display: inline-block; color: #fff; background-color: #29b4bd;}
+
+.pagination-box{ text-align: center; padding: 60px 0 30px; font-size: 0;}
+.pagination{ font-size: 0; _height:38px;}
+.pagination a{ border: 1px solid #f4f4f4;}
+.pagination a,
+.pagination span{ vertical-align: middle; color: #333; font-size: 12px; display: inline-block; height: 34px; line-height: 34px; padding: 0 13px;}
+.pagination span{ color: #999;}
+.pagination .prev{margin-right: 4px;}
+.pagination .next{ margin-left: 4px;}
+.pagination .prev,
+.pagination .next{ font-size: 12px; _padding-top: 10px; _height: 24px;}
+.pagination a,
+.pagination a i{font-size: 14px;}
+.pagination a:hover{color: #fff; background-color: #fe9f1b;}
+.pagination .disabled{ color: #999; cursor: not-allowed;}
+.pagination .current{color: #fff; background-color: #fe9f1b;}
+.pagination span input{ width: 45px; height: 18px; text-align: center;border: 1px solid #f4f4f4;}
+
+.paixu{ background-color: #f7f7f7; border: 1px solid #dfdfdf; margin-bottom: 10px;}
+
+/* hunsha-sheying
+-------------------------------------------------------------------------------- */
+.zhutu{ display: block; width: 307px; height: 226px; float: left;}
+.zhutu img{ width: 100%; height: 100%;}
+.right-img-box{ width: 75px; float: right;}
+.right-img-box a{ display: block; width: 75px; height: 55px; margin-bottom: 2px;}
+.right-img-box a img{width: 100%; height: 100%;}
+
+/* hunli-taoxi
+-------------------------------------------------------------------------------- */
+.img3{ margin-bottom: 10px;}
+.img3 .zhutu3{ display: block; width: 384px; height: 216px; margin-bottom: 4px;}
+.img3 .zhutu3 img{ width: 100%; height: 100%;}
+.img3 .right-img-box3{ width:100%;}
+.img3 .right-img-box3 a{ display: block; width: 190px; height: 106px; float: left;}
+.img3 .right-img-box3 .img-first{ margin-right: 4px;}
+.img3 .right-img-box3 a img{width: 100%; height: 100%;}
+.module-left{ float: left; width: 100px; margin-left: 10px; _margin-left: 5px;}
+.module-right{ float: right; width: 244px; margin-right: 10px; _margin-right: 5px;}
+.module-left .counselor-img{ width: 50px; height: 50px; margin: 0 0 10px 25px;}
+.module-left h4{ font-size: 13px; text-align: center; margin-bottom: 10px; font-weight: normal;}
+.module-left h4 a{ display: block; width: 100%; height: 14px; overflow: hidden;text-overflow:ellipsis; white-space: nowrap;}
+.module-left .price span{ font-size: 18px; color: white; background-color: #000; padding:0 10px; line-height: 24px;}
+.module-right h2{ font-size: 16px; margin-bottom: 12px; font-weight: normal;}
+.module-right p{ font-size: 12px; line-height: 16px; height: 65px; overflow: hidden; margin-bottom: 20px; color: #666;}
+.module-right .address{ text-align: left;}
+.module-right .address em{ padding-left: 15px; line-height: 14px; font-style: normal; background: url("../images/address.png") left center no-repeat; color: #999;}
+
+
+
+

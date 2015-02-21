@@ -37,26 +37,26 @@
 			<div class="navigation clearfix">
 				<div class="nav-list">
 					<ul class="clearfix">
-						<li>
-							<a href="javascript:void(0)">首页</a>
+						<li class="nav-active">
+							<a href="index0.shtml">首页</a>
 						</li>
 						<li>
-							<a href="javascript:void(0)"><span>找婚礼人</span><span class="icon-down"></span></a>
-							<div class="down-file">
+							<a href="javascript:void(0)"><span>找婚礼人</span><!-- <span class="icon-down"></span> --></a>
+							<!-- <div class="down-file">
 								<a href="javascript:void(0)">策划与场布</a>
 								<a href="javascript:void(0)">主持人</a>
 								<a href="javascript:void(0)">婚礼跟拍摄影</a>
 								<a href="javascript:void(0)">化妆</a>
-							</div>
+							</div> -->
 						</li>
 						<li>
-							<a href="javascript:void(0)"><span>婚礼套系</span></a>
+							<a href="hunli-taoxi.shtml"><span>婚礼套系</span></a>
 						</li>
 						<li>
-							<a href="javascript:void(0)"><span>婚纱摄影</span></a>
+							<a href="hunsha-sheying.shtml"><span>婚纱摄影</span></a>
 						</li>
 						<li>
-							<a href="javascript:void(0)"><span>酒店婚宴</span></a>
+							<a href="jiudian-hunyan.shtml"><span>酒店婚宴</span></a>
 						</li>
 					</ul>
 				</div>

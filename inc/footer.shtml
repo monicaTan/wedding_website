@@ -5,6 +5,7 @@
 </div>
 
 <script src="js/jquery-1.11.2.min.js"></script>
+<!-- <script src="js/lightbox.min.js"></script> -->
 <script src="js/unslider.min.js"></script>
 <script src="js/jquery.lazyload.min.js"></script>
 
@@ -14,22 +15,29 @@
       	placeholder : "images/240.gif",
       	effect: "fadeIn"
       });
+
+    //列表
+    $('.uniform4 > .col-4').addClass('col-4-mar');
+	$('.uniform4 > .col-4:nth-child(4n)').css({"margin-right":0});
+
+	$('.uniform3 > .col-3').addClass('col-3-mar');
+	$('.uniform3 > .col-3:nth-child(3n)').css({"margin-right":0});
   });
 </script>
 
 <!-- 导航 -->
 <script type="text/javascript">
-	$(function () {
-		$(".down-file > a:last-child").css({"border":"none"});
-		$(".navigation ul li").hover(function(){
-			$(this).find("a:eq(0)").css({"background-color":"#fff","color":"#29b4bd"})
-				   .find(".icon-down").removeClass('icon-down').addClass('icon-down-hover');
-			$(this).find(".down-file").slideDown('fast');
-		},
-			function(){
-				$(this).find("a:eq(0)").css({"background-color":"#29b4bd","color":"#fff"})
-					   .find(".icon-down-hover").removeClass('icon-down-hover').addClass('icon-down');
-				$(this).find(".down-file").hide();
-			})
-	})
+	// $(function () {
+	// 	$(".down-file > a:last-child").css({"border":"none"});
+	// 	$(".navigation ul li").hover(function(){
+	// 		$(this).find("a:eq(0)").css({"background-color":"#fff","color":"#29b4bd"})
+	// 			   .find(".icon-down").removeClass('icon-down').addClass('icon-down-hover');
+	// 		$(this).find(".down-file").slideDown('fast');
+	// 	},
+	// 		function(){
+	// 			$(this).find("a:eq(0)").css({"background-color":"#29b4bd","color":"#fff"})
+	// 				   .find(".icon-down-hover").removeClass('icon-down-hover').addClass('icon-down');
+	// 			$(this).find(".down-file").hide();
+	// 		})
+	// })
 </script>
