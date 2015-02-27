@@ -587,3 +587,22 @@ body{ font-family: "Microsoft YaHei";}
 .label-mini-img li img{ width: 100%; height: 100%;}
 
 
+/* footer
+-------------------------------------------------------------------------------- */
+.footer{ background-color: #f7f6f3; padding: 40px 0 18px; margin-top: 60px;}
+.footer-list-box{ border-bottom: 1px solid #dfdfdf; padding-bottom: 20px;}
+.footer-list{ float: left; width: 300px;}
+.footer-list dl dt{ float: left; width: 48px; height: 48px;}
+.footer-list dl dd{ float: right; width: 244px;}
+.footer-list dl dd h4{font-size: 16px; margin-bottom: 14px;}
+.footer-list dl dd p{font-size: 12px; color: #666;}
+.footer-bottom{ padding-top: 30px;}
+.bottom-list,
+.bottom-list2,
+.bottom-list3{ float: left;}
+.bottom-list{ width: 205px;}
+.bottom-list2{ width: 788px; padding-left: 90px;}
+.bottom-list3{ width: 117px;}
+.bottom-list3 img{ width: 70px; height: 70px;}
+.bottom-list2 p{ font-size: 12px; color: #666; line-height: 28px;}
+.bottom-list2 p em{ padding-left: 38px; font-style: normal;}

@@ -1,6 +1,59 @@
 <div class="footer">
 	<div class="footer-inner">
-		&nbsp;
+		<div class="footer-list-box clearfix">
+			<div class="footer-list">
+				<dl class="clearfix">
+					<dt><img src="images/footer_08.png"></dt>
+					<dd>
+						<h4>结婚宝——安心保障</h4>
+						<p>资金网站托管，婚礼满意再结款</p>
+					</dd>
+				</dl>
+			</div>
+
+			<div class="footer-list">
+				<dl class="clearfix">
+					<dt><img src="images/footer_10.png"></dt>
+					<dd>
+						<h4>一个网站，解决所有</h4>
+						<p>再也不用没头绪的到处找，我们都有</p>
+					</dd>
+				</dl>
+			</div>
+
+			<div class="footer-list">
+				<dl class="clearfix">
+					<dt><img src="images/footer_03.png"></dt>
+					<dd>
+						<h4>挑最优秀的</h4>
+						<p>我们已经提供最优，剩下的只要您喜欢</p>
+					</dd>
+				</dl>
+			</div>
+
+			<div class="footer-list">
+				<dl class="clearfix">
+					<dt><img src="images/footer_05.png"></dt>
+					<dd>
+						<h4>方便、高性价比</h4>
+						<p>我们不仅齐全，而且我们价更低</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div class="footer-bottom clearfix">
+			<div class="bottom-list">
+				<img src="images/logo.png">
+			</div>
+			<div class="bottom-list2">
+				<p>地址：伟大中国山西省运城市盐湖区沿湖大道<em>热线电话：400-800-6868</em></p>
+				<p>2014运城婚礼网  京ICP备11020391号</p>
+			</div>
+			<div class="bottom-list3">
+				<img src="images/qr76.jpg">
+			</div>
+		</div>
 	</div>
 </div>
 

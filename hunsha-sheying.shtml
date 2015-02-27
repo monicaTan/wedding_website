@@ -48,7 +48,55 @@
 
 		<!-- 酒店婚宴列表 -->
 		<div class="wedding-banquet-list">
-			<div class="paixu">综合排序</div>
+			<div class="paixu">
+				<ul class="clearfix">
+					<li class="zonghe">
+						<a href="javascript:void(0)">综合排序</a>
+					</li>
+					<li>
+						<a class="arrow-down" href="javascript:void(0)"><span>人气</span></a>
+						<ul class="select-down">
+							<li>
+								<a href="javascript:void(0)">人气由高到低</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:void(0)"><span>销量</span></a>
+						<ul class="select-down">
+							<li>
+								<a href="javascript:void(0)">销量由高到低</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:void(0)"><span>价格</span></a>
+						<ul class="select-down">
+							<li>
+								<a href="javascript:void(0)">价格由低到高</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">价格由高到低</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p class="clearfix">
+		                    <input type="text" title="按价格区间筛选 最低价" name="start_price" class="txt" value="" placeholder="￥">
+		                    <span>-</span>
+		                    <input type="text" title="按价格区间筛选 最高价" name="end_price" class="txt" value="" placeholder="￥">
+		                    <a href="javascript:void(0)">确定</a>
+		                </p>
+					</li>
+					<li class="page-li clearfix">
+						<a class="disabled" href="javascript:void(0)"><</a>
+						<span>
+							<em>1</em>/100
+						</span>
+						<a href="javascript:void(0)">></a>
+					</li>
+				</ul>
+			</div>
 			<div class="uniform3 clearfix">
 				<div class="col-3">
 					<div class="uniform3-border">
@@ -511,5 +559,18 @@
 </div>
 <!-- footer -->
 <!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+		
+		//排序条
+		$('.paixu > ul > li').hover(function(){
+			$(this).find('a:first-child').css({"background-color":"white"});
+			$(this).find('.select-down').show();
+		},function(){
+			$(this).find('a:first-child').css({"background-color":"#f7f7f7"});
+			$(this).find('.select-down').hide();
+		})
+	})
+</script>
 </body>
 </html>
