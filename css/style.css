@@ -28,7 +28,7 @@ body{ font-family: "Microsoft YaHei";}
 .history-head{ position: relative; display: inline-block; float: left; font-size: 13px; color: #999; padding-top: 16px; z-index: 3;}
 .history-default{ display: inline-block; width: 62px; padding: 0 5px; color: #999; display: inline-block; height: 40px; line-height: 40px; border:0px solid  text-align: center;}
 .history-head a:hover{color: #29b4bd;}
-.history-head ul{ border: 1px solid #29b4bd; position: absolute; left: 0; top: 58px; background-color: #fff; line-height: 0; padding-bottom: 4px; z-index: 3;}
+.history-head ul{ display: none; border: 1px solid #29b4bd; position: absolute; left: 0; top: 56px; background-color: #fff; line-height: 0; padding-bottom: 4px; z-index: 3;}
 .history-head ul li{ font-size: 12px;}
 .history-head ul li a{display: inline-block; width: 62px; height: 24px; margin: 0 5px; line-height: 24px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden; text-align: center; border-bottom:1px dashed #fff; color:#29b4bd;}
 .history-head ul li a:hover{ color: #29b4bd; border-bottom:1px dotted #29b4bd; }

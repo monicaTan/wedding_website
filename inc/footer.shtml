@@ -66,6 +66,12 @@
 
 <script type="text/javascript" charset="utf-8">
   $(function() {
+  	//历史
+  	$('.history-head').hover(function(){
+  		$(this).find('ul').show();
+  	},function(){
+  		$(this).find('ul').hide();
+  	});
   	
 	//延迟加载
 	$("img.lazy").lazyload({
