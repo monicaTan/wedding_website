@@ -1,0 +1,525 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚礼人总选择浏览页</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<!-- 条件列表 -->
+	<div class="tab-inner-tab">
+		<div class="nav-select-container">
+			<ul class="nav-select-list clearfix">
+				<li class="li-active"><a href="javascript:void:(0)">策划师</a></li>
+				<li><a href="javascript:void:(0)">主持人</a></li>
+				<li><a href="javascript:void:(0)">化妆师</a></li>
+				<li><a href="javascript:void:(0)">摄影师</a></li>
+				<li><a href="javascript:void:(0)">摄像师</a></li>
+			</ul>
+		</div>
+
+		<div class="tab-box">
+			<div class="div-content tab-active">
+				<div class="conditions-module">
+					<dl class="clearfix">
+						<dt>性别</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">男</a>
+							<a href="javascript:void(0)">女</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>预算</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1-2万</a>
+							<a href="javascript:void(0)">2-5万</a>
+							<a href="javascript:void(0)">5-10万</a>
+							<a href="javascript:void(0)">10万以上</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>从业时间</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1年</a>
+							<a href="javascript:void(0)">2-3年</a>
+							<a href="javascript:void(0)">3-5年</a>
+							<a href="javascript:void(0)">5年以上</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="div-content">
+				<div class="conditions-module">
+					<dl class="clearfix">
+						<dt>性别</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">男</a>
+							<a href="javascript:void(0)">女</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>预算</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1-2万</a>
+							<a href="javascript:void(0)">2-5万</a>
+							<a href="javascript:void(0)">5-10万</a>
+							<a href="javascript:void(0)">10万以上</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>从业时间</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1年</a>
+							<a href="javascript:void(0)">2-3年</a>
+							<a href="javascript:void(0)">3-5年</a>
+							<a href="javascript:void(0)">5年以上</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="div-content">
+				<div class="conditions-module">
+					<dl class="clearfix">
+						<dt>性别</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">男</a>
+							<a href="javascript:void(0)">女</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>预算</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1-2万</a>
+							<a href="javascript:void(0)">2-5万</a>
+							<a href="javascript:void(0)">5-10万</a>
+							<a href="javascript:void(0)">10万以上</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>从业时间</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1年</a>
+							<a href="javascript:void(0)">2-3年</a>
+							<a href="javascript:void(0)">3-5年</a>
+							<a href="javascript:void(0)">5年以上</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+
+			<div class="div-content">
+				<div class="conditions-module">
+					<dl class="clearfix">
+						<dt>性别</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">男</a>
+							<a href="javascript:void(0)">女</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>预算</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1-2万</a>
+							<a href="javascript:void(0)">2-5万</a>
+							<a href="javascript:void(0)">5-10万</a>
+							<a href="javascript:void(0)">10万以上</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>从业时间</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1年</a>
+							<a href="javascript:void(0)">2-3年</a>
+							<a href="javascript:void(0)">3-5年</a>
+							<a href="javascript:void(0)">5年以上</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+
+			<div class="div-content">
+				<div class="conditions-module">
+					<dl class="clearfix">
+						<dt>性别</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">男</a>
+							<a href="javascript:void(0)">女</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>预算</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1-2万</a>
+							<a href="javascript:void(0)">2-5万</a>
+							<a href="javascript:void(0)">5-10万</a>
+							<a href="javascript:void(0)">10万以上</a>
+						</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>从业时间</dt>
+						<dd>
+							<a class="select-current" href="javascript:void(0)">不限</a>
+							<a href="javascript:void(0)">1年</a>
+							<a href="javascript:void(0)">2-3年</a>
+							<a href="javascript:void(0)">3-5年</a>
+							<a href="javascript:void(0)">5年以上</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-content-inner">
+		<!-- 婚礼人 -->
+		<div class="hunliren-list">
+			<div class="paixu">
+				<ul class="clearfix">
+					<li class="zonghe">
+						<a href="javascript:void(0)">综合排序</a>
+					</li>
+					<li>
+						<a class="arrow-down" href="javascript:void(0)"><span>人气</span></a>
+						<ul class="select-down">
+							<li>
+								<a href="javascript:void(0)">人气由高到低</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:void(0)"><span>销量</span></a>
+						<ul class="select-down">
+							<li>
+								<a href="javascript:void(0)">销量由高到低</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:void(0)"><span>价格</span></a>
+						<ul class="select-down">
+							<li>
+								<a href="javascript:void(0)">价格由低到高</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">价格由高到低</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p class="clearfix">
+		                    <input type="text" title="按价格区间筛选 最低价" name="start_price" class="txt" value="" placeholder="￥">
+		                    <span>-</span>
+		                    <input type="text" title="按价格区间筛选 最高价" name="end_price" class="txt" value="" placeholder="￥">
+		                    <a href="javascript:void(0)">确定</a>
+		                </p>
+					</li>
+					<li class="page-li clearfix">
+						<a class="disabled" href="javascript:void(0)"><</a>
+						<span>
+							<em>1</em>/100
+						</span>
+						<a href="javascript:void(0)">></a>
+					</li>
+				</ul>
+			</div>
+			<div class="uniform3 clearfix">
+				<!-- 每页显示12个 -->
+				<div class="col-3">
+					<div class="uniform3-bg">
+						<div class="hunliren-info-box clearfix">
+							<div class="hunliren-introduce">
+								<div class="counselor-img">
+		                        	<a href="javascript:void(0)">
+		                        		<img src="images/user.jpg" class="lazy">
+		                        		<img class="avatar_cover" src="images/f8.png">
+		                        	</a>
+		                        </div>
+		                        <h4>
+			                    	<a href="javascript:void(0)">脆皮</a>
+			                    </h4>
+		                        <p class="caozuo">
+		                        	<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i>60</a>
+		                        	<a class="shop" href="javascript:void(0)">
+										<img src="images/gouwu.png" alt="购物车">
+		                        	</a>
+		                        </p>
+		                        <p class="mark-box">
+		                        	<span class="personal-mark">策划师</span>
+		                        	<span>从业3年</span>
+		                        </p>
+		                        <div class="line-grey">&nbsp;</div>
+		                        <p class="introduce-text">
+		                        	我是一个务实派,追求完美，婚礼
+									策划其实包括着很多
+									的细节，酒店的选择，
+									布置的细节，人员的配合，
+									后期的沟通……我会仔细
+									的确认每一个细节
+		                        </p>
+		                        <div class="line-grey line-grey-short">&nbsp;</div>
+		                        <p class="personal-achievement clearfix">
+		                        	<span>
+		                        		<em>6</em><br/>作品
+		                        	</span>
+		                        	<span>
+		                        		<em>8</em><br/>人气
+		                        	</span>
+		                        </p>
+							</div>
+							<div class="hunliren-zuopin">
+								<div class="magnum-opus magnum-opus1">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<h3 class="clearfix">
+										<a href="javascript:void(0)">复古主题婚礼</a>
+										<span>￥28888</span>
+									</h3>
+									<p class="address-p clearfix">
+										<span title="盐湖区沿湖大道">盐湖区沿湖大道</span>
+										<a href="javascript:void(0)">查看更多》</a>
+									</p>
+								</div>
+
+								<div class="magnum-opus">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<h3 class="clearfix">
+										<a href="javascript:void(0)">复古主题婚礼</a>
+										<span>￥28888</span>
+									</h3>
+									<p class="address-p clearfix">
+										<span title="盐湖区沿湖大道">盐湖区沿湖大道</span>
+										<a href="javascript:void(0)">查看更多》</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-bg">
+						<div class="hunliren-info-box clearfix">
+							<div class="hunliren-introduce">
+								<div class="counselor-img">
+		                        	<a href="javascript:void(0)">
+		                        		<img src="images/user.jpg" class="lazy">
+		                        		<img class="avatar_cover" src="images/f8.png">
+		                        	</a>
+		                        </div>
+		                        <h4>
+			                    	<a href="javascript:void(0)">脆皮</a>
+			                    </h4>
+		                        <p class="caozuo">
+		                        	<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i>60</a>
+		                        	<a class="shop" href="javascript:void(0)">
+										<img src="images/gouwu.png" alt="购物车">
+		                        	</a>
+		                        </p>
+		                        <p class="mark-box">
+		                        	<span class="personal-mark">策划师</span>
+		                        	<span>从业3年</span>
+		                        </p>
+		                        <div class="line-grey">&nbsp;</div>
+		                        <p class="introduce-text">
+		                        	我是一个务实派,追求完美，婚礼
+									策划其实包括着很多
+									的细节，酒店的选择，
+									布置的细节，人员的配合，
+									后期的沟通……我会仔细
+									的确认每一个细节
+		                        </p>
+		                        <div class="line-grey line-grey-short">&nbsp;</div>
+		                        <p class="personal-achievement clearfix">
+		                        	<span>
+		                        		<em>6</em><br/>作品
+		                        	</span>
+		                        	<span>
+		                        		<em>8</em><br/>人气
+		                        	</span>
+		                        </p>
+							</div>
+							<div class="hunliren-zuopin">
+								<div class="magnum-opus magnum-opus1">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<h3 class="clearfix">
+										<a href="javascript:void(0)">复古主题婚礼</a>
+										<span>￥28888</span>
+									</h3>
+									<p class="address-p clearfix">
+										<span title="盐湖区沿湖大道">盐湖区沿湖大道</span>
+										<a href="javascript:void(0)">查看更多》</a>
+									</p>
+								</div>
+
+								<div class="magnum-opus">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<h3 class="clearfix">
+										<a href="javascript:void(0)">复古主题婚礼</a>
+										<span>￥28888</span>
+									</h3>
+									<p class="address-p clearfix">
+										<span title="盐湖区沿湖大道">盐湖区沿湖大道</span>
+										<a href="javascript:void(0)">查看更多》</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-bg">
+						<div class="hunliren-info-box clearfix">
+							<div class="hunliren-introduce">
+								<div class="counselor-img">
+		                        	<a href="javascript:void(0)">
+		                        		<img src="images/user.jpg" class="lazy">
+		                        		<img class="avatar_cover" src="images/f8.png">
+		                        	</a>
+		                        </div>
+		                        <h4>
+			                    	<a href="javascript:void(0)">脆皮</a>
+			                    </h4>
+		                        <p class="caozuo">
+		                        	<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i>60</a>
+		                        	<a class="shop" href="javascript:void(0)">
+										<img src="images/gouwu.png" alt="购物车">
+		                        	</a>
+		                        </p>
+		                        <p class="mark-box">
+		                        	<span class="personal-mark">策划师</span>
+		                        	<span>从业3年</span>
+		                        </p>
+		                        <div class="line-grey">&nbsp;</div>
+		                        <p class="introduce-text">
+		                        	我是一个务实派,追求完美，婚礼
+									策划其实包括着很多
+									的细节，酒店的选择，
+									布置的细节，人员的配合，
+									后期的沟通……我会仔细
+									的确认每一个细节
+		                        </p>
+		                        <div class="line-grey line-grey-short">&nbsp;</div>
+		                        <p class="personal-achievement clearfix">
+		                        	<span>
+		                        		<em>6</em><br/>作品
+		                        	</span>
+		                        	<span>
+		                        		<em>8</em><br/>人气
+		                        	</span>
+		                        </p>
+							</div>
+							<div class="hunliren-zuopin">
+								<div class="magnum-opus magnum-opus1">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<h3 class="clearfix">
+										<a href="javascript:void(0)">复古主题婚礼</a>
+										<span>￥28888</span>
+									</h3>
+									<p class="address-p clearfix">
+										<span title="盐湖区沿湖大道">盐湖区沿湖大道</span>
+										<a href="javascript:void(0)">查看更多》</a>
+									</p>
+								</div>
+
+								<div class="magnum-opus">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<h3 class="clearfix">
+										<a href="javascript:void(0)">复古主题婚礼</a>
+										<span>￥28888</span>
+									</h3>
+									<p class="address-p clearfix">
+										<span title="盐湖区沿湖大道">盐湖区沿湖大道</span>
+										<a href="javascript:void(0)">查看更多》</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 分页 -->
+			<div class="pagination-box">
+				<div class="pagination clearfix">
+				    <a class="prev disabled" href="#"><i class="fa fa-angle-left"></i> 上一页
+				    </a>
+				    <a href="#">1</a>
+				    <a class="current" href="#">2</a>
+				    <a href="#">3</a>
+				    <a href="#">4</a>
+				    <a href="#">5</a>
+				    <a href="#">6</a>
+				    <a href="#">7</a>
+				    <a href="#">8</a>
+				    <span>&hellip;</span>
+				    <a class="next" href="#">下一页 <i class="fa fa-angle-right"></i></a>
+				    <span class="page-all">共100页</span>
+				    <span>
+				    	去第
+				    	<input type="text" >
+				    	页
+				    </span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+		//tab
+		function tadChangeClick(){
+			$('.nav-select-list > li').click(function(){
+		        $(this).addClass('li-active').siblings().removeClass('li-active');
+				$(this).parent('.nav-select-list').parent('.nav-select-container').next('.tab-box').find('.div-content').hide().eq($(this).index()).show();
+			});
+		};
+		tadChangeClick();
+		
+		//排序条
+		$('.paixu > ul > li').hover(function(){
+			$(this).find('a:first-child').css({"background-color":"white"});
+			$(this).find('.select-down').show();
+		},function(){
+			$(this).find('a:first-child').css({"background-color":"#f7f7f7"});
+			$(this).find('.select-down').hide();
+		})
+	})
+</script>
+</body>
+</html>

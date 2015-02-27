@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚礼人作品详情</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="banner2 clearfix">
+		<div class="banner2-left">
+			<div class="banner2-left-inner">
+				<h2>
+					<a href="javascript:void(0)">《为爱加冕只为拥有你》</a>
+				</h2>
+				<div class="area-block">
+					<p>婚礼时间：2015-01-18</p>
+					<p>婚礼地点：盐湖区沿湖大道</p>
+					<p>婚礼花费：¥18000</p>
+				</div>
+				<div class="area-block">
+					<p>策划师：小七<br/>（负责统筹流程及场地布置）</p>
+				</div>
+				<div class="area-block">
+					<p>婚礼团队</p>
+					<p>支持人：鹏飞</p>
+					<p>化妆师：波尔婚礼策划</p>
+					<p>摄影师：波尔婚礼策划</p>
+				</div>
+
+				<div class="yuyue-form">
+					<h2>邀约本场策划师免费为我定制</h2>
+					<form>
+						<input type="text" value="您的姓名">
+						<input type="text" value="您的电话">
+						<a class="yuyue-btn" href="javascript:void(0)">免费预约</a>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="banner2-right">
+			<div class="banner-btn" id="b04">
+			    <ul>
+			        <li><img src="images/2.jpg" alt="" width="900" height="480" ></li>
+			        <li><img src="images/03.jpg" alt="" width="900" height="480" ></li>
+			    </ul>
+			    <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="images/arrowl.png" alt="prev" width="33" height="35"></a>
+			    <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="images/arrowr.png" alt="next" width="33" height="37"></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main-content-inner">
+		<!-- 策划方案 -->
+		<div class="theme-module">
+			<h2><a class="title-main" href="javascript:void(0)">策划方案</a></h2>
+			<div class="content-inner-bd clearfix">
+				<div class="fanan-info">
+					<div class="fanan-info-inner">
+						<div class="counselor-img">
+	                    	<a href="javascript:void(0)">
+	                    		<img class="lazy" src="images/user.jpg">
+	                    		<img src="images/circle100.png" class="avatar_cover">
+	                    	</a>
+	                    </div>
+	                    <h4>
+	                    	<a href="javascript:void(0)">铂尔婚礼公司</a>
+	                    </h4>
+	                    <p class="caozuo">
+	                    	<a href="javascript:void(0)" class="heart"><i class="fa fa-heart-o"></i>60</a>
+	                    	<a href="javascript:void(0)" class="shop">
+								<img alt="购物车" src="images/gouwu.png">
+	                    	</a>
+	                    </p>
+	                    <h5>方案简介</h5>
+	                    <p class="fangan-jianjie">婚姻是一场坟墓啊，可是偏偏那么多人向往这个坟墓，无非就是他有爱，有心理寄托，有可以依靠的另一半，让你在奋斗的路上不会那么孤单无助～</p>
+	                    <p class="btn-block">
+	                    	<a class="btn-warning-block" href="javascript:void(0)">我也要预约她</a>
+	                    </p>
+					</div>
+				</div>
+				<div class="fangan-gaiyao">
+					<div class="clearfix">
+						<div class="gaiyao-left">
+							<div class="gaiyao-left-txt">
+								<h4>新人要求</h4>
+								<div class="yinhao yinhao1">
+									<p>新娘特别喜欢满天星，所以在她最幸福的舞台上，她希望她整场的婚礼现场都有满天星的陪伴</p>
+								</div>
+
+								<h4>服务亮点</h4>
+								<div class="yinhao">
+									<p>整场的满天星路引，高冷的紫色，使得整场都很温馨，淡淡的白色配上高冷的紫色，使得整场婚礼高端</p>
+								</div>
+							</div>
+							<div class="gaiyao-jindu clearfix">
+								<div class="huafei">
+									<dl>
+										<dt>婚礼花费：</dt>
+										<dd><span>￥4800</span></dd>
+									</dl>
+								</div>
+								<div class="huafei-list">
+									<img src="images/jindu.jpg" alt="220x170" >
+								</div>
+							</div>
+						</div>
+						<div class="gaiyao-right">
+							<a href="javascript:void(0)"><img src="images/608.jpg" alt="608x480"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="theme-module">
+			<h2><a class="title-main" href="javascript:void(0)">婚礼现场</a></h2>
+			<div class="content-inner-bd">
+				<!-- 显示12个 -->
+				<ul class="gallery clearfix">
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+					<li>
+						<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+			
+		<div class="step-module clearfix">
+			<dl class="step-content step-content1 clearfix">
+				<dt>
+					<img src="images/step_03.jpg" alt="平台实名认证" >
+				</dt>
+				<dd>
+					<h3>平台实名认证</h3>
+					<p>策划师 | 主持人 | 化妆师 | 摄影师 | 摄像师</p>
+				</dd>
+			</dl>
+			<dl class="step-content clearfix">
+				<dt>
+					<img src="images/step_05.jpg" alt="免费3份婚礼策划方案" >
+				</dt>
+				<dd>
+					<h3>免费3份婚礼策划方案</h3>
+					<p>场地设计 | 预算分配 | 人员配置</p>
+				</dd>
+			</dl>
+			<dl class="step-content clearfix">
+				<dt>
+					<img src="images/step_07.jpg" alt="婚礼过程全程统筹" >
+				</dt>
+				<dd>
+					<h3>婚礼过程全程统筹</h3>
+					<p>组建团队 | 筹备婚礼 | 现场督导</p>
+				</dd>
+			</dl>
+			<dl class="step-content clearfix">
+				<dt>
+					<img src="images/step_09.jpg" alt="资金托管满意再付款" >
+				</dt>
+				<dd>
+					<h3>资金托管满意再付款</h3>
+					<p>第三方平台 | 结婚宝 | 资金托管</p>
+				</dd>
+			</dl>
+		</div>
+
+		<div class="theme-module">
+			<h2><a class="title-main" href="javascript:void(0)">邀请本场策划师免费为我定制</a></h2>
+			<div class="invitation clearfix">
+				<div class="invitation-pinglun">
+					<div class="txt-block clearfix">
+						<div class="invitation-person-img">
+							<div class="counselor-img">
+	                        	<a href="javascript:void(0)">
+	                        		<img src="images/user.jpg" class="lazy">
+	                        		<img class="avatar_cover" src="images/circle.png">
+	                        	</a>
+	                        </div>
+							<p class="person-pinglun">大皮皮</p>
+						</div>
+						<div class="invitation-person-pinglun">
+							<div class="pinglun">2010年成为了专业的婚礼策划师，“私人订制婚礼服务”是我一直坚持的理念。我每天都会接触到不同的新人。他们的心情既幸福又迷茫，但是做了百余场婚礼后才知道原来他们多么需要一个人去指导他们的婚礼，一辈子的唯一...</div>
+						</div>
+					</div>
+
+					<div class="txt-block clearfix">
+						<div class="invitation-person-img">
+							<div class="counselor-img">
+	                        	<a href="javascript:void(0)">
+	                        		<img src="images/user.jpg" class="lazy">
+	                        		<img class="avatar_cover" src="images/circle.png">
+	                        	</a>
+	                        </div>
+							<p class="person-pinglun">大皮皮</p>
+						</div>
+						<div class="invitation-person-pinglun">
+							<div class="pinglun">2010年成为了专业的婚礼策划师，“私人订制婚礼服务”是我一直坚持的理念。我每天都会接触到不同的新人。他们的心情既幸福又迷茫，但是做了百余场婚礼后才知道原来他们多么需要一个人去指导他们的婚礼，一辈子的唯一...</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+		//婚礼现场
+		$('.gallery > li > a').hover(function(){
+			$(this).find('span').addClass('mark-span');
+		},function(){
+			$(this).find('span').removeClass('mark-span');
+		})
+	})
+</script>
+<script>
+$(document).ready(function(e) {
+    var unslider04 = $('#b04').unslider({
+		dots: false
+	}),
+	data04 = unslider04.data('unslider');
+	
+	$('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+</script>
+</html>

@@ -8,6 +8,7 @@
 <!-- <script src="js/lightbox.min.js"></script> -->
 <script type="text/javascript" src="js/backtop.js"></script>
 <script src="js/unslider.min.js"></script>
+<script src="js/zoom.js"></script>
 <script src="js/jquery.lazyload.min.js"></script>
 
 <script type="text/javascript" charset="utf-8">
@@ -28,19 +29,3 @@
   });
 </script>
 
-<!-- 导航 -->
-<script type="text/javascript">
-	// $(function () {
-	// 	$(".down-file > a:last-child").css({"border":"none"});
-	// 	$(".navigation ul li").hover(function(){
-	// 		$(this).find("a:eq(0)").css({"background-color":"#fff","color":"#29b4bd"})
-	// 			   .find(".icon-down").removeClass('icon-down').addClass('icon-down-hover');
-	// 		$(this).find(".down-file").slideDown('fast');
-	// 	},
-	// 		function(){
-	// 			$(this).find("a:eq(0)").css({"background-color":"#29b4bd","color":"#fff"})
-	// 				   .find(".icon-down-hover").removeClass('icon-down-hover').addClass('icon-down');
-	// 			$(this).find(".down-file").hide();
-	// 		})
-	// })
-</script>
