@@ -1,0 +1,507 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚纱摄影内页</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="banner2 clearfix">
+		<div class="banner2-left">
+			<div class="banner2-left-inner">
+				<h2>
+					<a href="javascript:void(0)">大城小爱画室婚纱摄影会所</a>
+				</h2>
+				<div class="area-block">
+					<p>影楼地点：盐湖区沿湖大道</p>
+					<p>婚礼历史：16年</p>
+				</div>
+				<div class="area-block">
+					<p>影楼简介：</p>
+					<p class="area-block-p">本影楼那叫一个牛逼闪闪，在影楼成立的这些年来，得到了各界的支持，本影楼拍照无数，无人能敌，各种大牌皆是本影楼的顾客，如张柏芝啊张柏芝啊张柏芝啊，虽然最后还是离了婚但是真的不是我们影楼拍的不好造成的。所以你们该来的还是得来，因为我们牛逼</p>
+				</div>
+
+				<div class="yuyue-form">
+					<h2>邀约本影楼为我拍摄婚纱照</h2>
+					<form>
+						<input type="text" value="您的姓名">
+						<input type="text" value="您的电话">
+						<p class="button-block clearfix">
+							<a class="yuyue-btn" href="javascript:void(0)">免费预约</a>
+							<a class="che-btn" href="javascript:void(0)"></a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="banner2-right">
+			<div class="banner-btn" id="b04">
+			    <ul>
+			        <li><img src="images/2.jpg" alt="" width="900" height="480" ></li>
+			        <li><img src="images/03.jpg" alt="" width="900" height="480" ></li>
+			    </ul>
+			    <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="images/arrowl.png" alt="prev" width="33" height="35"></a>
+			    <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="images/arrowr.png" alt="next" width="33" height="37"></a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main-content-inner">
+		<div class="theme-module">
+			<h2><a class="title-main" href="javascript:void(0)">作品展示</a></h2>
+			<div class="uniform3 neiye-module clearfix">
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="uniform3-border">
+						<div class="many-img clearfix">
+							<a class="zhutu" href="javascript:void(0)">
+								<img class="lazy" src="images/dian2.jpg" alt="307x226">
+							</a>
+							<div class="right-img-box">
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+								<a href="javascript:void(0)">
+									<img class="lazy" src="images/dian2.jpg" alt="75x55">
+								</a>
+							</div>
+						</div>
+						<div class="photography-title clearfix">
+							<p class="photography-price">平台价 ¥800<em>原价 ¥1000</em></p>
+	                		<span class="photography-caozuo">
+	                			<a class="heart" href="javascript:void(0)"><i class="fa fa-heart-o"></i></a>
+		                		<a class="shop" href="javascript:void(0)">
+									<img src="images/gouwu17.png" alt="购物车">
+		                    	</a>
+	                		</span>
+	                	</div>
+					</div>
+				</div>
+			</div>
+			<div class="pagination-box">
+				<div class="pagination clearfix">
+				    <a href="#" class="prev disabled"><i class="fa fa-angle-left"></i> 上一页
+				    </a>
+				    <a href="#">1</a>
+				    <a href="#" class="current">2</a>
+				    <a href="#">3</a>
+				    <a href="#">4</a>
+				    <a href="#">5</a>
+				    <a href="#">6</a>
+				    <a href="#">7</a>
+				    <a href="#">8</a>
+				    <span>…</span>
+				    <a href="#" class="next">下一页 <i class="fa fa-angle-right"></i></a>
+				    <span class="page-all">共100页</span>
+				    <span>
+				    	去第
+				    	<input type="text">
+				    	页
+				    </span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+		//婚礼现场
+		$('.gallery > li > a').hover(function(){
+			$(this).find('span').addClass('mark-span');
+		},function(){
+			$(this).find('span').removeClass('mark-span');
+		})
+	})
+</script>
+<script>
+$(document).ready(function(e) {
+    var unslider04 = $('#b04').unslider({
+		dots: false
+	}),
+	data04 = unslider04.data('unslider');
+	
+	$('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+</script>
+</html>
