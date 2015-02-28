@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚纱摄影内页--内页</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="banner2 clearfix">
+		<div class="banner2-left">
+			<div class="banner2-left-inner">
+				<h2>
+					<a href="javascript:void(0)">《田园风维多利亚神马系列》</a>
+				</h2>
+				<div class="area-block">
+					<span class="price">¥48000</span>
+					<p>一套新娘婚纱</p>
+					<p>一套新郎礼服</p>
+					<p>一次新娘化妆</p>
+					<p>一次新郎化妆</p>
+					<p>一款新娘发型设计</p>
+					<p>18个相片数码档案</p>
+					<p>18张4x5相片</p>
+					<p>1张5x7相片</p>
+					<p>1张16x20油画像（不带相框）</p>
+				</div>
+
+				<div class="yuyue-form">
+					<h2>邀约本场策划师免费为我定制</h2>
+					<form>
+						<input type="text" value="您的姓名">
+						<input type="text" value="您的电话">
+						<p class="button-block clearfix">
+							<a class="yuyue-btn" href="javascript:void(0)">免费预约</a>
+							<a class="che-btn" href="javascript:void(0)"></a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="banner2-right">
+			<div class="banner-btn" id="b04">
+			    <ul>
+			        <li><img src="images/2.jpg" alt="" width="900" height="480" ></li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main-content-inner">
+		<div class="picture-module">
+			<img src="images/1.jpg">
+			<img src="images/02.jpg">
+			<img src="images/608.jpg">
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+</html>

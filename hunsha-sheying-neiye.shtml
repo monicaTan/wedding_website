@@ -481,16 +481,6 @@
 
 <!-- footer -->
 <!--#include file="inc/footer.shtml"-->
-<script type="text/javascript">
-	$(function(){
-		//婚礼现场
-		$('.gallery > li > a').hover(function(){
-			$(this).find('span').addClass('mark-span');
-		},function(){
-			$(this).find('span').removeClass('mark-span');
-		})
-	})
-</script>
 <script>
 $(document).ready(function(e) {
     var unslider04 = $('#b04').unslider({

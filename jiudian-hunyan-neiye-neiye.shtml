@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>酒店婚宴内页--内页</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="banner2 clearfix">
+		<div class="banner2-left">
+			<div class="banner2-left-inner">
+				<h2>
+					<a href="javascript:void(0)">万达文华酒店</a>
+				</h2>
+				<div class="area-block">
+					<span class="price">平台价：¥4800/桌</span>
+					<p>举办桌数：100桌</p>
+					<p>酒店地点：盐湖区沿湖大道</p>
+					<p>酒宴时间：2013.10.1  晚6:00</p>
+					<p>酒店特色：川菜  高端 实惠</p>
+				</div>
+				
+				<div class="area-block">
+					<p>酒宴简介：</p>
+					<p class="area-block-p area-block-p110">酒宴设有签名台，9米大T台，反正就是优秀就是优秀。共有28个菜，多少个荤菜多少个素菜。酒宴设有签名台，9米大T台，反正就是优秀就是优秀。，反正就是优秀就是优秀。，反正就是优秀就是优秀。共有28个菜，共有28个菜，多少个荤菜多少个素菜...</p>
+				</div>
+
+				<div class="yuyue-form">
+					<h2>查询我的婚期酒店是否还有空位</h2>
+					<form>
+						<input type="text" value="您的婚期">
+						<p class="button-block clearfix">
+							<a class="yuyue-btn" href="javascript:void(0)">免费预约</a>
+							<a class="che-btn" href="javascript:void(0)"></a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="banner2-right">
+			<div class="banner-btn" id="b04">
+			    <ul>
+			        <li><img src="images/2.jpg" alt="" width="900" height="480" ></li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main-content-inner">
+		<div class="theme-module">
+			<h2><a href="javascript:void(0)" class="title-main">酒宴详情</a></h2>
+			<div class="file-box">
+				<table width="900" border="1" cellpadding="0" cellspacing="0">
+					<tr>
+						<th width="530">名称</th>
+						<th>数量</th>
+						<th>单价</th>
+					</tr>
+					<tr>
+						<td align="center" colspan="3">冷荤</td>
+					</tr>
+					<tr>
+						<td align="left">四川泡菜</td>
+						<td align="center">1例</td>
+						<td align="center">22</td>
+					</tr>
+					<tr>
+						<td align="left">四川泡菜</td>
+						<td align="center">1例</td>
+						<td align="center">22</td>
+					</tr>
+					<tr>
+						<td align="left">四川泡菜</td>
+						<td align="center">1例</td>
+						<td align="center">22</td>
+					</tr>
+					<tr>
+						<td align="center" colspan="3">汤羹</td>
+					</tr>
+					<tr>
+						<td align="left">四川泡菜</td>
+						<td align="center">1例</td>
+						<td align="center">22</td>
+					</tr>
+					<tr>
+						<td align="left">四川泡菜</td>
+						<td align="center">1例</td>
+						<td align="center">22</td>
+					</tr>
+					<tr>
+						<td align="left">四川泡菜</td>
+						<td align="center">1例</td>
+						<td align="center">22</td>
+					</tr>
+					<tr>
+						<td align="center" colspan="3">精品小炒</td>
+					</tr>
+					<tr>
+						<td align="left">四川泡菜</td>
+						<td align="center">1例</td>
+						<td align="center">22</td>
+					</tr>
+				</table>
+				<div class="table-img clearfix">
+					<img src="images/1.jpg">
+					<img src="images/02.jpg">
+					<img src="images/608.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+</html>

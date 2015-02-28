@@ -417,12 +417,12 @@ body{ font-family: "Microsoft YaHei";}
 #b04 .dots li img{ width: 900px; height: 480px;}
 
 
-.banner2-left-inner{ padding: 20px 10px 20px 20px;}
+.banner2-left-inner{ padding: 20px 10px 0 20px; height: 460px;}
 .banner2-left-inner h2{ font-size: 16px; font-weight: normal; color: #29b4bd; line-height: 18px; margin-bottom: 14px;}
 .banner2-left-inner h2 a:hover{ color: #333;}
 
 .area-block { margin-bottom: 12px;}
-.area-block p{ font-size: 12px; line-height: 20px;}
+.area-block p{ font-size: 12px; line-height: 20px; height: 20px; overflow: hidden;}
 .yuyue-form{ padding-top: 12px;}
 .yuyue-form input{ width: 232px; height: 36px; line-height: 36px; margin-bottom: 10px; padding: 0 4px; border: 1px solid #dfdfdf; color: #999;}
 .yuyue-form h2{ margin-bottom: 20px;}
@@ -595,6 +595,46 @@ body{ font-family: "Microsoft YaHei";}
 .button-block .yuyue-btn{ width: 192px;}
 .button-block .che-btn{ display: block; width: 42px; height: 38px; background: #eeeeee url("../images/che.png") center center no-repeat; margin-left: 8px;}
 .area-block .area-block-p{ padding-top: 5px; height: 132px; overflow: hidden; line-height: 22px;}
+
+/* hunsha-sheying-neiye-neiye
+-------------------------------------------------------------------------------- */
+.area-block .price{ display: inline-block; color: white; background-color: black; font-size: 18px; padding: 0 8px; line-height: 25px; margin-bottom: 5px;}
+.picture-module { overflow: hidden; line-height: 0;}
+.picture-module img{ max-width: 100%; margin-bottom: 20px; border: 4px solid #f7f6f3;}
+
+
+/* jiudian-hunyan-neiye
+-------------------------------------------------------------------------------- */
+.yuyue-form-jiudian{ padding-top: 7px;}
+.yuyue-form-jiudian h2{ margin-bottom: 16px; *margin-bottom: 8px;}
+
+.gallery2{padding: 1px 0 0 1px; background-color: #dfdfdf;}
+.gallery2 li{float:left;padding:0 1px 1px 0; width: 298px;}
+.gallery2 li a,
+.gallery2 li img{float:left; display: block; width: 298px; height: 220px;}
+.gallery2 li a{ position: relative;}
+.gallery2 li a span{ text-align: center; line-height: 220px; cursor: pointer; position: absolute; left: 0; top: 0; width: 298px; height: 220px; display: none; background: url("../images/fd2982.png") center center no-repeat;}
+.gallery2 li a span em{ padding: 6px 10px; font-style: normal; font-size: 13px; color: white; background-color: black;}
+.gallery2 li a .mark-span{display: block;}
+.next-page a{ line-height: 220px; text-align: center; color: #333;}
+.next-page a i{ font-style: normal; padding-right: 34px; background: url("../images/next-page.png") right center no-repeat; font-size: 24px;}
+.next-page a:hover{ color: #29b4bd;}
+.next-page a:hover i{ background: url("../images/next-page-blue.png") right center no-repeat;}
+
+/* jiudian-hunyan-neiye-neiye
+-------------------------------------------------------------------------------- */
+.area-block .area-block-p110{ height: 110px;}
+.file-box table,
+.file-box table tr th,
+.file-box table tr td{ border: 1px solid #f0f0f0;}
+.file-box table tr th{ font-size: 14px; color: #666; background-color: #f2f2f2; height: 36px; vertical-align: middle;}
+.file-box table tr td{ height: 36px; vertical-align: middle; padding: 0 15px;}
+.table-img{ width: 892px; border: 1px solid #f0f0f0; padding: 20px 0 0 6px;}
+.table-img img{ width: 440px; height: 310px; float: left; margin:  10px 6px 10px 0;}
+ 
+
+
+
 
 /* footer
 -------------------------------------------------------------------------------- */
