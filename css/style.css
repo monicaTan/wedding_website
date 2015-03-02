@@ -52,13 +52,6 @@ body{ font-family: "Microsoft YaHei";}
 .navigation ul .nav-active a:hover{color: #29b4bd;}
 .navigation ul li a span{display: inline-block; cursor: pointer;}
 
-/* .navigation .icon-down{ display: inline-block; width: 8px; height: 7px; background: url("../images/down_white.png") left 0 no-repeat; _background-position: left 8px; vertical-align: middle; margin-left: 4px;}
-
-.navigation .icon-down-hover{ display: inline-block; width: 8px; height: 7px; background: url("../images/down_blue.png") left 0 no-repeat; _background-position: left 8px; vertical-align: middle; margin-left: 4px;}
-
-.navigation .down-file{ background-color: white; position: absolute; top: 40px; left: 0; width: 130px; padding:7px; display: none; z-index: 10;}
-.navigation .down-file a { display: block; float: none; color: #29b4bd; height: 32px; line-height: 32px; font-size: 12px; padding:0 8px; border-bottom: 1px solid #29b4bd;}
-.navigation .down-file a:hover{ background-color: #29b4bd; color: white;} */
 /* banner
 -------------------------------------------------------------------------------- */
 .banner-box{ width: 1200px; margin: 30px auto 10px; *margin-top: 20px;}
