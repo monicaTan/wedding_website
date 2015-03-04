@@ -37,8 +37,14 @@
 			<div class="navigation clearfix">
 				<div class="nav-list">
 					<ul class="clearfix">
-						<li class="nav-active">
+						<li class="li-home nav-active">
 							<a href="index0.shtml">首页</a>
+						</li>
+						<li>
+							<a href="hunli-taoxi.shtml"><span>婚礼套系/定制</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)"><span>婚礼策划</span></a>
 						</li>
 						<li>
 							<a href="javascript:void(0)"><span>找婚礼人</span><!-- <span class="icon-down"></span> --></a>
@@ -49,8 +55,8 @@
 								<a href="javascript:void(0)">化妆</a>
 							</div> -->
 						</li>
-						<li>
-							<a href="hunli-taoxi.shtml"><span>婚礼套系</span></a>
+						<li class="line-y">
+							<span>|</span>
 						</li>
 						<li>
 							<a href="hunsha-sheying.shtml"><span>婚纱摄影</span></a>

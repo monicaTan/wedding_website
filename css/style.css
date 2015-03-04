@@ -40,13 +40,15 @@ body{ font-family: "Microsoft YaHei";}
 .nav-box{ height: 40px; background-color: #29b4bd; margin-bottom: 14px; position: relative; z-index: 2;}
 .nav-list{ width: 850px; float: left;}
 .nav-right{ width: 336px; float: right;}
-.navigation ul li{ float: left; margin-right: 20px; position: relative;}
+.navigation ul li{ float: left; margin: 0 10px; position: relative;}
+.navigation ul .li-home{ margin-left:0;}
 .navigation .user-entrance{ float: right; font-size: 0;}
 .navigation .user-entrance a,
 .navigation .user-entrance .line{font-size: 14px; color: white; line-height: 40px;}
 .navigation .user-entrance .line{ padding: 0 6px;}
 .navigation .user-entrance .merchants{ margin: 0 6px 0 40px;}
-.navigation ul li a{display: inline-block; color: white; line-height: 35px; height: 35px; margin-top: 5px; font-size: 14px; padding: 0 20px; }
+.navigation ul li a{display: inline-block; color: white; line-height: 35px; height: 35px; margin-top: 5px; font-size: 14px; padding: 0 15px;}
+.navigation ul .line-y span{display: inline-block; color: white; line-height: 35px; height: 35px; margin-top: 5px; font-size: 14px;}
 .navigation ul li a:hover{ color: #fff;}
 .navigation ul .nav-active a{ color: #29b4bd; background-color: white;}
 .navigation ul .nav-active a:hover{color: #29b4bd;}
