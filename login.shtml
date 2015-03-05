@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>登录</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+	<div class="header-entrance">
+		<div class="header-inner clearfix">
+			<div class="logo-box2">
+				<a class="logo" href="javascript:void">
+					<img src="images/logo.png">
+				</a>
+			</div>
+			<span class="page-title">欢迎登录</span>
+		</div>
+	</div>
+<!-- main-content -->
+<div class="main-content-entrance">
+	<div class="main-content-inner clearfix">
+		<div class="left-entrance">
+			<div class="module-title">
+                <h2>登录</h2>
+            </div>
+			<form>
+				<div class="form-inner">
+					<div class="form-control">
+						<dl class="clearfix">
+							<dt>邮箱</dt>
+							<dd>
+								<input class="form-in" type="email" placeholder="请输入您的邮箱">
+								<p>请输入正确的邮箱格式</p>
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>密码</dt>
+							<dd>
+								<input class="form-in" type="password" placeholder="请输入您的密码">
+								<p>密码至少6个字符,最多16个字符！</p>
+								<p>密码长度为6-16个字符，区分大小写，空格无效</p>
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>&nbsp;</dt>
+							<dd>
+								<div class="checkbox">
+	                              	<label class="checkbox-keep">
+	                                <input type="hidden" value="0" name=""><input type="checkbox" id="user_remember_me" name="" value="" >
+	                                保持登录状态
+	                              	</label>
+	                              	<a class="forget" href="javascript:void(0)">忘记密码？</a>
+	                           	</div>
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>&nbsp;</dt>
+							<dd>
+								<input type="submit" class="btn btn-warning" value="登录" >
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="right-entrance">
+			<div class="col-sub">
+			    <div class="module module-left-sign-in">
+			      	<h2>免注册快捷登录<small>使用合作网站帐号一键登录，无需注册方便快捷</small></h2>
+					<div class="module module-share">
+						<div class="share-btn share-btn-weixin">
+							<a href="javascript:void(0)">
+								<span class="share-icon">人人</span> 用微信帐号登录
+							</a>
+						</div>
+
+						<div class="share-btn share-btn-tenxun">
+							<a href="javascript:void(0)">
+								<span class="share-icon">腾讯</span> 用QQ登录
+							</a>
+						</div>
+
+						<div class="share-btn share-btn-sina">
+							<a href="javascript:void(0)">
+								<span class="share-icon">新浪</span> 用新浪微博登录
+							</a>
+						</div>
+					</div>
+					<div class="module module-ask">
+						<p>没有运城婚礼账号？</p>
+						<a href="register.shtml" class="btn btn-default">免费注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<div class="footer-entrance">
+	<div class="footer-inner">
+		<div class="footer-bottom clearfix">
+			<div class="bottom-list">
+				<img src="images/logo.png">
+			</div>
+			<div class="bottom-list2">
+				<p>地址：伟大中国山西省运城市盐湖区沿湖大道<em>热线电话：400-800-6868</em></p>
+				<p>2014运城婚礼网  京ICP备11020391号</p>
+			</div>
+			<div class="bottom-list3">
+				<img src="images/qr76.jpg">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/backtop.js"></script>
+</body>
+</html>

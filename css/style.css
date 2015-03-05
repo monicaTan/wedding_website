@@ -18,7 +18,7 @@ body{ font-family: "Microsoft YaHei";}
 .navigation,
 .main-content-inner,
 .footer-inner{width: 1200px; margin: 0 auto;}
-
+.main-content{ margin-bottom: 60px;}
 .header-inner{ padding: 20px 0 14px;}
 .logo-box{ width: 205px; float: left; margin-right: 72px; padding-top: 10px;}
 .yc-head-search{ width: 526px; float: left; padding-top: 16px; margin-right: 14px;}
@@ -629,11 +629,93 @@ body{ font-family: "Microsoft YaHei";}
  
 
 
+/* register-login
+-------------------------------------------------------------------------------- */
+
+.header-entrance{border-bottom: 3px solid #d1d4da;}
+.logo-box2{ width: auto; float: left; padding-right: 30px; margin-right: 0; border-right: 1px solid #d1d4da;}
+.page-title{ float: left; display: inline-block; line-height: 53px; padding-left: 30px; font-size: 24px; color: #999;}
+
+.main-content-entrance{ padding: 30px 0;background-color: #f0f2f5;}
+.left-entrance{ float: left; width: 830px; background-color: white; min-height: 500px;_height: 500px; border-right:1px solid #f2f2f2; border-bottom: 3px solid #e3e4e8;}
+.right-entrance{ float: right; width: 360px;}
+.left-entrance .module-title{background-color: #f6f8fa; padding: 20px 30px;}
+.left-entrance .module-title h2{ font-size: 24px; color: #29b4bd; font-weight: normal;}
+.left-entrance .module-title h2 small{ font-size: 12px; color: #999; padding-left: 20px;}
+.form-inner{ width: 430px; margin: 60px auto;}
+
+.form-control dl { margin-bottom: 20px;}
+.form-control dl dt,
+.form-control dl dd{ float: left;}
+
+.form-control dl dt{width: 80px; margin-right: 10px; text-align: right; height: 38px; line-height: 38px; font-size: 14px; color: #666;}
+.form-control dl dd{ width: 310px;}
+.form-control dl dd input{ font-size: 12px;font-family: "Microsoft YaHei";}
+.form-control dl dd .form-in{ width: 300px; border: 2px solid #dfdfdf; height: 36px; *line-height: 36px; padding: 0 4px; color: #999; font-size: 12px;font-family: "Microsoft YaHei";}
+.footer-entrance {background-color: #f0f2f5; padding-bottom: 30px;}
+.footer-entrance .footer-inner{ background-color: #f6f8fa; border-bottom: 3px solid #e3e4e8;}
+.footer-entrance .footer-inner .bottom-list2{padding-left: 70px;}
+.footer-entrance .footer-inner .bottom-list{padding-left: 20px;}
+.footer-entrance .footer-bottom{padding: 20px 0 15px;}
+.footer-entrance .footer-bottom .bottom-list{width: 150px;}
+.footer-entrance .footer-bottom .bottom-list img{width: 100%;}
+.footer-entrance .footer-bottom .bottom-list3{float: right; width: 90px;}
+
+.module-left-sign-in { padding: 20px 30px 40px;}
+.module-left-sign-in h2 { color: #29b4bd; font-family: "Microsoft YaHei"; font-size: 23px; font-weight: normal; margin: 0;}
+.module-left-sign-in h2 small { color: #99a3b1; display: block; font-family: SimSun; font-size: 12px; margin-top: 15px;}
+.module-share { padding: 40px 0 120px;}
+.module-share .share-btn { font-size: 12px; margin-bottom: 10px;}
+
+.module-share .share-btn a,
+.module-share .share-btn a span{transition: ease-in .2s;-moz-transition: ease-in .2s;-webkit-transition: ease-in .2s;-o-transition: ease-in .2s;} 
+.module-share .share-btn a { background: none repeat scroll 0 0 #e1e4e9; border-radius: 4px; color: #8f9399; display: inline-block; font-weight: bold; height: 45px; line-height: 45px; width: 198px;}
+.module-share .share-btn a span { background-color: #8f9399; background-image: url("../images/share.png"); background-repeat: no-repeat; border-radius: 4px 0 0 4px; color: transparent; display: inline-block; *display: block; *float: left; font-weight: normal; height: 45px; margin-right: 10px; width: 45px; text-indent: -9999px;}
+.share-btn-weixin span { background-position: center 8px;}
+.share-btn-tenxun span { background-position: center -48px;}
+.share-btn-sina span {background-position: center -103px;}
+
+.share-btn-weixin a:hover,
+.share-btn-weixin a:focus,
+.share-btn-weixin a:active{background-color: #10c01b; color: #FFFFFF; text-decoration: none;}
+
+.share-btn-weixin a:hover span,
+.share-btn-weixin a:focus span,
+.share-btn-weixin a:active span{background-color: #04b00f;}
+
+.share-btn-tenxun a:hover,
+.share-btn-tenxun a:focus,
+.share-btn-tenxun a:active{background-color: #4fc0e8; color: #FFFFFF; text-decoration: none;}
+
+.share-btn-tenxun a:hover span,
+.share-btn-tenxun a:focus span,
+.share-btn-tenxun a:active span{background-color: #3aafda;}
+
+.share-btn-sina a:hover,
+.share-btn-sina a:focus,
+.share-btn-sina a:active{background-color: #ee5567; color: #FFFFFF; text-decoration: none;}
+
+.share-btn-sina a:hover span,
+.share-btn-sina a:focus span,
+.share-btn-sina a:active span{background-color: #db4453;}
+
+.module-ask p { color: #99a3b1; font-family: Arial,SimSun; font-size: 12px; line-height:20px; text-indent: 0; margin-bottom: 10px;}
+
+.module-ask .btn { background-color: #fe9f1b; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 12px 48px; display: inline-block;}
+.module-ask a:hover{ color: white;}
+.form-control dl dd .btn-warning { width: auto; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 0 48px; *padding: 0 24px; display: inline-block;background-color: #29b4bd; border:none; height: 38px; color: white; cursor: pointer;}
+.form-control dl dd p{ margin-top: 5px; color: #d20404; font-size: 14px;}
+.form-control dl dd .agreement-p{ margin-top: 40px; display: block;}
+.form-control dl dd .agreement{ font-size: 12px;}
+.form-control dl dd .checkbox-keep { font-size: 12px; color: #999; position: relative;}
+.form-control dl dd .checkbox { position: relative;}
+.form-control dl dd .forget{ position: absolute; right: 0; top: 0; font-size: 12px; line-height: 20px;}
+
 
 
 /* footer
 -------------------------------------------------------------------------------- */
-.footer{ background-color: #f7f6f3; padding: 40px 0 18px; margin-top: 60px;}
+.footer{ background-color: #f7f6f3; padding: 40px 0 18px;}
 .footer-list-box{ border-bottom: 1px solid #dfdfdf; padding-bottom: 20px;}
 .footer-list{ float: left; width: 300px;}
 .footer-list dl dt{ float: left; width: 48px; height: 48px;}
