@@ -488,8 +488,8 @@ body{ font-family: "Microsoft YaHei";}
 
 .zoomed > .container{-webkit-filter:blur(3px);filter:blur(3px);}
 .container{width:505px;margin:0 auto;}
-.gallery{padding: 1px 0 0 1px;/*  background-color: #dfdfdf; */}
-.gallery li{float:left;padding:0 1px 1px 0; width: 298px;}
+.gallery{padding: 1px 0 0 1px;}
+.gallery li{float:left;padding:0 1px 1px 0; width: 298px; background-color: #dfdfdf;}
 .gallery li a,.gallery li img{float:left; display: block; width: 298px; height: 220px;}
 .gallery li a{ position: relative;}
 .gallery li a span{ cursor: pointer; position: absolute; left: 0; top: 0; width: 298px; height: 220px; display: none; background: url("../images/fd298.png") center center no-repeat;}
