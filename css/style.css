@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{ font-family: "Microsoft YaHei";}
-.lazy{ /* background: url("../images/240.gif") center center no-repeat; */ width: auto; height: auto; margin: 0 auto;}
+.lazy{ background: url("../images/240.gif") center center no-repeat;}
 /*gotop*/
 .cbbfixed {position: fixed;right: 10px;transition: bottom ease .3s;bottom: -85px;z-index: 3;cursor:pointer;}
 .cbbfixed .cbbtn {width: 40px;height: 40px;display: block;background-color: #29b4bd;}
@@ -61,10 +61,9 @@ body{ font-family: "Microsoft YaHei";}
 
 .banner { position: relative; overflow: auto; text-align: center;}
 .banner li { list-style: none; }
-.banner ul li { float: left;}
-#b03 { width: 850px; height: 440px; text-align: center;}
-#b03 ul li{ line-height: 440px;}
-#b03 ul li img{ max-width: 850px; max-height: 440px; _width: 850px; _height: 440px;vertical-align: middle; }
+.banner ul li { float: left; }
+#b03 { width: 850px;}
+#b03 ul li img{ width: 850px; height: 440px;}
 
 #b03 .dots { position: absolute; left: 0; right: 0; bottom: 20px; line-height: 0; *padding-left: 45%;}
 #b03 .dots li { display: inline-block; *float: left; width: 6px; height: 6px; margin: 0 4px; text-indent: -999em; border: 1px solid #fff; border-radius: 6px; cursor: pointer; opacity: 1; -webkit-transition: background .5s, opacity .5s; -moz-transition: background .5s, opacity .5s; transition: background .5s, opacity .5s;}
@@ -76,11 +75,7 @@ body{ font-family: "Microsoft YaHei";}
 .counselor{ position: relative; padding: 0 26px; margin: 10px 0 6px;}
 .counselor a:hover{ color: #29b4bd;}
 .counselor-img{ position: relative;}
-.counselor-img a{ background-color: #f8f8f8; text-align: center; display: inline-block;}
-.counselor-img img{ max-width: 50px; max-height: 50px; _width: 50px; _height: 50px; text-align: center; position: absolute; left: 0; top: 0;}
-.counselor-img .lazy{ position: relative;}
-.right-info .counselor-img { position: absolute; left: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px;}
-.right-info .counselor-img .lazy{ }
+.counselor-img img{ width: 50px; height: 50px; position: absolute; left: 0; top: 0;}
 .counselor-name{ line-height: 50px; height: 50px; width: 140px; font-size: 16px; margin: 0 0 0 66px; display: inline-block; white-space: nowrap; text-overflow:ellipsis; overflow: hidden; float: left;}
 .counselor-change{ color: #999; font-size: 12px; line-height: 50px;  display: inline-block; width: 52px; text-align: right; float: right;}
 .counselor-introduction{padding: 0 26px; margin: 0 0 24px; font-size: 12px; color: #999; line-height: 20px; height: 40px; overflow: hidden;}
@@ -150,11 +145,9 @@ body{ font-family: "Microsoft YaHei";}
 .flowers-title h2{ position: relative;z-index: 2; text-align: center;}
 .uniform2 li{ float: left; width: 600px; position: relative; padding-bottom: 20px;}
 .uniform2 li .label-module{position: absolute; right: 18px; top: 0; width: 150px; height: 328px; border: 1px solid #dadada;background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
-.label-module-img li .main-img{ text-align: center; line-height: 358px; width: 728px; height: 410px; display: inline-block; background-color: #f7f6f3;}
-.main-img img{ max-width: 100%; max-height: 100%; _width: 100%; _height: 100%;}
+.main-img img{ width: 600px; height: 358px;}
 .label-module .counselor-img img{ border-radius: 50%;}
 .label-module .counselor-img { width: 50px; height: 50px; margin: 12px auto 8px;}
-.label-module .counselor-img a{width: 50px; height: 50px; line-height: 50px;border-radius: 50%;}
 .label-module h2{ text-align: center; font-size: 14px; font-weight: normal; margin-bottom: 10px;}
 .label-module h2 a{ color: #333;}
 .label-module h2 a:hover{ color: #29b4bd;}
@@ -200,9 +193,7 @@ body{ font-family: "Microsoft YaHei";}
 .theme-members{border: 1px solid #ebebeb; position: relative; padding-top: 72px;}
 .theme-members .counselor-img{ float: left;}
 .theme-members .counselor-img,
-.theme-members .counselor-img a{ width: 70px; height: 70px;}
-.theme-members .counselor-img a{ line-height: 70px;}
-.theme-members .counselor-img img{ max-width: 70px; max-height: 70px;_width: 70px; _height: 70px;}
+.theme-members .counselor-img img{ width: 70px; height: 70px;}
 .theme-members-head{ width: 239px; padding: 0 20px 0 24px; position: absolute; top: -28px;}
 .counselor-right{ width: 159px; float: right; font-size: 14px; line-height: 20px; padding-top: 30px;}
 .counselor-right .heart{ font-size: 12px; color: #d20404; margin-left: 20px;}
@@ -211,9 +202,9 @@ body{ font-family: "Microsoft YaHei";}
 .counselor-right span{ font-size: 13px;}
 .counselor-right em{ font-size: 12px; font-style: normal; color: #999; text-decoration: line-through; margin-left: 6px;}
 .counselor-info{ font-size: 12px; line-height: 20px; margin: 0 10px 40px; text-align: justify; height: 60px; overflow: hidden;}
-.counselor-case-img a{display: block; float: left; width: 137px; height: 64px; line-height: 64px; text-align: center; margin:0 3px 3px 0; background-color: #f8f8f8;}
+.counselor-case-img a{display: block; float: left; width: 137px; height: 64px; margin:0 3px 3px 0;}
 .counselor-case-img{ padding-left: 3px; line-height: 0; font-size: 0;}
-.counselor-case-img img{ max-width: 137px; max-height: 64px; _width: 137px; _height: 64px;}
+.counselor-case-img img{ width: 137px; height: 64px;}
 .wedding-planer .uniform4{ margin-bottom: 40px;}
 .wedding-planer .more-link{ margin-bottom: 60px;}
 
@@ -252,7 +243,7 @@ body{ font-family: "Microsoft YaHei";}
 /* wedding-banquet
 -------------------------------------------------------------------------------- */
 .uniform3-border{ border: 1px solid #dfdfdf; padding-bottom: 10px;}
-.uniform3 img{/* width: 100%; */}
+.uniform3 img{width: 100%;}
 .uniform3 .shop img{width: auto;}
 .photography-title h2 em{ font-style: normal; font-size: 12px; color: #666;}
 .banquet-price{font-size: 12px; color: #666;}
@@ -295,25 +286,24 @@ body{ font-family: "Microsoft YaHei";}
 
 /* hunsha-sheying
 -------------------------------------------------------------------------------- */
-.zhutu{ display: block; width: 307px; height: 226px; float: left; text-align: center; line-height: 226px;background-color: #f8f8f8;}
-.zhutu img{ max-width: 100%; max-height: 100%;_width: 100%; _height: 100%;}
+.zhutu{ display: block; width: 307px; height: 226px; float: left;}
+.zhutu img{ width: 100%; height: 100%;}
 .right-img-box{ width: 75px; float: right;}
-.right-img-box a{ display: block; width: 75px; height: 55px; text-align: center; margin-bottom: 2px;_margin-bottom: 1px; line-height: 55px;*line-height: 0; font-size: 0;background-color: #f8f8f8;}
-.right-img-box a img{max-width: 100%; max-height: 100%;_width: 100%; _height: 100%; vertical-align: middle;}
+.right-img-box a{ display: block; width: 75px; height: 55px; margin-bottom: 2px;_margin-bottom: 1px; line-height: 0; font-size: 0;}
+.right-img-box a img{width: 100%; height: 100%;}
 
 /* hunli-taoxi
 -------------------------------------------------------------------------------- */
 .img3{ margin-bottom: 10px;}
-.img3 .zhutu3{ display: block; width: 384px; height: 216px; line-height: 216px; text-align: center; margin-bottom: 4px;}
-.img3 .zhutu3 img{max-width: 100%; max-height: 100%;}
+.img3 .zhutu3{ display: block; width: 384px; height: 216px; margin-bottom: 4px;}
+.img3 .zhutu3 img{ width: 100%; height: 100%;}
 .img3 .right-img-box3{ width:100%;}
-.img3 .right-img-box3 a{ display: block; width: 190px; height: 106px; text-align: center; line-height: 106px; float: left;}
+.img3 .right-img-box3 a{ display: block; width: 190px; height: 106px; float: left;}
 .img3 .right-img-box3 .img-first{ margin-right: 4px;}
-.img3 .right-img-box3 a img{max-width: 100%; max-height: 100%;}
+.img3 .right-img-box3 a img{width: 100%; height: 100%;}
 .module-left{ float: left; width: 100px; margin-left: 10px; _margin-left: 5px;}
 .module-right{ float: right; width: 244px; margin-right: 10px; _margin-right: 5px;}
 .module-left .counselor-img{ width: 50px; height: 50px; margin: 0 0 10px 25px;}
-.module-left .counselor-img a{ display: inline-block; width: 100%; height: 100%; line-height: 50px; text-align: center;}
 .module-left h4{ font-size: 13px; text-align: center; margin-bottom: 10px; font-weight: normal;}
 .module-left h4 a{ display: block; width: 100%; height: 14px; overflow: hidden;text-overflow:ellipsis; white-space: nowrap;}
 .module-left .price span{ font-size: 18px; color: white; background-color: #000; padding:0 10px; line-height: 24px;}
@@ -341,9 +331,8 @@ body{ font-family: "Microsoft YaHei";}
 .hunliren-info-box{ padding-top: 10px;}
 .hunliren-introduce{ float: left;margin-left: 10px;_margin-left: 5px; width: 145px; padding-top: 6px; text-align: center;}
 .hunliren-introduce .counselor-img{ margin: 0 auto 6px;}
-.hunliren-introduce .counselor-img{width: 100px; height: 100px;}
-.hunliren-introduce .counselor-img a { display: inline-block; height: 100%; line-height: 100px; text-align: center; width: 100%; }
-.hunliren-introduce .counselor-img a img { max-height: 100%; max-width: 100%;}
+.hunliren-introduce .counselor-img,
+.hunliren-introduce .counselor-img img{width: 100px; height: 100px;}
 .hunliren-zuopin{ float: right;margin-right: 10px;_margin-right: 5px; width: 200px;}
 
 .mark-box{ font-size: 12px; margin-bottom: 10px;}
@@ -359,8 +348,8 @@ body{ font-family: "Microsoft YaHei";}
 
 .magnum-opus1{ margin-bottom: 22px;}
 .magnum-opus{ line-height: 0;}
-.magnum-opus .zuopin-img{ display: inline-block; width: 100%; height: 128px; text-align: center; line-height: 128px;}
-.magnum-opus .zuopin-img img{ max-width: 100%; max-height: 128px; _width: 100%; _height: 128px;}
+.magnum-opus .zuopin-img{ display: inline-block;}
+.magnum-opus .zuopin-img img{ width: 100%; height: 128px;}
 .magnum-opus h3{font-size: 0; line-height: 20px; font-size: 14px; font-weight: normal; margin-bottom: 4px;}
 .magnum-opus h3 a{ width: 120px; float: left;}
 .magnum-opus h3 span{ width: 70px; float: right; text-align: right;}
@@ -443,9 +432,8 @@ body{ font-family: "Microsoft YaHei";}
 .fanan-info-inner{ padding: 16px 10px 0 0; border-right: 1px solid #dfdfdf;}
 .fangan-gaiyao{ float: right; width: 978px; line-height: 0; font-size: 0;}
 .fanan-info .counselor-img{ margin: 0 auto 10px;}
-.fanan-info .counselor-img{ width: 100px; height: 100px;}
-.fanan-info .counselor-img a{ display: inline-block; width: 100%; height: 100%; line-height: 100px; background-color: #f7f6f3;}
-.fanan-info .counselor-img img{ max-width: 100%; max-height: 100%;}
+.fanan-info .counselor-img,
+.fanan-info .counselor-img img{ width: 100px; height: 100px;}
 .fanan-info h4{ margin-bottom: 6px; font-weight: normal; font-size: 13px;}
 .fanan-info .caozuo{margin-bottom: 70px;}
 .fangan-jianjie{ font-size: 12px; color: #666; line-height: 18px; text-align: justify; margin-bottom: 40px; padding: 0 10px; height: 90px; overflow: hidden;}
@@ -514,9 +502,9 @@ body{ font-family: "Microsoft YaHei";}
 .invitation-person-img{ float: left; width: 110px;}
 
 .invitation-person-img{ text-align: center;}
-.invitation-person-img .counselor-img{ margin: 0 auto 16px;width: 70px; height: 70px;}
-.invitation-person-img .counselor-img a{ display: inline-block; width: 100%; height: 100%; line-height: 70px;}
-.invitation-person-img .counselor-img img{max-width: 100%; max-height: 100%;_width: 100%; _height: 100%;}
+.invitation-person-img .counselor-img{ margin: 0 auto 16px;}
+.invitation-person-img .counselor-img,
+.invitation-person-img .counselor-img img{ width: 70px; height: 70px;}
 .caozuo .zuopin { font-size: 12px; color: #333; margin-left: 10px;}
 .caozuo .zuopin em{ font-style: normal; color: #d20404;}
 
@@ -551,8 +539,7 @@ body{ font-family: "Microsoft YaHei";}
 .left-hunliren-inner .left-bar .counselor-img{ margin: 30px auto 10px;}
 
 .left-hunliren-inner .left-bar .counselor-img,
-.left-hunliren-inner .left-bar .counselor-img a,
-.left-hunliren-inner .left-bar .counselor-img img{ max-width: 150px; max-height: 150px; _width: 150px; _height: 150px;}
+.left-hunliren-inner .left-bar .counselor-img img{ width: 150px; height: 150px;}
 
 .left-hunliren-inner .left-bar h4{ font-weight: normal; font-size: 18px; margin-bottom: 10px; line-height: 20px;}
 .left-hunliren-inner .left-bar h5{ font-weight: normal; font-size: 14px; margin-bottom: 12px;}
@@ -585,15 +572,14 @@ body{ font-family: "Microsoft YaHei";}
 .label-big-img{ width: 728px; float: left;}
 .label-mini-img{ width: 472px; float: right;}
 .label-module-img{ width: 100%;}
-.label-module-img .main-img img{ max-width: 728px; max-height: 410px; _width: 728px; _height: 410px;}
+.label-module-img .main-img img{ width: 728px; height: 410px;}
 .label-module-img li{ float: left; width: 100%; position: relative; padding-bottom: 6px; line-height: 0;}
 .theme-module .label-module h2{ border: none; margin-bottom: 15px;}
 .theme-module .label-module h3{ color: #333; font-size: 14px; margin-bottom: 55px;}
 .theme-module .label-module .case-text{ line-height: 20px; font-size: 12px; color: #666; padding: 0 12px; text-align: justify; margin-bottom: 40px;}
 .theme-module .label-module{ line-height: 1; position: absolute; left: 10px; top: 0; width: 150px; height: 382px; border: 1px solid #dadada; background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
-.label-mini-img li a{ display: block; width: 100%; height: 100%; line-height: 202px; text-align: center; background-color: #f7f6f3;}
 .label-mini-img li{ float: left; width: 230px; height: 202px; margin: 0 0 6px 6px;_display: inline; _margin-bottom: 3px;}
-.label-mini-img li img{ max-width: 100%; max-height: 100%; _width: 100%; _height: 100%;}
+.label-mini-img li img{ width: 100%; height: 100%;}
 
 /* hunsha-sheying-neiye
 -------------------------------------------------------------------------------- */
