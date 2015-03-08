@@ -62,37 +62,37 @@
 			<h2><a class="title-main" href="javascript:void(0)">作品图片</a></h2>
 			<ul class="gallery clearfix">
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li>
-					<a href="javascript:void(0)"><img src="images/DSC_0008-69x69.jpg" /></a>
+					<a href="images/DSC_0008-660x441.jpg"><img src="images/DSC_0008-69x69.jpg" /><span></span></a>
 				</li>
 				<li class="next-page">
 					<a href="javascript:void(0)"><i>下一页</i></a>
@@ -104,6 +104,16 @@
 
 <!-- footer -->
 <!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+		//婚礼现场
+		$('.gallery > li > a').hover(function(){
+			$(this).find('span').addClass('mark-span');
+		},function(){
+			$(this).find('span').removeClass('mark-span');
+		})
+	})
+</script>
 <script>
 $(document).ready(function(e) {
     var unslider04 = $('#b04').unslider({

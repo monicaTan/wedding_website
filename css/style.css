@@ -488,7 +488,7 @@ body{ font-family: "Microsoft YaHei";}
 
 .zoomed > .container{-webkit-filter:blur(3px);filter:blur(3px);}
 .container{width:505px;margin:0 auto;}
-.gallery{padding: 1px 0 0 1px; background-color: #dfdfdf;}
+.gallery{padding: 1px 0 0 1px;}
 .gallery li{float:left;padding:0 1px 1px 0; width: 298px;}
 .gallery li a,.gallery li img{float:left; display: block; width: 298px; height: 220px;}
 .gallery li a{ position: relative;}
@@ -620,7 +620,7 @@ body{ font-family: "Microsoft YaHei";}
 .gallery2 li a span{ text-align: center; line-height: 220px; cursor: pointer; position: absolute; left: 0; top: 0; width: 298px; height: 220px; display: none; background: url("../images/fd2982.png") center center no-repeat;}
 .gallery2 li a span em{ padding: 6px 10px; font-style: normal; font-size: 13px; color: white; background-color: black;}
 .gallery2 li a .mark-span{display: block;}
-.next-page a{ line-height: 220px; text-align: center; color: #333;}
+.next-page a{ line-height: 220px; text-align: center; color: #333;background-color: #dfdfdf;}
 .next-page a i{ font-style: normal; padding-right: 34px; background: url("../images/next-page.png") right center no-repeat; font-size: 24px;}
 .next-page a:hover{ color: #29b4bd;}
 .next-page a:hover i{ background: url("../images/next-page-blue.png") right center no-repeat;}
