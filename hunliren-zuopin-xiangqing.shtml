@@ -65,7 +65,7 @@
 					<div class="fanan-info-inner">
 						<div class="counselor-img">
 	                    	<a href="javascript:void(0)">
-	                    		<img class="lazy" src="images/user.jpg">
+	                    		<img class="lazy" data-original="images/user.jpg">
 	                    		<img src="images/circle100.png" class="avatar_cover">
 	                    	</a>
 	                    </div>
@@ -211,7 +211,7 @@
 						<div class="invitation-person-img">
 							<div class="counselor-img">
 	                        	<a href="javascript:void(0)">
-	                        		<img src="images/user.jpg" class="lazy">
+	                        		<img data-original="images/user.jpg" class="lazy">
 	                        		<img class="avatar_cover" src="images/circle.png">
 	                        	</a>
 	                        </div>
@@ -226,7 +226,7 @@
 						<div class="invitation-person-img">
 							<div class="counselor-img">
 	                        	<a href="javascript:void(0)">
-	                        		<img src="images/user.jpg" class="lazy">
+	                        		<img data-original="images/user.jpg" class="lazy">
 	                        		<img class="avatar_cover" src="images/circle.png">
 	                        	</a>
 	                        </div>
