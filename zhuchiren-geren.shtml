@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>主持人个人页</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="main-content-inner">
+		<div class="banner-box banner-box-geren clearfix">
+			<div class="left-hunliren">
+				<div class="left-hunliren-inner clearfix">
+					<div class="left-bar">
+						<div class="counselor-img">
+                        	<a href="javascript:void(0)">
+                        		<img src="images/user.jpg" class="lazy">
+                        		<img class="avatar_cover" src="images/circle150.png">
+                        	</a>
+                        </div>
+                        <h4>
+	                    	<a href="javascript:void(0)">脆皮</a>
+	                    </h4>
+	                    <p class="mark-box">
+                        	<span class="personal-mark">主持人</span>&nbsp;&nbsp;
+                        	<span>从业3年</span>
+                        </p>
+						<p class="platform-price">
+                        	<span class="price-span">￥48000</span>
+                        </p>
+                        <p class="star star3">&nbsp;</p><!--star1 —— star5 -->
+						<p class="personal-achievement clearfix">
+                        	<span>
+                        		<em>6</em><br>作品
+                        	</span>
+                        	<span>
+                        		<em>8</em><br>人气
+                        	</span>
+                        </p>
+					</div>
+					<div class="middle-bar">
+						<div class="keywords"></div>
+						<div class="middle-text">2007年从业至今 丰富强有力的创意执行能力，执着于手工创作，喜欢研究不同材料质感的呈 现效果与应用。 Even的婚礼梦想：希望有一个移动的婚礼集装箱，游走世界每一个角落喜欢研究不同材料质感的呈 现效果与应用。 Even的婚礼梦想：希望有一个移动的婚礼集装箱，游走世界每一个角落 </div>
+					</div>
+					<div class="right-bar">
+						<h2>怎样寻找满意的婚礼人？</h2>
+						<dl>
+							<dt>1.提交信息</dt>
+							<dd>我们帮您推荐预约婚礼人</dd>
+						</dl>
+						<dl>
+							<dt>2.线下沟通需求</dt>
+							<dd>免费为您策划方案</dd>
+						</dl>
+						<dl>
+							<dt>3.选择满意的婚礼人</dt>
+							<dd>选择婚礼人，帮您组建婚礼团队</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="right-info">
+				<div class="counselor clearfix">
+                    <div class="counselor-img">
+                    	<img class="lazy" src="images/user.jpg">
+                    	<img class="avatar_cover" src="images/circle50.png">
+                    </div>
+                    <span class="counselor-name">婚礼顾问1:扭彬</span>
+                    <a class="counselor-change" href="javascript:void(0)">换一个 ></a>
+                </div>
+                <p class="counselor-introduction">曾就职于多家婚礼机构，上百场婚礼执行经验，让我帮您开始着手筹备婚礼吧！</p>
+                <div class="consult">
+                	<h3>免费接听婚礼咨询热线</h3>
+                	<div class="input-box clearfix">
+                		<input type="text" placeholder="您的电话" maxlength="11" class="your-tel" id="j-ser-tel">
+                		<input type="submit" id="j-btn-consult" class="consult-btn" value="免费咨询">
+                	</div>
+                	<h4>我们的婚礼顾问会在稍后回拨您</h4>
+                </div>
+                <h3 class="consult-online">线上咨询</h3>
+                <div class="kefu clearfix">
+                	<span>
+                		<a class="qq-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">客服一</a>
+                	</span>
+                	<span>
+                		<a class="qq-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">客服一</a>
+                	</span>
+                	<span>
+                		<a class="qq-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">客服一</a>
+                	</span>
+                	<span>
+                		<a class="weixin-icon" href="javascript:void(0)"></a>
+                		<a href="javascript:void(0)">微信</a>
+                	</span>
+                </div>
+                <h3 class="consult-online">热线电话</h3>
+                <div class="consult-tel">
+                	<img src="images/tel.png" alt="400-800-6868">
+                </div>
+			</div>
+		</div>
+		
+		<div class="theme-module">
+			<h2>
+				<a class="title-main" href="javascript:void(0)">服务项目</a>
+			</h2>
+			<div class="content-inner">
+				<div class="service-details">
+					<h2>为客户提供的婚礼主持全程一对一咨询、统筹服务，包括以下几个方面</h2>
+					<dl class="clearfix">
+						<dt>1</dt>
+						<dd>前期与新人见面洽谈</dd>
+					</dl>
+					<dl class="clearfix">
+						<dt>2</dt>
+						<dd>婚礼前一天彩排一次，以及整场婚礼执行策划 全程跟随</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div class="theme-module geren-module">
+			<h2>
+				<a class="title-main" href="javascript:void(0)">个人作品</a>
+			</h2>
+			<div class="content-inner">
+				<div class="geren-theme clearfix">
+					<h3>主题婚礼：爱在西元前 </h3>
+					<small>
+						<span>运城大酒店</span>
+						<span>2014.06.08</span>
+						<span><i class="fa fa-eye"></i>100人阅读</span>
+						<span><i class="fa fa-heart-o"></i>60</span>
+					</small>
+					<a class="more-link" href="javascript:void(0)">查看更多》</a>
+				</div>
+				<div class="uniform3 clearfix">
+					<div class="col-3">
+						<a href="javascript:void(0)">
+							<img class="lazy" src="images/shipin.jpg" width="392" height="348">
+						</a>
+					</div>
+					<div class="col-3">
+						<a href="javascript:void(0)">
+							<img class="lazy" src="images/dian.jpg" width="392" height="348">
+						</a>
+					</div>
+					<div class="col-3 four-img">
+						<a href="javascript:void(0)">
+							<img class="lazy" src="images/dian.jpg" width="192" height="170">
+						</a>
+						<a href="javascript:void(0)">
+							<img class="lazy" src="images/dian.jpg" width="192" height="170">
+						</a>
+						<a href="javascript:void(0)">
+							<img class="lazy" src="images/dian.jpg" width="192" height="170">
+						</a>
+						<a href="javascript:void(0)">
+							<img class="lazy" src="images/dian.jpg" width="192" height="170">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+<script type="text/javascript">
+	$(function(){
+		//列表
+		$('.uniform3 > .four-img > a').addClass('mar8');
+		$('.uniform3 > .four-img > a:nth-child(2n)').css({"margin-right":0});
+		$('.uniform3 > .four-img > a:nth-child(3),.uniform3 > .four-img > a:nth-child(4)').css({"margin-bottom":0});
+	})
+</script>
+</body>
+</html>

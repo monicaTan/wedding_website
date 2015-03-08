@@ -160,6 +160,7 @@ body{ font-family: "Microsoft YaHei";}
 .label-module .team-members p{ line-height: 20px;}
 .platform-price{ text-align: center; margin-bottom: 10px; *margin-bottom: 6px; line-height: 1px;}
 .platform-price span{ display: inline-block; color: white; background-color: #000; font-size: 13px; line-height: 13px; font-family: SimHei; padding: 8px 10px;}
+.platform-price .price-span{ display: inline-block; color: white; background-color: #000; font-size: 18px; font-family: SimHei; line-height: 22px; font-family: SimHei; padding: 0 10px;}
 .address{ text-align: center; font-size: 12px;}
 .address i{ color: #5da8a1; margin-right: 6px;}
 .more-link{ text-align: center;}
@@ -334,6 +335,11 @@ body{ font-family: "Microsoft YaHei";}
 .hunliren-introduce .counselor-img,
 .hunliren-introduce .counselor-img img{width: 100px; height: 100px;}
 .hunliren-zuopin{ float: right;margin-right: 10px;_margin-right: 5px; width: 200px;}
+.hunliren-introduce-list .hunliren-focus { text-align: right;}
+.hunliren-focus span{ color: #999; font-size: 12px; line-height: 30px; padding-right: 10px;}
+.hunliren-focus .fa{margin-right: 4px;}
+.hunliren-focus .fa-heart-o{ color: #d20404;}
+
 
 .mark-box{ font-size: 12px; margin-bottom: 10px;}
 .mark-box span{ display: inline-block; padding: 2px;}
@@ -342,14 +348,17 @@ body{ font-family: "Microsoft YaHei";}
 .line-grey{ font-size: 0; line-height: 0; height: 1px; width: 100%; border-bottom: 1px solid #eeeeee; margin-bottom: 10px;}
 .line-grey-short{ width: 114px; margin: 0 auto 2px;}
 .introduce-text{ font-size: 12px; line-height: 18px; text-align: justify; height: 108px; overflow: hidden; margin-bottom: 10px; color: #666;}
+.hunliren-introduce-list .introduce-text{height: 110px; line-height: 22px; color: #999;}
 .personal-achievement{ padding-left: 15px;}
 .personal-achievement span{display: block; width: 57px; float: left; line-height: 20px; font-size: 12px;}
 .personal-achievement em{ font-style: normal;font-size: 12px; color: #d20404;}
 
 .magnum-opus1{ margin-bottom: 22px;}
 .magnum-opus{ line-height: 0;}
+.hunliren-introduce-list .magnum-opus{ border: 1px solid #dedede; background-color: white;}
 .magnum-opus .zuopin-img{ display: inline-block;}
 .magnum-opus .zuopin-img img{ width: 100%; height: 128px;}
+.hunliren-introduce-list .hunliren-zuopin img{ height: 150px;}
 .magnum-opus h3{font-size: 0; line-height: 20px; font-size: 14px; font-weight: normal; margin-bottom: 4px;}
 .magnum-opus h3 a{ width: 120px; float: left;}
 .magnum-opus h3 span{ width: 70px; float: right; text-align: right;}
@@ -544,7 +553,7 @@ body{ font-family: "Microsoft YaHei";}
 .left-hunliren-inner .left-bar h4{ font-weight: normal; font-size: 18px; margin-bottom: 10px; line-height: 20px;}
 .left-hunliren-inner .left-bar h5{ font-weight: normal; font-size: 14px; margin-bottom: 12px;}
 .left-hunliren-inner .left-bar .mark-box { margin: 0 0 25px;}
-.left-hunliren-inner .left-bar .mark-box .personal-mark{ margin: 0; padding: 0 8px; color: #333;}
+.left-hunliren-inner .left-bar .mark-box .personal-mark{ margin: 0; padding: 2px 8px; color: #333; display: inline-block;}
 .left-hunliren-inner .left-bar .personal-achievement{padding-left: 43px; margin-bottom: 30px;}
 .left-hunliren-inner .left-bar .personal-achievement span{ font-size: 14px;}
 .star{ height: 15px; line-height: 15px; font-size: 0; background: url("../images/star.png") center top no-repeat; margin-bottom: 65px;}
@@ -627,6 +636,32 @@ body{ font-family: "Microsoft YaHei";}
 .table-img{ width: 892px; border: 1px solid #f0f0f0; padding: 20px 0 0 6px;}
 .table-img img{ width: 440px; height: 310px; float: left; margin:  10px 6px 10px 0;}
  
+
+/* zhuchiren-geren
+-------------------------------------------------------------------------------- */
+.geren-module .col-3{ width: 392px;}
+.geren-module .col-3-mar{ margin-right: 12px;}
+.geren-module .four-img a{ display: block; width: 192px; height: 170px; float: left; margin-bottom: 8px;}
+.geren-module .four-img .mar8{ margin-right: 8px;}
+.geren-module .four-img a img{width: 100%; height: 100%;}
+
+.geren-theme{ line-height: 22px; padding: 10px 0 20px;}
+.geren-theme h3,
+.geren-theme small{ float: left;}
+.geren-theme .more-link{ float: right; font-size: 14px;}
+.geren-theme h3{ border-left: 4px solid #29b4bd; font-size: 18px; color: #29b4bd; padding-left: 10px;}
+.geren-theme small{ font-size: 12px; color: #999; padding-left: 50px;}
+.geren-theme small span{padding-right: 14px;}
+.geren-theme small span .fa{margin-right: 4px;}
+.geren-theme small span .fa-heart-o{color: #d20404;}
+.left-hunliren-inner .left-bar .mark-box{margin-bottom: 34px;}
+
+
+/* zhuchiren-zuopin-xiangqing
+-------------------------------------------------------------------------------- */
+.area-block .area-title{color: #29b4bd; font-size: 14px; line-height: 26px;}
+.area-block .area-block-p2{ font-size: 12px; line-height: 22px; height: 44px;}
+.liangdian{ margin-bottom: 70px;}
 
 
 /* register-login
