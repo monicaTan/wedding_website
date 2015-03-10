@@ -172,7 +172,7 @@ body{ font-family: "Microsoft YaHei";}
 /* wedding-planner
 -------------------------------------------------------------------------------- */
 .wedding-planer .flowers-title{ margin-bottom: 45px;}
-.theme-nav{ padding: 0 70px 68px;}
+.theme-nav{ padding: 0 176px 68px;}
 .theme-nav dl{ width: 212px; float: left; text-align: center;}
 .theme-nav dt a{display: inline-block; *display: block; width: 70px; height: 70px; line-height: 0; background: url("../images/theme.png") left top no-repeat;}
 .theme-nav dl dd a{ color: #333; font-size: 16px;}

@@ -278,14 +278,14 @@
 				<h2><img src="images/title_04.jpg" alt="婚礼人"></h2>
 			</div>
 			<div class="theme-nav clearfix">
-				<dl class="theme1">
+				<!-- <dl class="theme1">
 					<dt>
 						<a href="javascript:void(0)">策划与场布</a>
 					</dt>
 					<dd>
 						<a href="javascript:void(0)">策划与场布</a>
 					</dd>
-				</dl>
+				</dl> -->
 				<dl class="theme2">
 					<dt>
 						<a href="javascript:void(0)">主持人</a>
@@ -296,18 +296,18 @@
 				</dl>
 				<dl class="theme3">
 					<dt>
-						<a href="javascript:void(0)">婚礼跟拍摄像</a>
+						<a href="javascript:void(0)">摄像师</a>
 					</dt>
 					<dd>
-						<a href="javascript:void(0)">婚礼跟拍摄像</a>
+						<a href="javascript:void(0)">摄像师</a>
 					</dd>
 				</dl>
 				<dl class="theme4">
 					<dt>
-						<a href="javascript:void(0)">跟拍摄像</a>
+						<a href="javascript:void(0)">摄影师</a>
 					</dt>
 					<dd>
-						<a href="javascript:void(0)">跟拍摄像</a>
+						<a href="javascript:void(0)">摄影师</a>
 					</dd>
 				</dl>
 				<dl class="theme5">
