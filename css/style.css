@@ -438,6 +438,7 @@ body{ font-family: "Microsoft YaHei";}
 .theme-module h2 .title-main{display: inline-block; color: white; height: 34px; line-height: 34px; padding: 0 25px; background-color: #29b4bd;}
 
 .content-inner-bd{ border: 1px solid #dfdfdf; margin-bottom: 30px;}
+.content-xianchang{ margin-bottom: 30px;}
 .fanan-info{ float: left; width:210px; padding: 10px 0 10px 10px; text-align: center;}
 .fanan-info-inner{ padding: 16px 10px 0 0; border-right: 1px solid #dfdfdf;}
 .fangan-gaiyao{ float: right; width: 978px; line-height: 0; font-size: 0;}
@@ -565,7 +566,7 @@ body{ font-family: "Microsoft YaHei";}
 .star5{ background-position: center -140px;}
 
 .keywords{ height: 298px; border-bottom: 2px solid white;}
-.middle-text{ font-size: 12px; line-height: 22px; color: #666; text-align: justify; padding: 16px 0; height: 88px; overflow: hidden;}
+.middle-text{ font-size: 12px; line-height: 22px; color: #666; text-align: justify; padding: 16px 0 0; height: 106px; overflow: hidden;}
 
 .right-bar h2{ margin: 25px 0 40px; font-size: 14px; font-weight: bold; color: #fe9f1b; text-align: center;}
 .right-bar dl{ margin-bottom: 52px;}
