@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{ font-family: "Microsoft YaHei";}
-.lazy{ background: url("../images/240.gif") center center no-repeat;}
+.lazy{ background: url("../images/240.gif") center center no-repeat #f3f3f3;}
 /*gotop*/
 .cbbfixed {position: fixed;right: 10px;transition: bottom ease .3s;bottom: -85px;z-index: 3;cursor:pointer;}
 .cbbfixed .cbbtn {width: 40px;height: 40px;display: block;background-color: #29b4bd;}
@@ -356,7 +356,7 @@ body{ font-family: "Microsoft YaHei";}
 .magnum-opus1{ margin-bottom: 22px;}
 .magnum-opus{ line-height: 0;}
 .hunliren-introduce-list .magnum-opus{ border: 1px solid #dedede; background-color: white;}
-.magnum-opus .zuopin-img{ display: inline-block;}
+.magnum-opus .zuopin-img{ display: block;}
 .magnum-opus .zuopin-img img{ width: 100%; height: 128px;}
 .hunliren-introduce-list .hunliren-zuopin img{ height: 150px;}
 .magnum-opus h3{font-size: 0; line-height: 20px; font-size: 14px; font-weight: normal; margin-bottom: 4px;}
