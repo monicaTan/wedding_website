@@ -309,6 +309,132 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-3">
+					<div class="uniform3-bg">
+						<div class="hunliren-info-box hunliren-introduce-list clearfix">
+							<div class="hunliren-introduce">
+								<div class="counselor-img">
+		                        	<a href="javascript:void(0)">
+		                        		<img src="images/user.jpg" class="lazy">
+		                        		<img class="avatar_cover" src="images/f8.png">
+		                        	</a>
+		                        </div>
+		                        <h4>
+			                    	<a href="javascript:void(0)">脆皮</a>
+			                    </h4>
+			                    <p class="platform-price">
+		                        	<span class="price-span">￥48000</span>
+		                        </p>
+		                        <p class="mark-box">
+		                        	<span class="personal-mark">策划师</span>
+		                        	<span>从业3年</span>
+		                        </p>
+		                        <div class="line-grey">&nbsp;</div>
+		                        <p class="introduce-text">
+		                        	我是一个务实派,追求完美，婚礼
+									策划其实包括着很多
+									的细节，酒店的选择，
+									布置的细节，人员的配合，
+									后期的沟通……我会仔细
+									的确认每一个细节
+		                        </p>
+		                        <div class="line-grey line-grey-short">&nbsp;</div>
+		                        <p class="personal-achievement clearfix">
+		                        	<span>
+		                        		<em>6</em><br/>作品
+		                        	</span>
+		                        	<span>
+		                        		<em>8</em><br/>人气
+		                        	</span>
+		                        </p>
+							</div>
+							<div class="hunliren-zuopin">
+								<div class="magnum-opus magnum-opus1">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<p class="hunliren-focus">
+										<span><i class="fa fa-eye"></i>100人阅读</span>
+										<span><i class="fa fa-heart-o"></i>60</span>
+									</p>
+								</div>
+
+								<div class="magnum-opus">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<p class="hunliren-focus">
+										<span><i class="fa fa-eye"></i>100人阅读</span>
+										<span><i class="fa fa-heart-o"></i>60</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="uniform3-bg">
+						<div class="hunliren-info-box hunliren-introduce-list clearfix">
+							<div class="hunliren-introduce">
+								<div class="counselor-img">
+		                        	<a href="javascript:void(0)">
+		                        		<img src="images/user.jpg" class="lazy">
+		                        		<img class="avatar_cover" src="images/f8.png">
+		                        	</a>
+		                        </div>
+		                        <h4>
+			                    	<a href="javascript:void(0)">脆皮</a>
+			                    </h4>
+			                    <p class="platform-price">
+		                        	<span class="price-span">￥48000</span>
+		                        </p>
+		                        <p class="mark-box">
+		                        	<span class="personal-mark">策划师</span>
+		                        	<span>从业3年</span>
+		                        </p>
+		                        <div class="line-grey">&nbsp;</div>
+		                        <p class="introduce-text">
+		                        	我是一个务实派,追求完美，婚礼
+									策划其实包括着很多
+									的细节，酒店的选择，
+									布置的细节，人员的配合，
+									后期的沟通……我会仔细
+									的确认每一个细节
+		                        </p>
+		                        <div class="line-grey line-grey-short">&nbsp;</div>
+		                        <p class="personal-achievement clearfix">
+		                        	<span>
+		                        		<em>6</em><br/>作品
+		                        	</span>
+		                        	<span>
+		                        		<em>8</em><br/>人气
+		                        	</span>
+		                        </p>
+							</div>
+							<div class="hunliren-zuopin">
+								<div class="magnum-opus magnum-opus1">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<p class="hunliren-focus">
+										<span><i class="fa fa-eye"></i>100人阅读</span>
+										<span><i class="fa fa-heart-o"></i>60</span>
+									</p>
+								</div>
+
+								<div class="magnum-opus">
+									<a class="zuopin-img" href="javascript:void(0)">
+										<img class="lazy" src="images/dian2.jpg" alt="200x128">
+									</a>
+									<p class="hunliren-focus">
+										<span><i class="fa fa-eye"></i>100人阅读</span>
+										<span><i class="fa fa-heart-o"></i>60</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<!-- 分页 -->

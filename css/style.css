@@ -144,11 +144,12 @@ body{ font-family: "Microsoft YaHei";}
 .title-line{ height: 2px; width: 100%; background-color: #f1f1f1; text-indent: -9999px; position: absolute; top: 50%; margin-top: -1px; z-index: 1; font-size: 0;}
 .flowers-title h2{ position: relative;z-index: 2; text-align: center;}
 .uniform2 li{ float: left; width: 600px; position: relative; padding-bottom: 20px;}
-.uniform2 li .label-module{position: absolute; right: 18px; top: 0; width: 150px; height: 328px; border: 1px solid #dadada;background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
+.uniform2 li .label-module{position: absolute; right: 18px; top: 0; width: 120px; padding: 0 15px; height: 328px; border: 1px solid #dadada;background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
 .main-img img{ width: 600px; height: 358px;}
 .label-module .counselor-img img{ border-radius: 50%;}
 .label-module .counselor-img { width: 50px; height: 50px; margin: 12px auto 8px;}
 .label-module h2{ text-align: center; font-size: 14px; font-weight: normal; margin-bottom: 10px;}
+.uniform2 .label-module h2{height: 14px; overflow: hidden;}
 .label-module h2 a{ color: #333;}
 .label-module h2 a:hover{ color: #29b4bd;}
 .caozuo{ text-align: center; font-size: 12px; margin-bottom: 14px;}
@@ -156,12 +157,14 @@ body{ font-family: "Microsoft YaHei";}
 .caozuo .heart i{ margin-right: 4px;}
 .shop{ margin-left: 18px;}
 .label-module h3{ font-size: 12px; font-weight: normal; text-align: center; color: #29b4bd; margin-bottom: 20px;}
-.label-module .team-members{ text-align: center; font-size: 12px; margin-bottom: 30px;}
-.label-module .team-members p{ line-height: 20px;}
+.uniform2 .label-module h3{height: 12px; overflow: hidden;}
+.label-module .team-members{ text-align: center; font-size: 12px; margin-bottom: 30px; text-align: left;}
+.label-module .team-members p{ line-height: 20px; height: 20px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden; padding: 0 12px;}
 .platform-price{ text-align: center; margin-bottom: 10px; *margin-bottom: 6px; line-height: 1px;}
-.platform-price span{ display: inline-block; color: white; background-color: #000; font-size: 13px; line-height: 13px; font-family: SimHei; padding: 8px 10px;}
+.platform-price span{ display: inline-block; color: white; background-color: #000; font-size: 13px; line-height: 13px; font-family: SimHei; padding: 8px 10px; *white-space: nowrap;}
 .platform-price .price-span{ display: inline-block; color: white; background-color: #000; font-size: 18px; font-family: SimHei; line-height: 22px; font-family: SimHei; padding: 0 10px;}
 .address{ text-align: center; font-size: 12px;}
+.uniform2 .address{height: 13px; overflow: hidden;white-space: nowrap; text-overflow:ellipsis;}
 .address i{ color: #5da8a1; margin-right: 6px;}
 .more-link{ text-align: center;}
 .more-link a{ display: inline-block; color: white; background-color: #29b4bd; font-size: 16px; padding: 12px 90px; *padding: 10px 90px;}
@@ -587,6 +590,8 @@ body{ font-family: "Microsoft YaHei";}
 .label-module-img li{ float: left; width: 100%; position: relative; padding-bottom: 6px; line-height: 0;}
 .theme-module .label-module h2{ border: none; margin-bottom: 15px;}
 .theme-module .label-module h3{ color: #333; font-size: 14px; margin-bottom: 55px;}
+.theme-module .label-img-module .label-module h2,
+.theme-module .label-img-module .label-module h3{ height: 14px; overflow: hidden; padding: 0 12px;}
 .theme-module .label-module .case-text{ line-height: 20px; font-size: 12px; color: #666; padding: 0 12px; text-align: justify; margin-bottom: 40px;}
 .theme-module .label-module{ line-height: 1; position: absolute; left: 10px; top: 0; width: 150px; height: 382px; border: 1px solid #dadada; background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
 .label-mini-img li{ float: left; width: 230px; height: 202px; margin: 0 0 6px 6px;_display: inline; _margin-bottom: 3px;}
