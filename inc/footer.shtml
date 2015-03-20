@@ -64,6 +64,7 @@
 <script src="js/zoom.js"></script>
 <script src="js/jquery.lazyload.min.js"></script>
 <script type="text/javascript">
+	//主导航右侧下拉菜单
 	$(document).ready(function(){
 		$('.down-two li:eq(0)').css({"border-top":"none"});
 		$('.nav-down li').hover(function(){	
@@ -73,6 +74,7 @@
 		});	
 	});
 </script>
+
 <script type="text/javascript" charset="utf-8">
   $(function() {
   	//历史
