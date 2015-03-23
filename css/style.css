@@ -163,7 +163,7 @@ body{ font-family: "Microsoft YaHei";}
 .label-module h2 a{ color: #333;}
 .label-module h2 a:hover{ color: #29b4bd;}
 .caozuo{ text-align: center; font-size: 12px; margin-bottom: 14px;}
-.caozuo .heart{ color: #d20404;}
+.caozuo .heart{ color: #fc4a00;}
 .caozuo .heart i{ margin-right: 4px;}
 .shop{ margin-left: 18px;}
 .label-module h3{ font-size: 12px; font-weight: normal; text-align: center; color: #29b4bd; margin-bottom: 20px;}
@@ -210,7 +210,7 @@ body{ font-family: "Microsoft YaHei";}
 .theme-members .counselor-img img{ width: 70px; height: 70px;}
 .theme-members-head{ width: 239px; padding: 0 20px 0 24px; position: absolute; top: -28px;}
 .counselor-right{ width: 159px; float: right; font-size: 14px; line-height: 20px; padding-top: 30px;}
-.counselor-right .heart{ font-size: 12px; color: #d20404; margin-left: 20px;}
+.counselor-right .heart{ font-size: 12px; color: #fc4a00; margin-left: 20px;}
 .counselor-right .heart i{ margin-right: 4px;}
 .counselor-right .shop{ margin-left: 15px;}
 .counselor-right span{ font-size: 13px;}
@@ -231,7 +231,7 @@ body{ font-family: "Microsoft YaHei";}
 .photography-caozuo{ float: right;width: 55px; display: block;}
 .photography-caozuo .heart{ color: #666; font-size: 14px;}
 .photography-caozuo .heart:active,
-.photography-caozuo .heart:hover{ color: #d20404;}
+.photography-caozuo .heart:hover{ color: #fc4a00;}
 .photography-caozuo .shop{ margin-left: 10px;}
 .photography-price{ font-size: 13px; padding-left: 5px;}
 .photography-price em{ font-size: 12px; text-decoration: line-through; font-style: normal; color: #999; margin-left: 6px;}
@@ -351,7 +351,7 @@ body{ font-family: "Microsoft YaHei";}
 .hunliren-introduce-list .hunliren-focus { text-align: right;}
 .hunliren-focus span{ color: #999; font-size: 12px; line-height: 30px; padding-right: 10px;}
 .hunliren-focus .fa{margin-right: 4px;}
-.hunliren-focus .fa-heart-o{ color: #d20404;}
+.hunliren-focus .fa-heart-o{ color: #fc4a00;}
 
 
 .mark-box{ font-size: 12px; margin-bottom: 10px;}
@@ -364,7 +364,7 @@ body{ font-family: "Microsoft YaHei";}
 .hunliren-introduce-list .introduce-text{height: 110px; line-height: 22px; color: #999;}
 .personal-achievement{ padding-left: 15px;}
 .personal-achievement span{display: block; width: 57px; float: left; line-height: 20px; font-size: 12px;}
-.personal-achievement em{ font-style: normal;font-size: 12px; color: #d20404;}
+.personal-achievement em{ font-style: normal;font-size: 12px; color: #fc4a00;}
 
 .magnum-opus1{ margin-bottom: 22px;}
 .magnum-opus{ line-height: 0;}
@@ -403,7 +403,7 @@ body{ font-family: "Microsoft YaHei";}
 .paixu ul li p a:hover{ border: 1px solid #fe9f1b; color: white; background-color: #fe9f1b;}
 .paixu ul .page-li{ float: right; font-size: 0; position: absolute; right: 22px; top: 0; z-index: 4;}
 .page-li span{  font-size: 12px;}
-.page-li span em{ color: #d20404; font-style: normal;}
+.page-li span em{ color: #fc4a00; font-style: normal;}
 .paixu ul .page-li a{ padding: 0 8px; font-size: 12px;}
 .paixu ul .page-li .disabled{ color: #ccc; cursor: not-allowed;}
 .paixu ul .page-li a:hover{background-color: #f7f7f7;}
@@ -530,7 +530,7 @@ body{ font-family: "Microsoft YaHei";}
 .invitation-person-img .counselor-img,
 .invitation-person-img .counselor-img img{ width: 70px; height: 70px;}
 .caozuo .zuopin { font-size: 12px; color: #333; margin-left: 10px;}
-.caozuo .zuopin em{ font-style: normal; color: #d20404;}
+.caozuo .zuopin em{ font-style: normal; color: #fc4a00;}
 
 .invitation-person-jianjie{ float: right; width: 750px;}
 .invitation-person-jianjie h3{ font-weight: normal; font-size: 14px; margin: 5px 0 25px;}
@@ -670,7 +670,7 @@ body{ font-family: "Microsoft YaHei";}
 .geren-theme small{ font-size: 12px; color: #999; padding-left: 50px;}
 .geren-theme small span{padding-right: 14px;}
 .geren-theme small span .fa{margin-right: 4px;}
-.geren-theme small span .fa-heart-o{color: #d20404;}
+.geren-theme small span .fa-heart-o{color: #fc4a00;}
 .left-hunliren-inner .left-bar .mark-box{margin-bottom: 34px;}
 
 
@@ -756,12 +756,61 @@ body{ font-family: "Microsoft YaHei";}
 .module-ask .btn { background-color: #fe9f1b; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 12px 48px; display: inline-block;}
 .module-ask a:hover{ color: white;}
 .form-control dl dd .btn-warning { width: auto; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 0 48px; *padding: 0 24px; display: inline-block;background-color: #29b4bd; border:none; height: 38px; color: white; cursor: pointer;}
-.form-control dl dd p{ margin-top: 5px; color: #d20404; font-size: 14px;}
+.form-control dl dd p{ margin-top: 5px; color: #fc4a00; font-size: 14px;}
 .form-control dl dd .agreement-p{ margin-top: 40px; display: block;}
 .form-control dl dd .agreement{ font-size: 12px;}
 .form-control dl dd .checkbox-keep { font-size: 12px; color: #999; position: relative;}
 .form-control dl dd .checkbox { position: relative;}
 .form-control dl dd .forget{ position: absolute; right: 0; top: 0; font-size: 12px; line-height: 20px;}
+
+
+/* gerenzhongxin
+-------------------------------------------------------------------------------- */
+.list-personal{ border:1px solid #f4f4f4; width: 100%;}
+.list-personal tr th{ text-align: left; background-color: #f6f8fa; font-size: 14px; color: #666; height: 40px; vertical-align: middle; padding-left: 25px;}
+.list-personal tr td{ border-bottom:1px solid #f4f4f4;text-align: left; vertical-align: top; padding: 25px 0; font-size: 14px;overflow: hidden; }
+.list-personal tr td .check-box{ padding-left: 20px; display: block;}
+.list-personal tr td .list-state{ text-align: center; }
+.list-personal tr td .name-personal{ font-size: 18px;}
+.list-personal tr td .name-personal a{ color: #333;}
+.list-personal tr td .name-personal a:hover{color: #29b4bd;}
+.list-personal tr td .name-personal p{ padding: 10px 0;}
+.list-personal tr td .name-personal p span{ font-size: 12px; padding-right: 10px;}
+.list-personal tr td .name-personal p span em{ color: #fc4a00; margin-left: 4px;}
+.list-personal tr td .price-personal{ color: #999; font-size: 18px;}
+.list-personal tr td .price-personal span{text-decoration: line-through; display: inline-block; margin-bottom: 10px;}
+.list-personal tr td .price-personal em{ font-style: normal; color: #fff; background-color: #000; display: inline-block; height: 24px; line-height: 24px; padding: 0 8px;}
+.list-personal tr td .price-last em{ font-style: normal; color: #fc4a00; font-style: 18px;}
+.list-personal tr td .list-state{ color: #666; line-height: 24px;}
+.list-personal tr td .caozuo-list{ line-height: 24px;}
+.list-personal tr td .caozuo-list a{ color: #666; margin-bottom: 5px; display: inline-block;}
+.list-personal tr td .caozuo-list a:hover{color: #fc4a00;_color: #fff;}
+.list-personal tr td .caozuo-list .zhifu{ color: #fff; background-color: #fe9f1b; height: 24px; line-height: 24px; padding:0 10px;}
+.list-personal tr td .caozuo-list .zhifu:hover{ color: #fff;}
+.first-td{ width: 60px;}
+.second-td{ width: 130px;}
+.third-td{ width: 270px;}
+.fourth-td{ width: 150px;}
+.fifth-td{ width: 100px;}
+.sixth-td{ width: 240px;}
+.seventh-td{ width: 150px;}
+.list-personal .counselor-img{ width: 110px; height: 100px;}
+.list-personal .counselor-img img{ width: 100px; height: 100px;}
+
+.float-bar-holder{ position: relative; font-size: 14px; color: #666; height: 80px; background-color: #f6f8fa; margin-top: 20px;}
+.float-bar-holder a{ color: #666; line-height: 80px;}
+.float-bar-holder a:hover{ color: #fc4a00;}
+.select-all{ float: left; width: 70px; height: 80px; line-height: 80px; padding-left: 20px;_margin-top:28px; _height: auto;}
+.select-all input{margin-bottom: 0; margin-top: 0;}
+.operations{ float: left; height: 80px; line-height: 80px; font-size: 0;}
+.operations a{ margin-right: 20px; font-size: 14px;}
+.float-bar-right span{ padding: 0 13px;}
+.float-bar-right span em{ font-size: 24px; color: #fc4a00; font-style: normal;}
+.float-bar-right span,
+.float-bar-right a{ float: left;}
+.float-bar-right{position: absolute; right: 0; top: 0; z-index: 2; height: 80px; line-height: 80px;}
+.float-bar-right .jiesuan{ background-color: #29b4bd; color: #fff; font-size: 30px; display: block;height: 80px; line-height: 80px; width: 160px; text-align: center;}
+.float-bar-right .jiesuan:hover{ color: #fff;}
 
 
 
