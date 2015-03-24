@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>上传头像</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="main-content-inner">
+		<div class="modify-container">
+			<div class="modify-inner">
+				<h2>修改/上传头像</h2>
+				<div class="chuan">
+					<a class="click-chuan" href="javascript:void(0)">
+						<img src="images/chuan.jpg">
+					</a>
+					<p class="notice-text">仅支持JPG、JPEG、GIF、PNG格式的图片<br/>文件文件不能大于2MB</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+</body>
+</html>

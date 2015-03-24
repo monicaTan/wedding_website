@@ -700,10 +700,11 @@ body{ font-family: "Microsoft YaHei";}
 .form-control dl dt,
 .form-control dl dd{ float: left;}
 
-.form-control dl dt{width: 80px; margin-right: 10px; text-align: right; height: 38px; line-height: 38px; font-size: 14px; color: #666;}
+.form-control dl dt{width: 80px; margin-right: 10px; text-align: right; height: 40px; line-height: 40px; font-size: 14px; color: #666;}
 .form-control dl dd{ width: 310px;}
 .form-control dl dd input{ font-size: 12px;font-family: "Microsoft YaHei";}
-.form-control dl dd .form-in{ width: 300px; border: 2px solid #dfdfdf; height: 36px; *line-height: 36px; padding: 0 4px; color: #999; font-size: 12px;font-family: "Microsoft YaHei";}
+.form-control dl dd .form-in{ width: 300px; border: 2px solid #dfdfdf; border-radius: 6px; height: 38px; *line-height: 38px; padding: 0 4px; color: #999; font-size: 12px;font-family: "Microsoft YaHei";}
+.form-control dl dd .form-in:focus{border-color: #29b4bd;}
 .footer-entrance {background-color: #f0f2f5; padding-bottom: 30px;}
 .footer-entrance .footer-inner{ background-color: #f6f8fa; border-bottom: 3px solid #e3e4e8;}
 .footer-entrance .footer-inner .bottom-list2{padding-left: 70px;}
@@ -811,6 +812,15 @@ body{ font-family: "Microsoft YaHei";}
 .float-bar-right{position: absolute; right: 0; top: 0; z-index: 2; height: 80px; line-height: 80px;}
 .float-bar-right .jiesuan{ background-color: #29b4bd; color: #fff; font-size: 30px; display: block;height: 80px; line-height: 80px; width: 160px; text-align: center;}
 .float-bar-right .jiesuan:hover{ color: #fff;}
+
+.modify-inner{ width: 850px; margin: 30px auto 0; min-height: 450px; border:1px solid #dfdfdf;}
+.modify-inner h2{ background-color: #f6f8fa; font-size: 14px; color: #999; height: 48px; line-height: 48px; padding-left: 30px; font-weight: bold;}
+.modify-inner dl dd .btn-warning { width: auto; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 0 48px; *padding: 0 24px; display: inline-block;line-height: 38px; background-color: #fe9f1b; border:none; height: 38px; color: white; cursor: pointer;}
+.modify-inner .btn-link{ padding: 0 20px; font-size: 14px; color: #666;}
+.modify-inner .btn-link:hover{ color: #29b4bd;}
+.click-chuan{ display: block; width: 190px; height: 190px; margin: 70px auto 40px;border:2px dashed #fff;}
+.click-chuan:hover{ border:2px dashed #ddd;}
+.notice-text{ text-align: center; font-size: 14px; color: #999; line-height: 20px;}
 
 
 
