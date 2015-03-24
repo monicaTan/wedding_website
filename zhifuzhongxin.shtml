@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>支付中心</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+<!--#include file="inc/header.shtml"-->
+
+<!-- main-content -->
+<div class="main-content">
+	<div class="main-content-inner">
+		<div class="modify-container">
+			<form id="fastPayForm">
+				<div class="pay-inner">
+					<div class="main-max-module">
+						<h2 class="title-bg-grey">修改/上传头像</h2>
+						<div class="pay-user-module clearfix">
+							<div class="pay-user-image">
+								<div class="head-portrait">
+									<div class="counselor-img">
+			                        	<a href="">
+			                        		<img style="display: block;" src="images/user.jpg" data-original="images/user.jpg" class="lazy">
+			                        		<img class="avatar_cover" src="images/circle100.png">
+			                        	</a>
+			                        </div>
+								</div>
+							</div>
+							<div class="pay-info">
+								<!-- <p>
+									<span class="gold-coins-use">我的可用金币：<em>1000</em></span>
+									<span>可用余额：<em>200元</em></span>
+								</p>
+								<p>
+									<span>金币数：</span>
+									<input class="input-control" type="text" value="用户自己输入" >
+								</p> -->
+								<ul class="clearfix">
+									<li class="select-name">
+										<div class="name-personal">
+											<p class="name-title">
+												<a href="javascript:void(0)">诗谛婚礼</a>
+											</p>
+											<p>
+												<span>作品<em>8</em></span>
+												<span>人气<em>8</em></span>
+												<span>从业</span>
+											</p>
+										</div>
+									</li>
+									<li class="price-personal">
+										<span>￥58000</span><br>
+										<em>￥48000</em>
+									</li>
+									<li class="price-last">
+										<em>￥48000</em>
+									</li>
+									<li class="price-state">
+										等待付款
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="main-max-module">
+						<h2 class="title-bg-grey">选择支付方式</h2>
+						<div class="">
+							<div class="pay-bank-list clearfix">
+								<div class="row-basic clearfix">
+								    <input type="radio" id="weixin" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="weixin" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-WEIXIN" title="微信支付">微信支付</span>
+								            <span class="bank-showName">微信支付</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="zhifubao" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="zhifubao" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-ZHIFUBZO" title="支付宝">支付宝</span>
+								            <span class="bank-showName">支付宝</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="icbc" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="icbc" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-ICBC" title="中国工商银行">中国工商银行</span>
+								            <span class="bank-showName">中国工商银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="abc" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="abc" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-ABC" title="中国农业银行">中国农业银行</span>
+								            <span class="bank-showName">中国农业银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="cbc" name="apiCode" value="cb701" class="j-bank-radio channel-input">
+								    <label for="cbc" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-CBC" title="中国建设银行">中国建设银行</span>
+								            <span class="bank-showName">中国建设银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="psbc" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="psbc" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-PSBC" title="中国邮政">中国邮政</span>
+								            <span class="bank-showName">中国邮政</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="boc" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="boc" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-BOC" title="中国银行">中国银行</span>
+								            <span class="bank-showName">中国银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="bcm" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="bcm" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-BCM" title="交通银行">交通银行</span>
+								            <span class="bank-showName">交通银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="cmb" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="cmb" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-CMB" title="交通银行">交通银行</span>
+								            <span class="bank-showName">交通银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="cgb" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="cgb" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-CGB" title="广发银行">广发银行</span>
+								            <span class="bank-showName">广发银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="ceb" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="ceb" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-CEB" title="中国光大银行">中国光大银行</span>
+								            <span class="bank-showName">中国光大银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="cib" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="cib" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-CIB" title="兴业银行">兴业银行</span>
+								            <span class="bank-showName">兴业银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="bob" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="bob" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-BOB" title="北京银行">北京银行</span>
+								            <span class="bank-showName">北京银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="spd" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="spd" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-SPD" title="浦发银行">浦发银行</span>
+								            <span class="bank-showName">浦发银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="cmbc" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="cmbc" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-CMBC" title="中国民生银行">中国民生银行</span>
+								            <span class="bank-showName">中国民生银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="ccb" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="ccb" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-CCB" title="中信银行">中信银行</span>
+								            <span class="bank-showName">中信银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="hxb" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="hxb" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-HXB" title="华夏银行">华夏银行</span>
+								            <span class="bank-showName">华夏银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+								<div class="row-basic clearfix">
+								    <input type="radio" id="pab" name="apiCode" value="" class="j-bank-radio channel-input">
+								    <label for="pab" class="channel-label">
+								        <span class="j-card-element">
+								          <span class="bank-icon-container">
+								            <span class="bank-icon icon-cashier-PAB" title="平安银行">平安银行</span>
+								            <span class="bank-showName">平安银行</span>
+								          </span>
+								        </span>
+								    </label>
+								</div>
+							</div>
+
+							<div class="next-step">
+								<a class="warning-btn" href="javascript:void(0)">下一步</a>
+							</div>
+							<div class="problem-list">
+								<h2>付款遇到问题了？先看看是不是由于下面的原因：</h2>
+								<dl>
+									<dt>所需支付金额超过了银行支付限额？</dt>
+									<dd>建议先分若干次充值到趣炒股账户余额，或登录网上银行提高上限额度，即可轻松支付。</dd>
+								</dl>
+								<dl>
+									<dt>收不到银行的短信验证码？</dt>
+									<dd>建议重新获取短信验证码，如果还是收不到短信，直接打各银行的客服电话获取短信验证码。</dd>
+								</dl>
+								<dl>
+									<dt>网上银行扣款后，支付结果页面显示“订单处理中”怎么办？</dt>
+									<dd>可能是由于银行的数据没有即时传输，请您不要担心，此时请您稍等片刻刷新页面查看。如较长时间仍显示未付款，请您致电客服（4008-679-858）及时联系我们，我们会尽快处理。</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+</body>
+</html>

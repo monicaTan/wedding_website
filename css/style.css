@@ -812,8 +812,8 @@ body{ font-family: "Microsoft YaHei";}
 .float-bar-right{position: absolute; right: 0; top: 0; z-index: 2; height: 80px; line-height: 80px;}
 .float-bar-right .jiesuan{ background-color: #29b4bd; color: #fff; font-size: 30px; display: block;height: 80px; line-height: 80px; width: 160px; text-align: center;}
 .float-bar-right .jiesuan:hover{ color: #fff;}
-
-.modify-inner{ width: 850px; margin: 30px auto 0; min-height: 450px; border:1px solid #dfdfdf;}
+.modify-container{margin-top: 30px;}
+.modify-inner{ width: 850px; margin: 0 auto; min-height: 450px; border:1px solid #dfdfdf;}
 .modify-inner h2{ background-color: #f6f8fa; font-size: 14px; color: #999; height: 48px; line-height: 48px; padding-left: 30px; font-weight: bold;}
 .modify-inner dl dd .btn-warning { width: auto; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 0 48px; *padding: 0 24px; display: inline-block;line-height: 38px; background-color: #fe9f1b; border:none; height: 38px; color: white; cursor: pointer;}
 .modify-inner .btn-link{ padding: 0 20px; font-size: 14px; color: #666;}
@@ -821,6 +821,81 @@ body{ font-family: "Microsoft YaHei";}
 .click-chuan{ display: block; width: 190px; height: 190px; margin: 70px auto 40px;border:2px dashed #fff;}
 .click-chuan:hover{ border:2px dashed #ddd;}
 .notice-text{ text-align: center; font-size: 14px; color: #999; line-height: 20px;}
+
+/* pay center
+-------------------------------------------------------------------------------- */
+.pay-user-module{ padding: 25px 15px;}
+.pay-user-image { width: 180px; height: 100px; float: left;}
+.pay-user-image .head-portrait{padding:0 0 0 55px; width: 100px;}
+.pay-user-image .head-portrait .face-link,
+.pay-user-image .head-portrait .face-link .portrait-bg,
+.pay-user-image .head-portrait .counselor-img img{ width: 100px; height: 100px;}
+.pay-user-image .head-portrait .counselor-img { width: 100px;}
+.pay-user-image .head-portrait .counselor-img .lazy{position: initial;}		
+
+.pay-info{ width: 980px; float: right;}
+.pay-info ul li{ float: left;}
+.select-name{ width: 290px;}
+.select-name p{ font-size: 12px;}
+.select-name .name-title{ padding-bottom: 40px;}
+.select-name p span{padding-right: 10px;}
+.select-name p em{ font-style: normal; color: #fc4a00;margin-left: 4px;}
+.select-name p a{ font-size: 18px;}
+.pay-info .price-personal{ color: #999; font-size: 18px; width: 260px;}
+.pay-info .price-personal span{text-decoration: line-through; display: inline-block; margin-bottom: 10px;}
+.pay-info .price-personal em{ font-style: normal; color: #fff; background-color: #000; display: inline-block; height: 24px; line-height: 24px; padding: 0 8px;}
+.pay-info .price-last{ width: 260px;}
+.pay-info .price-last em{ font-style: normal; color: #fc4a00; font-size: 30px;}
+.pay-info .price-state{ font-style: normal; color: #666; font-size: 18px; width: 170px;}
+
+.pay-bank-list{ margin-top: 30px; padding: 0 5px;}
+.j-card-element,
+.bank-icon-container,
+.channel-label{ display: inline-block; width: 170px; height: 40px; vertical-align: middle; font-size: 14px;}
+.row-basic{width: 200px; margin: 0 15px 26px; float: left; font-size: 0; *display: inline;}
+.channel-input{ vertical-align: middle; margin-right: 10px; *margin-top: 13px; *height: 13px; *width: 13px;}
+.channel-input,
+.channel-label{ *float: left;}
+
+.bank-icon,
+.bank-showName{ display: inline-block;  position: absolute; width: 168px; height: 38px;  border: 1px solid #d6d6d6; top: 0; left: 0;}
+
+.bank-showName{z-index: 1; line-height: 38px; text-align: center;}
+.bank-icon-container{ position: relative; cursor: pointer;}
+.bank-icon-container span:hover{ border-color: #a11;}
+
+.bank-icon{ z-index: 2;background: url("../images/bank.jpg") left top no-repeat; text-indent: -9999px}
+.icon-cashier-ICBC{background-position: left top;}
+.icon-cashier-ABC{ background-position: -223px top;}
+.icon-cashier-CBC{background-position: -446px top;}
+.icon-cashier-PSBC{background-position: -669px top;}
+.icon-cashier-BOC{background-position: left -65px;}
+.icon-cashier-BCM{background-position: -223px -65px;}
+.icon-cashier-CMB{background-position: -446px -65px;}
+.icon-cashier-CGB{background-position: -669px -65px;}
+.icon-cashier-CEB{background-position: left -132px;}
+.icon-cashier-CIB{background-position: -223px -132px;}
+.icon-cashier-BOB{background-position: -446px -132px;}
+.icon-cashier-SPD{background-position: -669px -132px;}
+.icon-cashier-CMBC{background-position: left -197px;}
+.icon-cashier-CCB{background-position: -223px -197px;}
+.icon-cashier-HXB{background-position: -446px -197px;}
+.icon-cashier-PAB{background-position: -669px -197px;}
+.icon-cashier-WEIXIN{background-position: left -262px;}
+.icon-cashier-ZHIFUBZO{background-position: -223px -262px;}
+
+.next-step{ padding: 20px 0 30px; margin: 0 15px 30px; border-bottom: 1px solid #ddd;}
+.next-step .warning-btn{ display: inline-block;padding: 0 34px; height: 32px; line-height: 32px; background-color: #fe9f1b; font-size: 14px; color: #fff; text-align: center; margin-left: 30px;}
+.problem-list{ font-size: 12px; padding: 0 15px 0;}
+.problem-list h2{ font-size: 14px; font-weight: bold; margin-bottom: 20px;}
+.problem-list dl{ padding-bottom: 10px;}
+.problem-list dl dt,
+.problem-list dl dd{ margin-bottom: 10px;}
+.problem-list dl dt{ font-size: 14px; padding-left: 18px; background: url("../images/star.jpg") left top no-repeat;}
+.problem-list dl dd{ font-size: 12px; color: #666;}
+.title-bg-grey{  background-color: #f6f8fa; font-size: 16px; color: #999; height: 48px; line-height: 48px; padding-left: 20px;}
+.main-max-module{border: 1px solid #dfdfdf; margin-bottom: 25px;}
+
 
 
 

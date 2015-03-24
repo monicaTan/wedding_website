@@ -171,22 +171,6 @@
 						</td>
 					</tr>
 				</table>
-
-				<div class="float-bar-holder">
-					<label class="select-all">
-						<input type="checkbox">
-						<span>全选</span>
-					</label>
-					<div class="operations">
-						<a href="javascript:void(0)">删除</a>
-						<a href="javascript:void(0)">消除失效订单</a>
-					</div>
-					<div class="float-bar-right">
-						<span>已选商品<em>0</em></span>
-						<span>合计<em>￥0</em></span>
-						<a class="jiesuan" href="javascript:void(0)">结算</a>
-					</div>
-				</div>
 			</form>
 		</div>
 	</div>

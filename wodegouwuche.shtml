@@ -65,8 +65,7 @@
 						</td>
 						<td class="seventh-td">
 							<div class="caozuo-list">
-								<a class="quxiao" href="javascript:void(0)">取消收藏</a><br/>
-								<a class="zhifu" href="javascript:void(0)">立即付款</a>
+								<a class="quxiao" href="javascript:void(0)">取消收藏</a>
 							</div>
 						</td>
 					</tr>
