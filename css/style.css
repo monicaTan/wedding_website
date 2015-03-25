@@ -59,7 +59,7 @@ body{ font-family: "Microsoft YaHei";}
 
 .user-entrance .nav-down li{ margin: 0; position: relative;}
 .user-entrance .nav-down li a{ padding: 0; margin: 0;}
-.user-entrance .nav-down li .menu-down{ background: url("../images/down_white.png") right center no-repeat; padding-right: 12px; display: inline-block; height: 40px; line-height: 40px;}
+.user-entrance .nav-down li .menu-down{ background: url("../images/down_white.png") right center no-repeat; padding-right: 12px; display: inline-block; height: 40px; line-height: 40px; max-width: 130px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
 .user-entrance .down-two{ position: absolute;left: 0; top: 40px; background-color: #29b4bd; text-align: center; padding:0 6px 6px; overflow-y:hidden; width: 130px; display: none;}
 .user-entrance .down-two li{float: initial; border-top: 1px solid #92d9dd; height: 40px; text-align: left; width: 100%;}
 .user-entrance .down-two li a{color: white; white-space: nowrap; padding: 0 5px; display: block; height: 40px;}
