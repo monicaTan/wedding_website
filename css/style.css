@@ -896,6 +896,10 @@ body{ font-family: "Microsoft YaHei";}
 .title-bg-grey{  background-color: #f6f8fa; font-size: 16px; color: #999; height: 48px; line-height: 48px; padding-left: 20px;}
 .main-max-module{border: 1px solid #dfdfdf; margin-bottom: 25px;}
 
+/*wx login*/
+.wxewm{ position:absolute; z-index:5; text-align: center; border:3px solid #29b4bd; border-radius: 8px; background:#fff; top:188px; left:50%; margin-left: -368px; padding: 40px;}
+.wxewm img{ width:280px; height:280px; margin:0 auto; border:none;}
+.wxewm .fa-close{color: #999;font-size: 24px;position: absolute;right: 10px;top: 10px; cursor: pointer;}
 
 
 
