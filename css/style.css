@@ -137,7 +137,7 @@ body{ font-family: "Microsoft YaHei";}
 .step-text2 p,
 .step-text3 p{ margin-left: 16px; font-size: 12px; color: #666; line-height: 22px;}
 
-.step-right{ padding-bottom: 10px; height: 186px;}
+.step-right{ padding-bottom: 8px; height: 186px;}
 .step-right h2{ margin-bottom: 6px; padding: 0 20px; background-color: #29b4bd; color: white; line-height: 40px; height: 40px; text-align: left; font-weight: normal;}
 .step-right h2 a{ color: white;}
 .step-right ul{ margin: 0 20px;}
