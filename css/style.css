@@ -137,14 +137,14 @@ body{ font-family: "Microsoft YaHei";}
 .step-text2 p,
 .step-text3 p{ margin-left: 16px; font-size: 12px; color: #666; line-height: 22px;}
 
-.step-right{ padding-bottom: 10px;}
+.step-right{ padding-bottom: 10px; height: 186px;}
 .step-right h2{ margin-bottom: 6px; padding: 0 20px; background-color: #29b4bd; color: white; line-height: 40px; height: 40px; text-align: left; font-weight: normal;}
 .step-right h2 a{ color: white;}
 .step-right ul{ margin: 0 20px;}
-.step-right ul li{ line-height: 1px;}
+.step-right ul li{ line-height: 1px; height: 28px;}
 .step-right ul li a{font-size: 13px; color: #333; line-height: 28px; display: inline-block; width: 294px; height: 28px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden;}
 .step-right ul li a:hover{ color: #29b4bd;}
-
+.scorll-module{ height: 140px; overflow: hidden;}
 
 
 /* wedding-case

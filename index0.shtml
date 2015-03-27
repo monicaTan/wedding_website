@@ -97,23 +97,30 @@
 				<h2>
 					<a href="javascript:void(0)">这些人正在使用我们平台...</a>
 				</h2>
-				<ul>
-					<li>
-						<a href="javascript:void(0)">景先生预约了2月16号巴黎春天摄影的婚纱照...</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)">柳小姐预约了3月18号与策划师扭彬商讨婚...</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)">图先生预约了3月16号青春岁月摄影的婚纱...</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)">皮小姐预约了3月18号婚礼的主持人老大</a>
-					</li>
-					<li>
-						<a href="javascript:void(0)">景先生预约了2月16号巴黎春天摄影的婚纱照...</a>
-					</li>
-				</ul>
+				<div class="scorll-module">
+					<ul>
+						<li>
+							<a href="javascript:void(0)">景先生预约了2月16号巴黎春天摄影的婚纱照...</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">柳小姐预约了3月18号与策划师扭彬商讨婚...</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">柳小姐预约了3月18号与策划师扭彬商讨2...</a>
+						</li><li>
+							<a href="javascript:void(0)">柳小姐预约了3月18号与策划师扭彬商讨4...</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">图先生预约了3月16号青春岁月摄影的婚纱...</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">皮小姐预约了3月18号婚礼的主持人老大</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">景先生预约了2月16号巴黎春天摄影的婚纱照...</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 

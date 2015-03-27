@@ -58,11 +58,23 @@
 </div>
 
 <script src="js/jquery-1.11.2.min.js"></script>
-<!-- <script src="js/lightbox.min.js"></script> -->
+<!-- 返回顶部 -->
 <script type="text/javascript" src="js/backtop.js"></script>
+
+<!-- 轮播图 -->
 <script src="js/unslider.min.js"></script>
+
+<!-- 大图展示 -->
 <script src="js/zoom.js"></script>
+
+<!-- 大图展示 -->
+<script src="js/scorll-list.js"></script>
+
+<!-- 图片延迟加载 -->
 <script src="js/jquery.lazyload.min.js"></script>
+
+
+
 <script type="text/javascript">
 	//主导航右侧下拉菜单
 	$(document).ready(function(){
