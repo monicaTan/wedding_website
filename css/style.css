@@ -23,17 +23,17 @@ body{ font-family: "Microsoft YaHei";}
 .logo-box{ width: 205px; float: left; margin-right: 72px; padding-top: 10px;}
 .yc-head-search{ width: 526px; float: left; padding-top: 16px; margin-right: 14px;}
 .search-from-box input{float: left;}
-.search-txt{ width: 388px; height: 36px; padding: 0 4px; line-height: 36px; font-size: 13px; color: #999; border: 3px solid #29b4bd; float: left;}
+.search-txt{ width: 388px; height: 36px; padding: 0 4px; line-height: 36px; font-size: 14px; color: #999; border: 3px solid #29b4bd; float: left;}
 .icon-search{ float: left; height: 42px; width: 124px; line-height: 36px; cursor: pointer; text-align: center; border: 3px solid #29b4bd; *border: none; background-color:  #29b4bd;font-size: 16px; color: #fff;font-family: "Microsoft YaHei";}
-.history-head{ position: relative; display: inline-block; float: left; font-size: 13px; color: #999; padding-top: 16px; z-index: 3;}
+.history-head{ position: relative; display: inline-block; float: left; font-size: 14px; color: #999; padding-top: 16px; z-index: 3;}
 .history-default{ display: inline-block; width: 62px; padding: 0 5px; color: #999; display: inline-block; height: 40px; line-height: 40px; border:0px solid;  text-align: center;}
 .history-head a:hover{color: #29b4bd;}
 .history-head ul{ display: none; border: 1px solid #29b4bd; position: absolute; left: 0; top: 56px; background-color: #fff; line-height: 0; padding-bottom: 4px; z-index: 3;}
-.history-head ul li{ font-size: 12px;}
+.history-head ul li{ font-size: 14px;}
 .history-head ul li a{display: inline-block; width: 62px; height: 24px; margin: 0 5px; line-height: 24px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden; text-align: center; border-bottom:1px dashed #fff; color:#29b4bd;}
 .history-head ul li a:hover{ color: #29b4bd; border-bottom:1px dotted #29b4bd; }
 .qr-code{ width: 100px; float: right; text-align: center; line-height: 0; position: relative;}
-.qr-code p{ font-size: 13px; line-height: 14px; color: #29b4bd;}
+.qr-code p{ font-size: 14px; line-height: 14px; color: #29b4bd;}
 .qr-hover{ position: absolute; top: 90px; right: 0; z-index: 10; display: none;}
 
 
@@ -87,14 +87,14 @@ body{ font-family: "Microsoft YaHei";}
 .counselor-img{ position: relative;}
 .counselor-img img{ width: 50px; height: 50px; position: absolute; left: 0; top: 0;}
 .counselor-name{ line-height: 50px; height: 50px; width: 140px; font-size: 16px; margin: 0 0 0 66px; display: inline-block; white-space: nowrap; text-overflow:ellipsis; overflow: hidden; float: left;}
-.counselor-change{ color: #999; font-size: 12px; line-height: 50px;  display: inline-block; width: 52px; text-align: right; float: right;}
-.counselor-introduction{padding: 0 26px; margin: 0 0 24px; font-size: 12px; color: #999; line-height: 20px; height: 40px; overflow: hidden;}
+.counselor-change{ color: #999; font-size: 14px; line-height: 50px;  display: inline-block; width: 58px; text-align: right; float: right;}
+.counselor-introduction{padding: 0 26px; margin: 0 0 24px; font-size: 14px; color: #999; line-height: 20px; height: 40px; overflow: hidden;}
 .consult{ padding: 0 26px;}
 .consult h3{ font-size: 14px; margin-bottom: 10px; font-weight: normal;}
-.consult h4{ font-size: 12px; color: #999; margin-bottom: 24px; font-weight: normal;}
+.consult h4{ font-size: 14px; color: #999; margin-bottom: 24px; font-weight: normal;}
 .input-box{ margin-bottom: 6px;}
-.input-box input{ float: left; font-size: 13px;}
-.your-tel{ width: 150px; padding: 0 4px; height: 34px; line-height: 34px; border:1px solid #e6e6e6; color: #999;}
+.input-box input{ float: left; font-size: 14px;}
+.your-tel{ width: 150px; padding: 0 4px; height: 34px; line-height: 34px; border:1px solid #e6e6e6; color: #333; font-family: "Microsoft YaHei";}
 .consult-btn{ cursor: pointer; width: 104px; height: 36px; border:1px solid #fe9f1b; *border: 0; background-color: #fe9f1b; color: white; text-align: center; padding: 0;}
 .consult-online{ height: 14px; background: url("../images/hua.png") left top no-repeat; text-align: center; margin-bottom: 20px; font-weight: normal;}
 .kefu{ padding-left: 64px; margin-bottom: 20px;}
@@ -102,7 +102,7 @@ body{ font-family: "Microsoft YaHei";}
 .kefu span a{ color: #272636; font-size: 12px; text-align: center; line-height: 22px;}
 .kefu span .qq-icon{ margin-left: 2px; line-height: 1px; display: block; width: 34px; height: 34px; background: url("../images/kefu_15.png") left top no-repeat;}
 .kefu span .weixin-icon{ margin-left: 2px; line-height: 1px; display: block; width: 34px; height: 34px; background: url("../images/kefu_15.png") -49px top no-repeat;}
-.kefu span a:hover{ color: #29b4bd; font-size: 12px; line-height: 22px;}
+.kefu span a:hover{ color: #29b4bd; font-size: 14px; line-height: 22px;}
 .consult-tel{ text-align: center;}
 
 
@@ -135,14 +135,14 @@ body{ font-family: "Microsoft YaHei";}
 .step-text3 p{ width: 160px;}
 .step-text1 p,
 .step-text2 p,
-.step-text3 p{ margin-left: 16px; font-size: 12px; color: #666; line-height: 22px;}
+.step-text3 p{ margin-left: 16px; font-size: 14px; color: #666; line-height: 22px;}
 
 .step-right{ padding-bottom: 8px; height: 186px;}
 .step-right h2{ margin-bottom: 6px; padding: 0 20px; background-color: #29b4bd; color: white; line-height: 40px; height: 40px; text-align: left; font-weight: normal;}
 .step-right h2 a{ color: white;}
 .step-right ul{ margin: 0 20px;}
 .step-right ul li{ line-height: 1px; height: 28px;}
-.step-right ul li a{font-size: 13px; color: #333; line-height: 28px; display: inline-block; width: 294px; height: 28px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden;}
+.step-right ul li a{font-size: 14px; color: #333; line-height: 28px; display: inline-block; width: 294px; height: 28px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden;}
 .step-right ul li a:hover{ color: #29b4bd;}
 .scorll-module{ height: 140px; overflow: hidden;}
 
@@ -162,19 +162,19 @@ body{ font-family: "Microsoft YaHei";}
 .uniform2 .label-module h2{height: 14px; overflow: hidden;}
 .label-module h2 a{ color: #333;}
 .label-module h2 a:hover{ color: #29b4bd;}
-.caozuo{ text-align: center; font-size: 12px; margin-bottom: 14px;}
+.caozuo{ text-align: center; font-size: 14px; margin-bottom: 14px;}
 .caozuo .heart{ color: #fc4a00;}
 .caozuo .heart i{ margin-right: 4px;}
 .heart{ margin-right: 18px;}
-.label-module h3{ font-size: 12px; font-weight: normal; text-align: center; color: #29b4bd; margin-bottom: 20px;}
+.label-module h3{ font-size: 14px; font-weight: normal; text-align: center; color: #29b4bd; margin-bottom: 20px;}
 .uniform2 .label-module h3{height: 12px; overflow: hidden;}
-.label-module .team-members{ text-align: center; font-size: 12px; margin-bottom: 30px; text-align: left;}
+.label-module .team-members{ text-align: center; font-size: 14px; margin-bottom: 28px; text-align: left;}
 .label-module .team-members p{ line-height: 20px; height: 20px; white-space: nowrap; text-overflow:ellipsis; overflow: hidden; padding: 0 12px;}
 .platform-price{ text-align: center; margin-bottom: 10px; *margin-bottom: 6px; line-height: 1px;}
-.platform-price span{ display: inline-block; color: white; background-color: #000; font-size: 13px; line-height: 13px; font-family: SimHei; padding: 8px 10px; *white-space: nowrap;}
+.platform-price span{ display: inline-block; color: white; background-color: #000; font-size: 14px; line-height: 14px; font-family: SimHei; padding: 8px 6px; *white-space: nowrap;}
 .platform-price .price-span{ display: inline-block; color: white; background-color: #000; font-size: 18px; font-family: SimHei; line-height: 22px; font-family: SimHei; padding: 0 10px;}
-.address{ text-align: center; font-size: 12px;}
-.uniform2 .address{height: 13px; overflow: hidden;white-space: nowrap; text-overflow:ellipsis;}
+.address{ text-align: center; font-size: 14px;}
+.uniform2 .address{height: 14px; overflow: hidden;white-space: nowrap; text-overflow:ellipsis;}
 .address i{ color: #5da8a1; margin-right: 6px;}
 .more-link{ text-align: center;}
 .more-link a{ display: inline-block; color: white; background-color: #29b4bd; font-size: 16px; padding: 12px 90px; *padding: 10px 90px;}
@@ -210,12 +210,12 @@ body{ font-family: "Microsoft YaHei";}
 .theme-members .counselor-img img{ width: 70px; height: 70px;}
 .theme-members-head{ width: 239px; padding: 0 20px 0 24px; position: absolute; top: -28px;}
 .counselor-right{ width: 159px; float: right; font-size: 14px; line-height: 20px; padding-top: 30px;}
-.counselor-right .heart{ font-size: 12px; color: #fc4a00; margin-left: 20px;}
+.counselor-right .heart{ font-size: 14px; color: #fc4a00; margin-left: 20px;}
 .counselor-right .heart i{ margin-right: 4px;}
-.counselor-right .shop{ margin-left: 15px;}
-.counselor-right span{ font-size: 13px;}
-.counselor-right em{ font-size: 12px; font-style: normal; color: #999; text-decoration: line-through; margin-left: 6px;}
-.counselor-info{ font-size: 12px; line-height: 20px; margin: 0 10px 40px; text-align: justify; height: 60px; overflow: hidden;}
+.counselor-right .shop{ margin-left: 0;}
+.counselor-right span{ font-size: 14px;}
+.counselor-right em{ font-size: 14px; font-style: normal; color: #999; text-decoration: line-through; margin-left: 6px;}
+.counselor-info{ font-size: 14px; line-height: 20px; margin: 0 10px 40px; text-align: justify; height: 60px; overflow: hidden;}
 .counselor-case-img a{display: block; float: left; width: 137px; height: 64px; margin:0 3px 3px 0;}
 .counselor-case-img{ padding-left: 3px; line-height: 0; font-size: 0;}
 .counselor-case-img img{ width: 137px; height: 64px;}
@@ -233,8 +233,8 @@ body{ font-family: "Microsoft YaHei";}
 .photography-caozuo .heart:active,
 .photography-caozuo .heart:hover{ color: #fc4a00;}
 .photography-caozuo .shop{ margin-left: 10px;}
-.photography-price{ font-size: 13px; padding-left: 5px;}
-.photography-price em{ font-size: 12px; text-decoration: line-through; font-style: normal; color: #999; margin-left: 6px;}
+.photography-price{ font-size: 14px; padding-left: 5px;}
+.photography-price em{ font-size: 14px; text-decoration: line-through; font-style: normal; color: #999; margin-left: 6px;}
 .wedding-photography .uniform4{ margin-bottom: 40px;}
 .wedding-photography .more-link{ margin-bottom: 60px;}
 
@@ -259,8 +259,8 @@ body{ font-family: "Microsoft YaHei";}
 .uniform3-border{ border: 1px solid #dfdfdf; padding-bottom: 10px;}
 .uniform3 img{width: 100%;}
 .uniform3 .shop img{width: auto;}
-.photography-title h2 em{ font-style: normal; font-size: 12px; color: #666;}
-.banquet-price{font-size: 12px; color: #666;}
+.photography-title h2 em{ font-style: normal; font-size: 14px; color: #666;}
+.banquet-price{font-size: 14px; color: #666;}
 .banquet-price em{ font-style: normal; margin: 0 4px; text-decoration: none;}
 .photography-price .address{ text-decoration: none; background: url("../images/address.png") left center no-repeat; padding-left: 16px; margin-left: 40px; line-height: 14px;}
 .uniform3-border .photography-title h2 { padding-left: 10px;}
@@ -283,12 +283,12 @@ body{ font-family: "Microsoft YaHei";}
 .pagination{ font-size: 0; _height:38px;}
 .pagination a{ border: 1px solid #f4f4f4;}
 .pagination a,
-.pagination span{ vertical-align: middle; color: #333; font-size: 12px; display: inline-block; height: 34px; line-height: 34px; padding: 0 13px;}
+.pagination span{ vertical-align: middle; color: #333; font-size: 14px; display: inline-block; height: 34px; line-height: 34px; padding: 0 13px;}
 .pagination span{ color: #999;}
 .pagination .prev{margin-right: 4px;}
 .pagination .next{ margin-left: 4px;}
 .pagination .prev,
-.pagination .next{ font-size: 12px; _padding-top: 10px; _height: 24px;}
+.pagination .next{ font-size: 14px; _padding-top: 10px; _height: 24px;}
 .pagination a,
 .pagination a i{font-size: 14px;}
 .pagination a:hover{color: #fff; background-color: #fe9f1b;}
@@ -318,12 +318,12 @@ body{ font-family: "Microsoft YaHei";}
 .module-left{ float: left; width: 100px; margin-left: 10px; _margin-left: 5px;}
 .module-right{ float: right; width: 244px; margin-right: 10px; _margin-right: 5px;}
 .module-left .counselor-img{ width: 50px; height: 50px; margin: 0 0 10px 25px;}
-.module-left h4{ font-size: 13px; text-align: center; margin-bottom: 10px; font-weight: normal;}
+.module-left h4{ font-size: 14px; text-align: center; margin-bottom: 10px; font-weight: normal;}
 .module-left h4 a{ display: block; width: 100%; height: 14px; overflow: hidden;text-overflow:ellipsis; white-space: nowrap;}
 .module-left .price span{ font-size: 18px; color: white; background-color: #000; padding:0 10px; line-height: 24px;}
 .module-right h2{ font-size: 16px; margin-bottom: 12px; font-weight: normal;}
 .module-right h2 a{ display: block; width: 100%; height: 16px; overflow: hidden;text-overflow:ellipsis; white-space: nowrap;}
-.module-right p{ font-size: 12px; line-height: 16px; height: 65px; overflow: hidden; margin-bottom: 20px; color: #666;}
+.module-right p{ font-size: 14px; line-height: 16px; height: 65px; overflow: hidden; margin-bottom: 20px; color: #666;}
 .module-right .address{ text-align: left;}
 .module-right .address em{ padding-left: 15px; line-height: 14px; font-style: normal; background: url("../images/address.png") left center no-repeat; color: #999;}
 
@@ -349,22 +349,22 @@ body{ font-family: "Microsoft YaHei";}
 .hunliren-introduce .counselor-img img{width: 100px; height: 100px;}
 .hunliren-zuopin{ float: right;margin-right: 10px;_margin-right: 5px; width: 200px;}
 .hunliren-introduce-list .hunliren-focus { text-align: right;}
-.hunliren-focus span{ color: #999; font-size: 12px; line-height: 30px; padding-right: 10px;}
+.hunliren-focus span{ color: #999; font-size: 14px; line-height: 30px; padding-right: 10px;}
 .hunliren-focus .fa{margin-right: 4px;}
 .hunliren-focus .fa-heart-o{ color: #fc4a00;}
 
 
-.mark-box{ font-size: 12px; margin-bottom: 10px;}
+.mark-box{ font-size: 14px; margin-bottom: 10px;}
 .mark-box span{ display: inline-block; padding: 2px;}
 .mark-box .personal-mark{border:1px solid #29b4bd; border-radius: 8px;padding: 2px 8px; margin-right: 20px;}
 .hunliren-introduce h4{ margin-bottom: 8px;}
 .line-grey{ font-size: 0; line-height: 0; height: 1px; width: 100%; border-bottom: 1px solid #eeeeee; margin-bottom: 10px;}
 .line-grey-short{ width: 114px; margin: 0 auto 2px;}
-.introduce-text{ font-size: 12px; line-height: 18px; text-align: justify; height: 108px; overflow: hidden; margin-bottom: 10px; color: #666;}
+.introduce-text{ font-size: 14px; line-height: 18px; text-align: justify; height: 108px; overflow: hidden; margin-bottom: 10px; color: #666;}
 .hunliren-introduce-list .introduce-text{height: 110px; line-height: 22px; color: #999;}
 .personal-achievement{ padding-left: 15px;}
-.personal-achievement span{display: block; width: 57px; float: left; line-height: 20px; font-size: 12px;}
-.personal-achievement em{ font-style: normal;font-size: 12px; color: #fc4a00;}
+.personal-achievement span{display: block; width: 57px; float: left; line-height: 20px; font-size: 14px;}
+.personal-achievement em{ font-style: normal;font-size: 14px; color: #fc4a00;}
 
 .magnum-opus1{ margin-bottom: 22px;}
 .magnum-opus{ line-height: 0;}
@@ -378,7 +378,7 @@ body{ font-family: "Microsoft YaHei";}
 
 .magnum-opus h3 a,
 .magnum-opus h3 span{ display: block; height: 20px; overflow: hidden; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
-.address-p{font-size: 0; line-height: 20px; font-size: 12px; font-weight: normal;}
+.address-p{font-size: 0; line-height: 20px; font-size: 14px; font-weight: normal;}
 .address-p a{ width: 70px; float: right; text-align: right;}
 .address-p span{ width: 105px; float: left; background: url("../images/address.png") left center no-repeat; padding-left: 15px; color: #999;}
 
@@ -387,7 +387,7 @@ body{ font-family: "Microsoft YaHei";}
 
 .paixu{ position: relative; background-color: #f7f7f7; border: 1px solid #dfdfdf; margin-bottom: 10px;}
 .paixu ul{ line-height: 0; font-size: 0;}
-.paixu ul li{ float: left; font-size: 12px; vertical-align: middle; position: relative;}
+.paixu ul li{ float: left; font-size: 14px; vertical-align: middle; position: relative;}
 .paixu ul li a{ color: #999; line-height: 38px; padding: 0 18px; display: inline-block;}
 .paixu ul li .arrow-down span{ padding-right: 12px; background: url("../images/arrow-down.png") right center no-repeat;}
 .paixu ul .zonghe{ background-color: white; border-right: 1px solid #dfdfdf;}
@@ -398,13 +398,13 @@ body{ font-family: "Microsoft YaHei";}
 .paixu ul li p input,
 .paixu ul li p span,
 .paixu ul li p a{ float: left;}
-.paixu ul li p input{ padding: 0 4px; width: 46px; height: 20px; line-height: 20px; text-align: left; border: 1px solid #dfdfdf; font-size: 12px; color: #666;}
+.paixu ul li p input{ padding: 0 4px; width: 46px; height: 20px; line-height: 20px; text-align: left; border: 1px solid #dfdfdf; font-size: 14px; color: #666;}
 .paixu ul li p a{ height: 20px; line-height: 20px; border: 1px solid #fe9f1b; color: white; background-color: #fe9f1b; padding: 0 10px; display: inline-block; margin-left: 6px;}
 .paixu ul li p a:hover{ border: 1px solid #fe9f1b; color: white; background-color: #fe9f1b;}
 .paixu ul .page-li{ float: right; font-size: 0; position: absolute; right: 22px; top: 0; z-index: 4;}
-.page-li span{  font-size: 12px;}
+.page-li span{  font-size: 14px;}
 .page-li span em{ color: #fc4a00; font-style: normal;}
-.paixu ul .page-li a{ padding: 0 8px; font-size: 12px;}
+.paixu ul .page-li a{ padding: 0 8px; font-size: 14px;}
 .paixu ul .page-li .disabled{ color: #ccc; cursor: not-allowed;}
 .paixu ul .page-li a:hover{background-color: #f7f7f7;}
 
@@ -440,9 +440,9 @@ body{ font-family: "Microsoft YaHei";}
 .banner2-left-inner h2 a:hover{ color: #333;}
 
 .area-block { margin-bottom: 12px;}
-.area-block p{ font-size: 12px; line-height: 20px; height: 20px; overflow: hidden;}
+.area-block p{ font-size: 14px; line-height: 20px; height: 20px; overflow: hidden;}
 .yuyue-form{ padding-top: 12px;}
-.yuyue-form input{ width: 232px; height: 36px; line-height: 36px; margin-bottom: 10px; padding: 0 4px; border: 1px solid #dfdfdf; color: #999;}
+.yuyue-form input{ width: 224px; height: 36px; line-height: 36px; margin-bottom: 10px; padding: 0 8px; border: 1px solid #dfdfdf; color: #666; font-family: "Microsoft YaHei"; font-size: 14px;}
 .yuyue-form h2{ margin-bottom: 20px;}
 .yuyue-form .yuyue-btn{ border:none; font-size: 14px; display: block; width: 242px; height: 38px; line-height: 38px; color: white; text-align: center; background-color: #fe9f1b;}
 .yuyue-form .yuyue-btn:hover{ color: white;}
@@ -458,9 +458,9 @@ body{ font-family: "Microsoft YaHei";}
 .fanan-info .counselor-img{ margin: 0 auto 10px;}
 .fanan-info .counselor-img,
 .fanan-info .counselor-img img{ width: 100px; height: 100px;}
-.fanan-info h4{ margin-bottom: 6px; font-weight: normal; font-size: 13px;}
+.fanan-info h4{ margin-bottom: 6px; font-weight: normal; font-size: 14px;}
 .fanan-info .caozuo{margin-bottom: 70px;}
-.fangan-jianjie{ font-size: 12px; color: #666; line-height: 18px; text-align: justify; margin-bottom: 40px; padding: 0 10px; height: 90px; overflow: hidden;}
+.fangan-jianjie{ font-size: 14px; color: #666; line-height: 18px; text-align: justify; margin-bottom: 40px; padding: 0 10px; height: 90px; overflow: hidden;}
 .fanan-info h5{ text-align: left; margin-bottom: 15px; font-weight: normal;padding: 0 10px;}
 .btn-warning-block{ display: block; text-align: center; line-height: 34px; height: 34px; font-size: 14px; color: white; background-color: #fe9f1b;}
 .btn-block{ padding-bottom: 34px;}
@@ -473,7 +473,7 @@ body{ font-family: "Microsoft YaHei";}
 .gaiyao-left-txt .yinhao{margin-left: 20px;}
 .yinhao{ padding: 0 0 0 20px; background: url("../images/yinhao.jpg") left top no-repeat;}
 .yinhao1{ margin-bottom: 40px;}
-.yinhao p{ font-size: 12px; line-height: 18px; background: url("../images/yinhao.jpg") right bottom no-repeat; padding-right: 20px; height: 36px; overflow: hidden;}
+.yinhao p{ font-size: 14px; line-height: 18px; background: url("../images/yinhao.jpg") right bottom no-repeat; padding-right: 20px; height: 36px; overflow: hidden;}
 
 .huafei{ float: left; width: 110px; text-align: center;}
 .huafei-list{ float: right; width: 220px; padding-top: 30px;}
@@ -529,22 +529,22 @@ body{ font-family: "Microsoft YaHei";}
 .invitation-person-img .counselor-img{ margin: 0 auto 16px;}
 .invitation-person-img .counselor-img,
 .invitation-person-img .counselor-img img{ width: 70px; height: 70px;}
-.caozuo .zuopin { font-size: 12px; color: #333; margin-left: 10px;}
+.caozuo .zuopin { font-size: 14px; color: #333; margin-left: 0;}
 .caozuo .zuopin em{ font-style: normal; color: #fc4a00;}
 
 .invitation-person-jianjie{ float: right; width: 750px;}
 .invitation-person-jianjie h3{ font-weight: normal; font-size: 14px; margin: 5px 0 25px;}
 .invitation-person-jianjie h3 a{ color: #333;}
-.invitation-person-jianjie h3 em{font-size: 12px; font-style: normal; color: #666;}
+.invitation-person-jianjie h3 em{font-size: 14px; font-style: normal; color: #666;}
 .invitation-person-jianjie h4{ font-size: 14px; font-weight: bold; margin-bottom: 10px;}
-.invitation-person-jianjie p{ font-size: 12px; line-height: 18px;}
+.invitation-person-jianjie p{ font-size: 14px; line-height: 18px;}
 
-.person-pinglun{ text-align: center; font-size: 12px;}
+.person-pinglun{ text-align: center; font-size: 14px;}
 .invitation-pinglun{ float: left; width:1200px;}
 .invitation-person-pinglun{float: right; width: 1070px;}
 .invitation-person-pinglun .pinglun{background-color: #f7f6f3; padding:20px; font-size: 16px; line-height: 24px; color: #666; min-height: 60px !important; height: 60px;}
 
-.invitation-form input{ width: 290px; padding: 0 4px; border:1px solid #e6e6e6; color: #999; height: 36px; line-height: 36px; margin-bottom: 10px;}
+.invitation-form input{ width: 282px; padding: 0 8px; border:1px solid #e6e6e6; color: #666; height: 36px; line-height: 36px; margin-bottom: 10px; font-family: "Microsoft YaHei";}
 .invitation-form .yuyue-btn{ width: 100%;}
 .txt-block{ margin-bottom: 15px; padding-top: 10px;}
 
@@ -579,12 +579,12 @@ body{ font-family: "Microsoft YaHei";}
 .star5{ background-position: center -140px;}
 
 .keywords{ height: 298px; border-bottom: 2px solid white;}
-.middle-text{ font-size: 12px; line-height: 22px; color: #666; text-align: justify; padding: 16px 0 0; height: 106px; overflow: hidden;}
+.middle-text{ font-size: 14px; line-height: 22px; color: #666; text-align: justify; padding: 16px 0 0; height: 106px; overflow: hidden;}
 
 .right-bar h2{ margin: 25px 0 40px; font-size: 14px; font-weight: bold; color: #fe9f1b; text-align: center;}
 .right-bar dl{ margin-bottom: 52px;}
 .right-bar dl dt{ margin: 0 26px; padding: 0 0 0 26px ; background: url("../images/blue-heart.png") left center no-repeat; font-size: 14px; color: #29b4bd; border-bottom: 2px solid #29b4bd; line-height: 34px;}
-.right-bar dl dd{ font-size: 12px; color: #666; line-height: 26px;text-align: center;}
+.right-bar dl dd{ font-size: 14px; color: #666; line-height: 26px;text-align: center;}
 
 .service-details{ margin-bottom: 60px;}
 .service-details h2{ font-size: 16px; border-bottom: none; margin: 30px 0;}
@@ -602,7 +602,7 @@ body{ font-family: "Microsoft YaHei";}
 .theme-module .label-module h3{ color: #333; font-size: 14px; margin-bottom: 55px;}
 .theme-module .label-img-module .label-module h2,
 .theme-module .label-img-module .label-module h3{ height: 14px; overflow: hidden; padding: 0 12px;}
-.theme-module .label-module .case-text{ line-height: 20px; font-size: 12px; color: #666; padding: 0 12px; text-align: justify; margin-bottom: 40px;}
+.theme-module .label-module .case-text{ line-height: 20px; font-size: 14px; color: #666; padding: 0 12px; text-align: justify; margin-bottom: 40px;}
 .theme-module .label-module{ line-height: 1; position: absolute; left: 10px; top: 0; width: 150px; height: 382px; border: 1px solid #dadada; background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
 .label-mini-img li{ float: left; width: 230px; height: 202px; margin: 0 0 6px 6px;_display: inline; _margin-bottom: 3px;}
 .label-mini-img li img{ width: 100%; height: 100%;}
@@ -635,7 +635,7 @@ body{ font-family: "Microsoft YaHei";}
 .gallery2 li img{float:left; display: block; width: 298px; height: 220px;}
 .gallery2 li a{ position: relative;}
 .gallery2 li a span{ text-align: center; line-height: 220px; cursor: pointer; position: absolute; left: 0; top: 0; width: 298px; height: 220px; display: none; background: url("../images/fd2982.png") center center no-repeat;}
-.gallery2 li a span em{ padding: 6px 10px; font-style: normal; font-size: 13px; color: white; background-color: black;}
+.gallery2 li a span em{ padding: 6px 10px; font-style: normal; font-size: 14px; color: white; background-color: black;}
 .gallery2 li a .mark-span{display: block;}
 .next-page a{ line-height: 220px; text-align: center; color: #333;background-color: #dfdfdf;}
 .next-page a i{ font-style: normal; padding-right: 34px; background: url("../images/next-page.png") right center no-repeat; font-size: 24px;}
@@ -667,7 +667,7 @@ body{ font-family: "Microsoft YaHei";}
 .geren-theme small{ float: left;}
 .geren-theme .more-link{ float: right; font-size: 14px;}
 .geren-theme h3{ border-left: 4px solid #29b4bd; font-size: 18px; color: #29b4bd; padding-left: 10px;}
-.geren-theme small{ font-size: 12px; color: #999; padding-left: 50px;}
+.geren-theme small{ font-size: 14px; color: #999; padding-left: 50px;}
 .geren-theme small span{padding-right: 14px;}
 .geren-theme small span .fa{margin-right: 4px;}
 .geren-theme small span .fa-heart-o{color: #fc4a00;}
@@ -677,7 +677,7 @@ body{ font-family: "Microsoft YaHei";}
 /* zhuchiren-zuopin-xiangqing
 -------------------------------------------------------------------------------- */
 .area-block .area-title{color: #29b4bd; font-size: 14px; line-height: 26px;}
-.area-block .area-block-p2{ font-size: 12px; line-height: 22px; height: 44px;}
+.area-block .area-block-p2{ font-size: 14px; line-height: 22px; height: 44px;}
 .liangdian{ margin-bottom: 70px;}
 
 
@@ -693,7 +693,7 @@ body{ font-family: "Microsoft YaHei";}
 .right-entrance{ float: right; width: 360px;}
 .left-entrance .module-title{background-color: #f6f8fa; padding: 20px 30px;}
 .left-entrance .module-title h2{ font-size: 24px; color: #29b4bd; font-weight: normal;}
-.left-entrance .module-title h2 small{ font-size: 12px; color: #999; padding-left: 20px;}
+.left-entrance .module-title h2 small{ font-size: 14px; color: #999; padding-left: 20px;}
 .form-inner{ width: 430px; margin: 60px auto;}
 
 .form-control dl { margin-bottom: 20px;}
@@ -702,9 +702,10 @@ body{ font-family: "Microsoft YaHei";}
 
 .form-control dl dt{width: 80px; margin-right: 10px; text-align: right; height: 40px; line-height: 40px; font-size: 14px; color: #666;}
 .form-control dl dd{ width: 310px;}
-.form-control dl dd input{ font-size: 12px;font-family: "Microsoft YaHei";}
-.form-control dl dd .form-in{ width: 300px; border: 2px solid #dfdfdf; border-radius: 6px; height: 38px; *line-height: 38px; padding: 0 4px; color: #999; font-size: 12px;font-family: "Microsoft YaHei";}
+.form-control dl dd input{ font-size: 14px;font-family: "Microsoft YaHei";}
+.form-control dl dd .form-in{ width: 292px; border: 2px solid #dfdfdf; border-radius: 6px; height: 38px; *line-height: 38px; padding: 0 8px; color: #666; font-size: 14px;font-family: "Microsoft YaHei";}
 .form-control dl dd .form-in:focus{border-color: #29b4bd;}
+
 .footer-entrance {background-color: #f0f2f5; padding-bottom: 30px;}
 .footer-entrance .footer-inner{ background-color: #f6f8fa; border-bottom: 3px solid #e3e4e8;}
 .footer-entrance .footer-inner .bottom-list2{padding-left: 70px;}
@@ -716,9 +717,9 @@ body{ font-family: "Microsoft YaHei";}
 
 .module-left-sign-in { padding: 20px 30px 40px;}
 .module-left-sign-in h2 { color: #29b4bd; font-family: "Microsoft YaHei"; font-size: 23px; font-weight: normal; margin: 0;}
-.module-left-sign-in h2 small { color: #99a3b1; display: block; font-family: SimSun; font-size: 12px; margin-top: 15px;}
+.module-left-sign-in h2 small { color: #99a3b1; display: block; font-family: SimSun; font-size: 14px; margin-top: 15px;}
 .module-share { padding: 40px 0 120px;}
-.module-share .share-btn { font-size: 12px; margin-bottom: 10px;}
+.module-share .share-btn { font-size: 14px; margin-bottom: 10px;}
 
 .module-share .share-btn a,
 .module-share .share-btn a span{transition: ease-in .2s;-moz-transition: ease-in .2s;-webkit-transition: ease-in .2s;-o-transition: ease-in .2s;} 
@@ -752,17 +753,17 @@ body{ font-family: "Microsoft YaHei";}
 .share-btn-sina a:focus span,
 .share-btn-sina a:active span{background-color: #db4453;}
 
-.module-ask p { color: #99a3b1; font-family: Arial,SimSun; font-size: 12px; line-height:20px; text-indent: 0; margin-bottom: 10px;}
+.module-ask p { color: #99a3b1; font-family: Arial,SimSun; font-size: 14px; line-height:20px; text-indent: 0; margin-bottom: 10px;}
 
 .module-ask .btn { background-color: #fe9f1b; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 12px 48px; display: inline-block;}
 .module-ask a:hover{ color: white;}
 .form-control dl dd .btn-warning { width: auto; border-radius: 5px; color: #ffffff; font-size: 14px; padding: 0 48px; *padding: 0 24px; display: inline-block;background-color: #29b4bd; border:none; height: 38px; color: white; cursor: pointer;}
 .form-control dl dd p{ margin-top: 5px; color: #fc4a00; font-size: 14px;}
 .form-control dl dd .agreement-p{ margin-top: 40px; display: block;}
-.form-control dl dd .agreement{ font-size: 12px;}
-.form-control dl dd .checkbox-keep { font-size: 12px; color: #999; position: relative;}
+.form-control dl dd .agreement{ font-size: 14px;}
+.form-control dl dd .checkbox-keep { font-size: 14px; color: #999; position: relative;}
 .form-control dl dd .checkbox { position: relative;}
-.form-control dl dd .forget{ position: absolute; right: 0; top: 0; font-size: 12px; line-height: 20px;}
+.form-control dl dd .forget{ position: absolute; right: 0; top: 0; font-size: 14px; line-height: 20px;}
 
 
 /* gerenzhongxin
@@ -776,7 +777,7 @@ body{ font-family: "Microsoft YaHei";}
 .list-personal tr td .name-personal a{ color: #333;}
 .list-personal tr td .name-personal a:hover{color: #29b4bd;}
 .list-personal tr td .name-personal p{ padding: 10px 0;}
-.list-personal tr td .name-personal p span{ font-size: 12px; padding-right: 10px;}
+.list-personal tr td .name-personal p span{ font-size: 14px; padding-right: 10px;}
 .list-personal tr td .name-personal p span em{ color: #fc4a00; margin-left: 4px;}
 .list-personal tr td .price-personal{ color: #999; font-size: 18px;}
 .list-personal tr td .price-personal span{text-decoration: line-through; display: inline-block; margin-bottom: 10px;}
@@ -836,7 +837,7 @@ body{ font-family: "Microsoft YaHei";}
 .pay-info{ width: 980px; float: right;}
 .pay-info ul li{ float: left;}
 .select-name{ width: 290px;}
-.select-name p{ font-size: 12px;}
+.select-name p{ font-size: 14px;}
 .select-name .name-title{ padding-bottom: 40px;}
 .select-name p span{padding-right: 10px;}
 .select-name p em{ font-style: normal; color: #fc4a00;margin-left: 4px;}
@@ -853,7 +854,7 @@ body{ font-family: "Microsoft YaHei";}
 .bank-icon-container,
 .channel-label{ display: inline-block; width: 170px; height: 40px; vertical-align: middle; font-size: 14px;}
 .row-basic{width: 200px; margin: 0 15px 26px; float: left; font-size: 0; *display: inline;}
-.channel-input{ vertical-align: middle; margin-right: 10px; *margin-top: 13px; *height: 13px; *width: 13px;}
+.channel-input{ vertical-align: middle; margin-right: 10px; *margin-top: 13px; *height: 14px; *width: 13px;}
 .channel-input,
 .channel-label{ *float: left;}
 
@@ -886,13 +887,13 @@ body{ font-family: "Microsoft YaHei";}
 
 .next-step{ padding: 20px 0 30px; margin: 0 15px 30px; border-bottom: 1px solid #ddd;}
 .next-step .warning-btn{ display: inline-block;padding: 0 34px; height: 32px; line-height: 32px; background-color: #fe9f1b; font-size: 14px; color: #fff; text-align: center; margin-left: 30px;}
-.problem-list{ font-size: 12px; padding: 0 15px 0;}
+.problem-list{ font-size: 14px; padding: 0 15px 0;}
 .problem-list h2{ font-size: 14px; font-weight: bold; margin-bottom: 20px;}
 .problem-list dl{ padding-bottom: 10px;}
 .problem-list dl dt,
 .problem-list dl dd{ margin-bottom: 10px;}
 .problem-list dl dt{ font-size: 14px; padding-left: 18px; background: url("../images/star.jpg") left top no-repeat;}
-.problem-list dl dd{ font-size: 12px; color: #666;}
+.problem-list dl dd{ font-size: 14px; color: #666;}
 .title-bg-grey{  background-color: #f6f8fa; font-size: 16px; color: #999; height: 48px; line-height: 48px; padding-left: 20px;}
 .main-max-module{border: 1px solid #dfdfdf; margin-bottom: 25px;}
 
@@ -911,7 +912,7 @@ body{ font-family: "Microsoft YaHei";}
 .footer-list dl dt{ float: left; width: 48px; height: 48px;}
 .footer-list dl dd{ float: right; width: 244px;}
 .footer-list dl dd h4{font-size: 16px; margin-bottom: 14px;}
-.footer-list dl dd p{font-size: 12px; color: #666;}
+.footer-list dl dd p{font-size: 14px; color: #666;}
 .footer-bottom{ padding-top: 30px;}
 .bottom-list,
 .bottom-list2,
@@ -920,5 +921,5 @@ body{ font-family: "Microsoft YaHei";}
 .bottom-list2{ width: 788px; padding-left: 90px;}
 .bottom-list3{ width: 117px;}
 .bottom-list3 img{ width: 70px; height: 70px;}
-.bottom-list2 p{ font-size: 12px; color: #666; line-height: 28px;}
+.bottom-list2 p{ font-size: 14px; color: #666; line-height: 28px;}
 .bottom-list2 p em{ padding-left: 38px; font-style: normal;}
