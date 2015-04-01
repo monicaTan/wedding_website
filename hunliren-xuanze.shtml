@@ -514,6 +514,7 @@
 		//排序条
 		$('.paixu > ul > li').hover(function(){
 			$(this).find('a:first-child').css({"background-color":"white"});
+			$(this).find('.disabled').css({"background-color":"#f7f7f7"});
 			$(this).find('.select-down').show();
 		},function(){
 			$(this).find('a:first-child').css({"background-color":"#f7f7f7"});

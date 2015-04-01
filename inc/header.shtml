@@ -28,6 +28,7 @@
 	        </span>
 	        <div class="qr-code">
 	        	<img src="images/qr76.jpg">
+	        	<img class="qr-hover" src="images/qr_hover.png">
 	        	<p>手机关注更方便</p>
 	        </div>
 		</div>
@@ -47,13 +48,7 @@
 							<a href="javascript:void(0)"><span>婚礼策划</span></a>
 						</li>
 						<li>
-							<a href="javascript:void(0)"><span>找婚礼人</span><!-- <span class="icon-down"></span> --></a>
-							<!-- <div class="down-file">
-								<a href="javascript:void(0)">策划与场布</a>
-								<a href="javascript:void(0)">主持人</a>
-								<a href="javascript:void(0)">婚礼跟拍摄影</a>
-								<a href="javascript:void(0)">化妆</a>
-							</div> -->
+							<a href="javascript:void(0)"><span>找婚礼人</span></a>
 						</li>
 						<li class="line-y">
 							<span>|</span>
