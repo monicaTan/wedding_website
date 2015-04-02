@@ -110,12 +110,12 @@ body{ font-family: "Microsoft YaHei";}
 /* main-content
 -------------------------------------------------------------------------------- */
 .step{ margin-bottom: 50px;}
-.step-left{ float: left; width: 848px; border:1px solid #e6e6e6;}
+.step-left{ float: left; width: 1198px; border:1px solid #e6e6e6;}
 .step-right{ float: right; width: 334px; border:1px solid #e6e6e6;}
 
 .step-text1,
 .step-text2,
-.step-text3{ float: left; padding: 56px 0 50px 15px;}
+.step-text3{ float: left; padding: 56px 56px 50px 71px;}
 
 .step-text1,
 .step-text2{ background: url("../images/fang.jpg") right center no-repeat;}
