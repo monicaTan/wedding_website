@@ -115,6 +115,11 @@
   	},function(){
   		$(this).find('.qr-hover').hide();
   	});
+
+  	//首页微信客服
+  	$('.qrcode-contact > a').click(function(){
+  		$('.qrcode-img').toggle();
+  	});
   });
 </script>
 

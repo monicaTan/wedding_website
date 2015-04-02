@@ -104,7 +104,8 @@ body{ font-family: "Microsoft YaHei";}
 .kefu span .weixin-icon{ margin-left: 2px; line-height: 1px; display: block; width: 34px; height: 34px; background: url("../images/kefu_15.png") -49px top no-repeat;}
 .kefu span a:hover{ color: #29b4bd; font-size: 14px; line-height: 22px;}
 .consult-tel{ text-align: center;}
-
+.qrcode-contact{position: relative;}
+.qrcode-img{ position: absolute; right: 38px; top: -72px; z-index: 10; display: none;}
 
 /* main-content
 -------------------------------------------------------------------------------- */
