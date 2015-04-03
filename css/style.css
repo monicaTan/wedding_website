@@ -192,14 +192,19 @@ body{ font-family: "Microsoft YaHei";}
 .theme-nav dl dd a{ color: #333; font-size: 16px;}
 
 .theme1 dt a{ background-position: left 0; text-indent: -9999px;}
+.theme1 dt .active,
 .theme1 dt a:hover{ background-position: left -119px;}
 .theme2 dt a{ background-position: -195px 0; text-indent: -9999px;}
+.theme2 dt .active,
 .theme2 dt a:hover{ background-position: -195px -119px;}
 .theme3 dt a{ background-position: -390px 0; text-indent: -9999px;}
+.theme3 dt .active,
 .theme3 dt a:hover{ background-position: -390px -119px;}
 .theme4 dt a{ background-position: -585px 0; text-indent: -9999px;}
+.theme4 dt .active,
 .theme4 dt a:hover{ background-position: -585px -119px;}
 .theme5 dt a{ background-position: -780px 0; text-indent: -9999px;}
+.theme5 dt .active,
 .theme5 dt a:hover{ background-position: -780px -119px;}
 
 
