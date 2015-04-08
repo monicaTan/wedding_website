@@ -273,6 +273,7 @@ body{ font-family: "Microsoft YaHei";}
 .uniform3-border .photography-title h2 a{display: inline; width: auto; height:auto; overflow: auto; text-overflow:normal; white-space: normal;}
 .uniform3-border .photography-price { padding-left: 10px; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
 .uniform3-border .photography-caozuo{ width: 60px;}
+.uniform3-border .feasts-title h2{ width: 370px; text-overflow:ellipsis;}
 
 .conditions-module{ padding: 20px 0 16px;}
 .conditions-module dl {margin-bottom: 12px;}
