@@ -155,7 +155,7 @@ body{ font-family: "Microsoft YaHei";}
 .title-line{ height: 2px; width: 100%; background-color: #f1f1f1; text-indent: -9999px; position: absolute; top: 50%; margin-top: -1px; z-index: 1; font-size: 0;}
 .flowers-title h2{ position: relative;z-index: 2; text-align: center;}
 .uniform2 li{ float: left; width: 600px; position: relative; padding-bottom: 20px;}
-.uniform2 li .label-module{position: absolute; right: 18px; top: 0; width: 120px; padding: 0 15px; height: 328px; border: 1px solid #dadada;background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
+.uniform2 li .label-module{position: absolute; right: 18px; top: 0; width: 134px; padding: 0 8px; height: 328px; border: 1px solid #dadada;background:rgba(255, 255, 255, 0.86) none repeat scroll 0 0 !important; background:#fff;}
 .main-img img{ width: 600px; height: 358px;}
 .label-module .counselor-img img{ border-radius: 50%;}
 .label-module .counselor-img { width: 50px; height: 50px; margin: 12px auto 8px;}
