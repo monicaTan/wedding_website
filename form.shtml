@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--#include file="inc/common.shtml"--> 
+<title>婚礼策划</title>
+<!--#include file="inc/ie.shtml"-->
+</head>
+
+<body>
+
+<!-- header -->
+	<!--#include file="inc/header.shtml"-->
+<!-- main-content -->
+<div class="main-content-entrance">
+	<div class="main-content-inner clearfix">
+		<div class="left-entrance entrance">
+			<div class="module-title">
+                <h2>请填写资料</h2>
+            </div>
+			<form>
+				<div class="form-inner">
+					<div class="form-control">
+						<dl class="clearfix">
+							<dt>姓名</dt>
+							<dd>
+								<input class="form-in" type="text" placeholder="请输入您的真实姓名">
+								<p>请输入您的真实姓名</p>
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>电话</dt>
+							<dd>
+								<input class="form-in" type="text" placeholder="请输入您的电话">
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>婚期</dt>
+							<dd>
+								<input class="form-in" type="text" placeholder="请输入您的婚礼日期">
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>未定义</dt>
+							<dd>
+								<textarea class="form-textarea" type="text" placeholder="请输入您的文字"></textarea>
+							</dd>
+						</dl>
+						<dl class="clearfix">
+							<dt>&nbsp;</dt>
+							<dd>
+								<input type="submit" class="btn btn-warning" value="提交" >
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<!--#include file="inc/footer.shtml"-->
+</body>
+</html>
